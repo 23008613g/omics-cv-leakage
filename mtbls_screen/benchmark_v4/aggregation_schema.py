@@ -5,7 +5,7 @@ from collections.abc import Mapping
 import math
 from typing import Any
 
-from nm_v4.aggregation_checkpoint_schema import (
+from benchmark_v4.aggregation_checkpoint_schema import (
     AggregationError,
     CHECKPOINT_SUFFIX as CHECKPOINT_SUFFIX,
     OBSERVED_METHOD_METRICS,
@@ -22,9 +22,9 @@ from nm_v4.aggregation_checkpoint_schema import (
     json_text,
     load_checkpoints,
 )
-from nm_v4.checkpoints import sha256_json
-from nm_v4.configuration import STATISTIC_RULE
-from nm_v4.stability import summarize_feature_stability
+from benchmark_v4.checkpoints import sha256_json
+from benchmark_v4.configuration import STATISTIC_RULE
+from benchmark_v4.stability import summarize_feature_stability
 
 
 def base_row(checkpoint: Mapping[str, Any]) -> dict[str, Any]:

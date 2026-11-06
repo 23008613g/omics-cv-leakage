@@ -10,15 +10,15 @@ import math
 from pathlib import Path
 from typing import Any
 
-from nm_v4.aggregate_results import TABLE_COLUMNS
-from nm_v4.aggregation_schema import (
+from benchmark_v4.aggregate_results import TABLE_COLUMNS
+from benchmark_v4.aggregation_schema import (
     AggregationError,
     load_checkpoints,
 )
-from nm_v4.checkpoints import sha256_file, sha256_json, utc_now
-from nm_v4.configuration import STATISTIC_RULE
-from nm_v4.methods import METHODS
-from nm_v4.qc_checkpoint_validation import (
+from benchmark_v4.checkpoints import sha256_file, sha256_json, utc_now
+from benchmark_v4.configuration import STATISTIC_RULE
+from benchmark_v4.methods import METHODS
+from benchmark_v4.qc_checkpoint_validation import (
     DESIGN_FAILURE,  # noqa: F401 - compatibility re-export
     FORMAL_PERMUTATIONS,
     METRICS,
@@ -30,7 +30,7 @@ from nm_v4.qc_checkpoint_validation import (
     _validate_failures,
     _validate_inventory,
 )
-from nm_v4.qc_contracts import (
+from benchmark_v4.qc_contracts import (
     HASH,  # noqa: F401 - compatibility re-export
     QCError,
     _blank,
@@ -42,9 +42,9 @@ from nm_v4.qc_contracts import (
     _number,
     _rows_for,
 )
-from nm_v4.qc_nulls import checkpoint_null_summary, phipson_smyth_plus_one
-from nm_v4.runner_support import CANONICAL_DATASET_COUNT, load_whitelist
-from nm_v4.stability import feature_stability_summary
+from benchmark_v4.qc_nulls import checkpoint_null_summary, phipson_smyth_plus_one
+from benchmark_v4.runner_support import CANONICAL_DATASET_COUNT, load_whitelist
+from benchmark_v4.stability import feature_stability_summary
 
 
 MODES = ("formal", "pilot", "observed-only")

@@ -17,13 +17,15 @@
     "manuscript prose and document builders",
     "submission correspondence",
     "historical Git objects and manuscript archives",
-    "raw matrices"
+    "raw matrices",
+    "main manuscript and supplementary document text",
+    "obsolete submission-specific summaries"
   ],
-  "formal_checkpoints": "https://github.com/23008613g/presplit-audit/releases/download/v0.2.0/Formal_Public_Deposit_v3.zip",
+  "formal_checkpoints": "https://github.com/23008613g/omics-cv-leakage/releases/download/v0.2.1/Formal_Public_Deposit_v3.zip",
   "source_records_preserved": true,
-  "repository_url": "https://github.com/23008613g/presplit-audit",
-  "release_tag": "v0.2.0",
-  "release_url": "https://github.com/23008613g/presplit-audit/releases/tag/v0.2.0",
+  "repository_url": "https://github.com/23008613g/omics-cv-leakage",
+  "release_tag": "v0.2.1",
+  "release_url": "https://github.com/23008613g/omics-cv-leakage/releases/tag/v0.2.1",
   "ai_use": {
     "code_development": "AI-assisted; checked by the author",
     "original_repository_metadata_review": "AI-assisted",
@@ -31,5 +33,6 @@
     "literature_audit_scoring": "AI-assisted; scores checked by the author"
   },
   "independent_human_expert_validation": false,
-  "review_scope": "Agreement between the two review sessions does not establish independent human expert validation."
+  "review_scope": "Agreement between the two review sessions does not establish independent human expert validation.",
+  "release_scope": "Code and derived records supporting the Patterns manuscript: Selecting omics features before cross-validation makes noise look like signal: evidence from over 1,000 public datasets."
 }

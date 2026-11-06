@@ -21,7 +21,7 @@ OUT = HERE / "results"
 
 
 def survey(job) -> dict:
-    from nm_v4 import raw_loaders as R
+    from benchmark_v4 import raw_loaders as R
     dataset_id, platform, entry = job
     config, ds, X, y = V._load(dataset_id, platform, entry)
     md = dict(ds.metadata)
@@ -38,7 +38,7 @@ def survey(job) -> dict:
 
 
 def main() -> int:
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     t = analysed()
     ids = list(t[t.repository == "gxa"].dataset_id)
     jobs = [(i, p, dict(e)) for i, (p, e) in zip(ids, raw_loaders.entries_for_whitelist(ids), strict=True)]

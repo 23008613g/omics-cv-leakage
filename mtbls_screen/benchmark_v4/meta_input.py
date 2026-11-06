@@ -15,9 +15,9 @@ from typing import Any
 
 import pandas as pd
 
-from nm_v4 import checkpoints
-from nm_v4.aggregate_results import TABLE_COLUMNS as TABLE_COLUMNS
-from nm_v4.aggregation_schema import (
+from benchmark_v4 import checkpoints
+from benchmark_v4.aggregate_results import TABLE_COLUMNS as TABLE_COLUMNS
+from benchmark_v4.aggregation_schema import (
     AggregationError,
     OBSERVED_METHOD_METRICS,
     analysis_metadata as analysis_metadata,
@@ -26,9 +26,9 @@ from nm_v4.aggregation_schema import (
     load_checkpoints as load_checkpoints,
     provenance as provenance,
 )
-from nm_v4.configuration import STATISTIC_RULE
-from nm_v4.meta_analysis import prepare_tidy_summary
-from nm_v4.meta_input_contracts import (
+from benchmark_v4.configuration import STATISTIC_RULE
+from benchmark_v4.meta_analysis import prepare_tidy_summary
+from benchmark_v4.meta_input_contracts import (
     BASELINE_SOURCE as BASELINE_SOURCE,
     EFFECT_SOURCE as EFFECT_SOURCE,
     MANIFEST_FILENAME as MANIFEST_FILENAME,
@@ -57,13 +57,13 @@ from nm_v4.meta_input_contracts import (
     _validate_row_identity as _validate_row_identity,
     _validate_summary as _validate_summary,
 )
-from nm_v4.meta_input_join import (
+from benchmark_v4.meta_input_join import (
     _filter_analysis_eligible_frames as _filter_analysis_eligible_frames,
     _joined_rows as _joined_rows,
     _single_value as _single_value,
     _validate_checkpoint_metric as _validate_checkpoint_metric,
 )
-from nm_v4.meta_input_sources import (
+from benchmark_v4.meta_input_sources import (
     _aggregation_table_paths as _aggregation_table_paths,
     _checkpoint_records as _checkpoint_records,
     _cohort_lock_audit as _cohort_lock_audit,
@@ -72,7 +72,7 @@ from nm_v4.meta_input_sources import (
     _load_runner_manifest as _load_runner_manifest,
     _observed_method_metrics as _observed_method_metrics,
 )
-from nm_v4.meta_input_validation import (
+from benchmark_v4.meta_input_validation import (
     QCProvenanceError as QCProvenanceError,
     UNCERTAINTY_REQUIRED_COLUMNS,
     UncertaintyProvenanceError,
@@ -81,8 +81,8 @@ from nm_v4.meta_input_validation import (
     validate_uncertainty_frame,
     verify_uncertainty_against_checkpoints,
 )
-from nm_v4.methods import METHODS
-from nm_v4.runner_support import (
+from benchmark_v4.methods import METHODS
+from benchmark_v4.runner_support import (
     CANONICAL_DATASET_COUNT as CANONICAL_DATASET_COUNT,
     CANONICAL_ORDERED_ID_SHA256 as CANONICAL_ORDERED_ID_SHA256,
     WhitelistError as WhitelistError,
@@ -287,9 +287,9 @@ def _meta_input_manifest(
         "aggregation_eligibility_audit": dict(
             qc_audit["aggregation_eligibility_audit"]
         ),
-        "meta_input_py_sha256": code_files["nm_v4/meta_input.py"],
+        "meta_input_py_sha256": code_files["benchmark_v4/meta_input.py"],
         "meta_input_validation_py_sha256": code_files[
-            "nm_v4/meta_input_validation.py"
+            "benchmark_v4/meta_input_validation.py"
         ],
         "code_file_sha256": code_files,
         "code_combined_sha256": code_combined_sha256,
@@ -408,7 +408,7 @@ def publish_meta_input(
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
-            "Create a provenance-checked meta-analysis input from nm_v4 "
+            "Create a provenance-checked meta-analysis input from benchmark_v4 "
             "aggregate CSV files and runner checkpoints."
         )
     )

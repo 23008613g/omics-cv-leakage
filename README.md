@@ -1,4 +1,8 @@
-# presplit-audit
+# Omics CV leakage
+
+**Code and derived data for:**
+
+*Selecting omics features before cross-validation makes noise look like signal: evidence from over 1,000 public datasets*
 
 Paired cross-validation audits for supervised feature selection and projection,
 with code and derived records from a benchmark of 1,086 public omics datasets.
@@ -8,7 +12,7 @@ protocol against its own full-pipeline permutation null.
 Author: **Cheng Zhang**, School of Chinese Medicine, The University of Hong Kong.
 Contact: zttzc@hku.hk.
 
-[Version v0.2.0](https://github.com/23008613g/presplit-audit/releases/tag/v0.2.0) · [Complete derived records](https://github.com/23008613g/presplit-audit/releases/download/v0.2.0/Formal_Public_Deposit_v3.zip) ·
+[Version v0.2.1](https://github.com/23008613g/omics-cv-leakage/releases/tag/v0.2.1) · [Complete derived records](https://github.com/23008613g/omics-cv-leakage/releases/download/v0.2.1/Formal_Public_Deposit_v3.zip) ·
 [Citation](CITATION.cff) · [Verification results](VALIDATION.json)
 
 ## Install and run
@@ -34,19 +38,19 @@ included records and compares them with the stored values at a tolerance of
 ## Contents
 
 - `manuscript_B/patterns_submission/tool/`: installable software, tests, a synthetic example and risk lookup data.
-- `mtbls_screen/`: formal evaluator and source-repository loaders, with the 18 formal code hashes.
+- `mtbls_screen/`: formal evaluator (`benchmark_v4/`) and source-repository loaders, with historical source hashes and release-path mappings.
 - `manuscript_B/Formal_Public_Deposit_v3/tables/`: selected derived benchmark tables; the feature-stability CSV is gzip-compressed.
 - `manuscript_B/patterns_submission/{analyses,validation,reserve,rereview}/`: analysis scripts and derived records.
 - `manuscript_B/patterns_submission/figures/source_data/`: numerical source data for the figures.
-- `manuscript_B/nm_brief_communication/control_arm/`: code and records for additional benchmark analyses.
+- `manuscript_B/benchmark_analyses/control_arm/`: code and records for additional benchmark analyses.
 
-The directory names follow the research code's import and data-path structure.
+The repository contains the code and derived records used by this Patterns manuscript.
 The package includes dataset-level and sample-level derived records, including
 source-repository sample identifiers used for duplicate grouping.
 
 ## Complete benchmark records
 
-The [Release archive](https://github.com/23008613g/presplit-audit/releases/download/v0.2.0/Formal_Public_Deposit_v3.zip) contains 12 canonical CSV tables and 1,102
+The [Release archive](https://github.com/23008613g/omics-cv-leakage/releases/download/v0.2.1/Formal_Public_Deposit_v3.zip) contains 12 canonical CSV tables and 1,102
 sanitized checkpoints, including fold predictions, permutation summaries and
 feature-selection records. Its size and SHA-256 are in `RELEASE_ASSETS.json`;
 the Release also provides `SHA256SUMS.txt` and `ASSET_MANIFEST.json`.

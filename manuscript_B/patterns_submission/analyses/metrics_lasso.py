@@ -80,8 +80,8 @@ def metrics(y, scores) -> dict:
 
 def job_fn(job) -> dict:
     import common as C
-    from nm_v4.protocol import materialize_permuted_labels
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4.protocol import materialize_permuted_labels
+    from benchmark_v4.splitting import materialize_plan
     dataset_id, platform, entry, tags, block = job
     t0 = time.time()
     config, ds, X, y = V._load(dataset_id, platform, entry)
@@ -122,7 +122,7 @@ def main() -> int:
     args = ap.parse_args()
     if not all(V.verify_formal_code().values()):
         raise RuntimeError("formal code mismatch")
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     table = analysed()
     subset = set(pd.read_csv(OUT / "nullcheck_per_dataset.csv").dataset_id)
     assert len(table) == 1086 and len(subset) == 100

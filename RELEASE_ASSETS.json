@@ -1,11 +1,11 @@
 [
   {
     "file": "Formal_Public_Deposit_v3.zip",
-    "sha256": "bc13a1c46453d90a3c958d7a0e283e3c67adcc571f655554131716d5198524bf",
-    "bytes": 376599776,
+    "sha256": "0d15f14ba3004faa91407b6f30a8e4c6eb780ca86b274a2a8f25fe660aeafa95",
+    "bytes": 376599780,
     "original_archive_sha256": "a707aa6d4c24f2e8f52bafaf700b3a6ca70e0c05c7ed71b5389d83f117fa973b",
     "schema_contract_source_sha256": "f6723993069967646a067614d6d911af0704f8ef375f99d973eb8873fb722474",
-    "uncompressed_bytes": 2278615402,
+    "uncompressed_bytes": 2278615406,
     "members": 1122,
     "canonical_csv_tables": 12,
     "sanitized_checkpoints": 1102,
@@ -17,7 +17,7 @@
       {
         "path": "README.md",
         "before_sha256": "af4a06d66face07b9cdb53b6a84b7459bd9b3e6cbdb24e27d88ee1788d3c1e72",
-        "after_sha256": "44719c29ec353254c6d4aeff8622e320966ffb12cfa06cd653367a4fe8e3950a"
+        "after_sha256": "19b2b081f798d58230c9650f54c9a828c638b834a75d4cd4f92bd14719fcd95c"
       },
       {
         "path": "LICENSE",
@@ -37,7 +37,7 @@
       {
         "path": "checksums.sha256",
         "before_sha256": "0ee13da74b772c8df82df88c08f62079d1833038e7dfed444a0ae8cfe94a0eb3",
-        "after_sha256": "e65133292ee37ef9c7a1653370efde3aef5bde60afbe18492260ced1836db581"
+        "after_sha256": "ada3f1c854936410297628e91d4c761b33ab5a1dda1bf0235c321573bc65acd3"
       },
       {
         "path": "VALIDATION_REPORT.md",
@@ -46,10 +46,10 @@
       }
     ],
     "licensing": "Current sole-author CC BY 4.0 data notice is included inside the ZIP; third-party terms are retained.",
-    "source_zip_sha256": "088d0bd4b375f0b7faeda26ceacd507754e402d9c60ed735ab6919f6d2b4a92c",
-    "release_tag": "v0.2.0",
-    "release_url": "https://github.com/23008613g/presplit-audit/releases/tag/v0.2.0",
-    "repository_url": "https://github.com/23008613g/presplit-audit",
+    "source_zip_sha256": "bc13a1c46453d90a3c958d7a0e283e3c67adcc571f655554131716d5198524bf",
+    "release_tag": "v0.2.1",
+    "release_url": "https://github.com/23008613g/omics-cv-leakage/releases/tag/v0.2.1",
+    "repository_url": "https://github.com/23008613g/omics-cv-leakage",
     "metadata_refresh_date": "2026-11-06",
     "publication_metadata_refresh": {
       "date": "2026-11-06",
@@ -74,6 +74,29 @@
       "licenses_unchanged": true,
       "data_payload_members_byte_identical": 1116
     },
-    "download_url": "https://github.com/23008613g/presplit-audit/releases/download/v0.2.0/Formal_Public_Deposit_v3.zip"
+    "repository_metadata_refresh": {
+      "date": "2026-11-06",
+      "reason": "Repository rename and release-version update; metadata only",
+      "source_zip_sha256": "bc13a1c46453d90a3c958d7a0e283e3c67adcc571f655554131716d5198524bf",
+      "current_zip_sha256": "0d15f14ba3004faa91407b6f30a8e4c6eb780ca86b274a2a8f25fe660aeafa95",
+      "prior_release_tag": "v0.2.0",
+      "release_tag": "v0.2.1",
+      "changed_members": [
+        {
+          "path": "README.md",
+          "before_sha256": "44719c29ec353254c6d4aeff8622e320966ffb12cfa06cd653367a4fe8e3950a",
+          "after_sha256": "19b2b081f798d58230c9650f54c9a828c638b834a75d4cd4f92bd14719fcd95c"
+        },
+        {
+          "path": "checksums.sha256",
+          "before_sha256": "e65133292ee37ef9c7a1653370efde3aef5bde60afbe18492260ced1836db581",
+          "after_sha256": "ada3f1c854936410297628e91d4c761b33ab5a1dda1bf0235c321573bc65acd3"
+        }
+      ],
+      "data_payload_members_byte_identical": 1116,
+      "licenses_unchanged": true,
+      "historical_validation_report_unchanged": true,
+      "structural_validation_or_model_training_rerun": false
+    }
   }
 ]

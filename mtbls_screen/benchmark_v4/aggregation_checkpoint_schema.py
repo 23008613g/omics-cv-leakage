@@ -8,7 +8,7 @@ from pathlib import Path
 import re
 from typing import Any
 
-from nm_v4.checkpoints import (
+from benchmark_v4.checkpoints import (
     METHOD_ESTIMAND_FIELDS,
     read_gzip_json,
     sha256_json,

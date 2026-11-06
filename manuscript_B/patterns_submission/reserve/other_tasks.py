@@ -165,7 +165,7 @@ def _jobs(part: str, args) -> list[tuple]:
         return [(real_multiclass, (s, b), s) for b in real for s in MULTICLASS]     # blocks interleaved across units
     if part == "real_regression":
         return [(real_regression, (s, c, k, b), f"{s}/{c}") for b in real for s, c, k in REGRESSION]
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     ids = sorted(pd.read_csv(C.ROOT / "analyses" / "results" / "nullcheck_per_dataset.csv").dataset_id.unique())
     assert len(ids) == 100
     resolved = raw_loaders.entries_for_whitelist(ids)

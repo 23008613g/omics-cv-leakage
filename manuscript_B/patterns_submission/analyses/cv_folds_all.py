@@ -30,7 +30,7 @@ sys.path.insert(0, str(ROOT / "validation"))
 import validate_against_formal as V                       # noqa: E402
 
 OUT = HERE / "results"
-DATA_S1 = ROOT.parent / "nm_brief_communication" / "NM 投稿文件" / "1_上傳投稿系統" / "Supplementary_Data_1_per_dataset.csv"
+DATA_S1 = ROOT / "output" / "Patterns_Data_S1_per_dataset.csv"
 PARTIAL, RECORDS = OUT / "cv_folds_all.partial.jsonl", OUT / "cv_folds_all_records.json"
 PARTIAL_LARGE = OUT / "cv_folds_all_large.partial.jsonl"   # written by a concurrent run of the largest jobs
 CLAIMS = OUT / "cv_folds_all_claims"                       # with --claims, one file per job taken by a run
@@ -87,8 +87,8 @@ def analysed() -> pd.DataFrame:
 def evaluate_block(job) -> dict:
     """One method and one block of label vectors of one dataset. ``groups`` replaces the formal groups when given
     (family_sensitivity.py); ``outer`` is the number of outer folds."""
-    from nm_v4.protocol import materialize_permuted_labels
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4.protocol import materialize_permuted_labels
+    from benchmark_v4.splitting import materialize_plan
 
     dataset_id, platform, entry, method, block, outer, groups = job
     t0 = time.time()
@@ -120,8 +120,8 @@ def evaluate_combined(job) -> list[dict]:
     data and that each method repeated it. reserve/common.evaluate_generic caches it by the rows of each split and
     reproduces presplit-audit's evaluate_protocols exactly (reserve/tests; ``--verify-combined``). One record per
     method, in the format of evaluate_block."""
-    from nm_v4.protocol import materialize_permuted_labels
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4.protocol import materialize_permuted_labels
+    from benchmark_v4.splitting import materialize_plan
     sys.path.insert(0, str(ROOT / "reserve"))
     import common as C
 
@@ -185,7 +185,7 @@ def memory_gb(n: float, p: float) -> float:
 
 def verify(ids: list[str], workers: int) -> int:
     """The split jobs must reproduce the 100-dataset records exactly."""
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     subset = {r["dataset_id"]: r for r in json.loads(SUBSET.read_text())}
     jobs = [(i, p, dict(e), m, b, OUTER, None) for i, (p, e) in zip(ids, raw_loaders.entries_for_whitelist(ids))
             for m in V.METHODS for b in range(len(BLOCKS))]
@@ -203,7 +203,7 @@ def verify(ids: list[str], workers: int) -> int:
 
 def verify_combined(ids: list[str], workers: int) -> int:
     """The combined jobs must reproduce the 100-dataset records and the per-method jobs already checkpointed."""
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     subset = {r["dataset_id"]: r for r in json.loads(SUBSET.read_text())}
     jobs = [(i, p, dict(e), list(V.METHODS), b, OUTER) for i, (p, e) in zip(ids, raw_loaders.entries_for_whitelist(ids))
             for b in range(len(BLOCKS))]
@@ -245,7 +245,7 @@ def main() -> int:
         return verify(args.verify, args.workers)
     if args.verify_combined is not None:
         return verify_combined(args.verify_combined, args.workers)
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     table = analysed()
     assert len(table) == 1086
     subset = {r["dataset_id"]: r for r in json.loads(SUBSET.read_text()) if "error" not in r}

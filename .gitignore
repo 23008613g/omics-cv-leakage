@@ -7,3 +7,10 @@ __pycache__/
 *.zip
 .env
 .env.*
+
+# Submission documents
+*.docx
+*.doc
+*.pdf
+*.tex
+*.pptx

@@ -1,4 +1,4 @@
-"""Resumable runner for the 1,102-dataset Nature Methods benchmark.
+"""Resumable runner for the 1,102-dataset public omics benchmark.
 
 Each process-pool job loads one raw dataset exactly once, evaluates observed
 labels, and evaluates deterministic permutation indices in independently
@@ -32,7 +32,7 @@ from typing import Any, Callable, Mapping, Sequence  # noqa: E402
 
 # Re-export the tested checkpoint and selection API from this orchestration
 # module so existing callers do not change when helpers are split by concern.
-from nm_v4.checkpoints import (  # noqa: E402
+from benchmark_v4.checkpoints import (  # noqa: E402
     CheckpointMismatchError,
     CheckpointStore,
     SCHEMA_VERSION,
@@ -52,7 +52,7 @@ from nm_v4.checkpoints import (  # noqa: E402
     summary_from_state,
     utc_now,
 )
-from nm_v4.runner_support import (  # noqa: E402
+from benchmark_v4.runner_support import (  # noqa: E402
     CANONICAL_DATASET_COUNT,
     EXECUTION_DEPENDENCIES as EXECUTION_DEPENDENCIES,
     PILOT_SEED as PILOT_SEED,
@@ -79,11 +79,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_WHITELIST = (
     ROOT.parent
     / "manuscript_B"
-    / "Nature_Methods_Review_Archive_v2"
-    / "measurements"
-    / "per_dataset_measurements.csv"
+    / "Formal_Public_Deposit_v3"
+    / "tables"
+    / "human_cohort_adjudication_v2_manual.csv"
 )
-DEFAULT_OUTPUT_DIR = ROOT / "nm_v4_results"
+DEFAULT_OUTPUT_DIR = ROOT / "benchmark_v4_results"
 
 
 @dataclass(frozen=True, slots=True)
@@ -129,19 +129,19 @@ def code_fingerprint(
 
 
 def _default_loader(platform: str, entry: Mapping[str, Any]) -> tuple[Any, str]:
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
 
     return raw_loaders.load_raw(platform, entry)
 
 
 def _protocol_config(job: DatasetJob) -> Any:
-    from nm_v4.protocol import ProtocolConfig
+    from benchmark_v4.protocol import ProtocolConfig
 
     return ProtocolConfig(**job.protocol_config)
 
 
 def _default_observed_evaluator(dataset: Any, job: DatasetJob) -> dict[str, Any]:
-    from nm_v4.protocol import evaluate_observed
+    from benchmark_v4.protocol import evaluate_observed
 
     return evaluate_observed(
         dataset.X,
@@ -156,7 +156,7 @@ def _default_observed_evaluator(dataset: Any, job: DatasetJob) -> dict[str, Any]
 def _default_permutation_evaluator(
     dataset: Any, job: DatasetJob, indices: list[int]
 ) -> dict[str, Any]:
-    from nm_v4.protocol import evaluate_permutation_block
+    from benchmark_v4.protocol import evaluate_permutation_block
 
     return evaluate_permutation_block(
         dataset.X,
@@ -362,7 +362,7 @@ def _worker(job: DatasetJob) -> dict[str, Any]:
 
 
 def _protocol_configuration(target_permutations: int) -> tuple[dict[str, Any], str]:
-    from nm_v4 import protocol
+    from benchmark_v4 import protocol
 
     config = protocol.ProtocolConfig(n_permutations=target_permutations)
     payload = asdict(config)
@@ -451,7 +451,7 @@ def _build_jobs(
     target_permutations: int,
     block_size: int,
 ) -> list[DatasetJob]:
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
 
     resolved = raw_loaders.entries_for_whitelist(
         [record.dataset_id for record in selected]
@@ -607,7 +607,7 @@ def run(args: argparse.Namespace) -> int:
 
     write_manifest()
     print(
-        f"nm_v4: {len(jobs):,} datasets, {target_permutations} indexed "
+        f"benchmark_v4: {len(jobs):,} datasets, {target_permutations} indexed "
         f"permutations, {args.workers} workers, output={output_dir}",
         flush=True,
     )

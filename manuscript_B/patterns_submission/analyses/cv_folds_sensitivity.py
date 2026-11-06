@@ -27,7 +27,7 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT / "validation"))
-import validate_against_formal as V                       # noqa: E402  (binds nm_v4, the tool and the loaders)
+import validate_against_formal as V                       # noqa: E402  (binds benchmark_v4, the tool and the loaders)
 
 OUT = HERE / "results"
 N_PERM, OUTER = 20, 10
@@ -39,8 +39,8 @@ def subset_ids() -> list[str]:
 
 
 def run_one(job) -> dict:
-    from nm_v4.protocol import materialize_permuted_labels
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4.protocol import materialize_permuted_labels
+    from benchmark_v4.splitting import materialize_plan
 
     dataset_id, platform, entry = job
     t0 = time.time()
@@ -73,7 +73,7 @@ def main() -> int:
     code = V.verify_formal_code()
     if not all(code.values()):
         raise RuntimeError("formal code mismatch")
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     ids = subset_ids()
     assert len(ids) == 100
     if args.pilot:

@@ -14,33 +14,33 @@ import stat
 import tempfile
 from typing import Any
 
-from nm_v4.aggregate_results import TABLE_COLUMNS
-from nm_v4.checkpoints import sha256_file, sha256_json, utc_now
-from nm_v4.qc_validation import (
+from benchmark_v4.aggregate_results import TABLE_COLUMNS
+from benchmark_v4.checkpoints import sha256_file, sha256_json, utc_now
+from benchmark_v4.qc_validation import (
     FLOW_COLUMNS,
     FORMAL_PERMUTATIONS,
     MODES,
     QCError,
     build_qc,
 )
-from nm_v4.runner_support import CANONICAL_DATASET_COUNT
+from benchmark_v4.runner_support import CANONICAL_DATASET_COUNT
 
 
 QC_SEMANTIC_DEPENDENCIES = (
-    "nm_v4/qc_report.py",
-    "nm_v4/qc_validation.py",
-    "nm_v4/qc_checkpoint_validation.py",
-    "nm_v4/qc_contracts.py",
-    "nm_v4/qc_nulls.py",
-    "nm_v4/aggregate_results.py",
-    "nm_v4/aggregation_schema.py",
-    "nm_v4/aggregation_checkpoint_schema.py",
-    "nm_v4/aggregation_uncertainty.py",
-    "nm_v4/checkpoints.py",
-    "nm_v4/configuration.py",
-    "nm_v4/methods.py",
-    "nm_v4/runner_support.py",
-    "nm_v4/stability.py",
+    "benchmark_v4/qc_report.py",
+    "benchmark_v4/qc_validation.py",
+    "benchmark_v4/qc_checkpoint_validation.py",
+    "benchmark_v4/qc_contracts.py",
+    "benchmark_v4/qc_nulls.py",
+    "benchmark_v4/aggregate_results.py",
+    "benchmark_v4/aggregation_schema.py",
+    "benchmark_v4/aggregation_checkpoint_schema.py",
+    "benchmark_v4/aggregation_uncertainty.py",
+    "benchmark_v4/checkpoints.py",
+    "benchmark_v4/configuration.py",
+    "benchmark_v4/methods.py",
+    "benchmark_v4/runner_support.py",
+    "benchmark_v4/stability.py",
 )
 _QC_SOURCE_ROOT = Path(__file__).resolve().parent.parent
 
@@ -250,7 +250,7 @@ def run_qc(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Validate final nm_v4 checkpoints and eight aggregation tables."
+        description="Validate final benchmark_v4 checkpoints and eight aggregation tables."
     )
     parser.add_argument("run_dir", type=Path)
     parser.add_argument("table_dir", type=Path)

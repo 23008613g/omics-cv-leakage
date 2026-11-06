@@ -12,7 +12,7 @@ import platform as platform_module
 import re
 from typing import Any, Callable, Mapping, Sequence
 
-from nm_v4.checkpoints import sha256_file, sha256_json
+from benchmark_v4.checkpoints import sha256_file, sha256_json
 
 
 CANONICAL_DATASET_COUNT = 1_102
@@ -25,18 +25,18 @@ CANONICAL_RECORDS_SHA256 = (
 PILOT_SIZE = 32
 PILOT_SEED = 20_260_803
 EXECUTION_DEPENDENCIES = (
-    "nm_v4/run_benchmark.py",
-    "nm_v4/checkpoints.py",
-    "nm_v4/runner_support.py",
-    "nm_v4/raw_loaders.py",
-    "nm_v4/protocol.py",
-    "nm_v4/protocol_estimands.py",
-    "nm_v4/configuration.py",
-    "nm_v4/evaluation_workspace.py",
-    "nm_v4/splitting.py",
-    "nm_v4/preprocessing.py",
-    "nm_v4/methods.py",
-    "nm_v4/stability.py",
+    "benchmark_v4/run_benchmark.py",
+    "benchmark_v4/checkpoints.py",
+    "benchmark_v4/runner_support.py",
+    "benchmark_v4/raw_loaders.py",
+    "benchmark_v4/protocol.py",
+    "benchmark_v4/protocol_estimands.py",
+    "benchmark_v4/configuration.py",
+    "benchmark_v4/evaluation_workspace.py",
+    "benchmark_v4/splitting.py",
+    "benchmark_v4/preprocessing.py",
+    "benchmark_v4/methods.py",
+    "benchmark_v4/stability.py",
     "gxa.py",
     "loader.py",
     "mw.py",
@@ -76,9 +76,11 @@ def load_whitelist(
             f"received expected_count={expected_count:,}."
         )
     source = Path(path)
-    required = {"id", "repository", "plat", "n_samples", "n_features"}
     with source.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
+        # The public cohort table preserves the locked whitelist row order and values.
+        platform_column = "plat" if "plat" in (reader.fieldnames or ()) else "platform"
+        required = {"id", "repository", platform_column, "n_samples", "n_features"}
         missing = required.difference(reader.fieldnames or ())
         if missing:
             raise WhitelistError(
@@ -88,7 +90,7 @@ def load_whitelist(
         for row_number, row in enumerate(reader, start=2):
             dataset_id = str(row["id"] or "").strip()
             repository = str(row["repository"] or "").strip()
-            assay_platform = str(row["plat"] or "").strip().lower()
+            assay_platform = str(row[platform_column] or "").strip().lower()
             if not dataset_id or not _SAFE_DATASET_ID.fullmatch(dataset_id):
                 raise WhitelistError(
                     f"Unsafe or empty dataset ID at CSV row {row_number}: "

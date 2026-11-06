@@ -104,7 +104,7 @@ def main() -> int:
     args = ap.parse_args()
     if not all(V.verify_formal_code().values()):
         raise RuntimeError("formal code mismatch")
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     ids = list(analysed().dataset_id)
     assert len(ids) == 1086
     jobs = [(i, p, dict(e)) for i, (p, e) in zip(ids, raw_loaders.entries_for_whitelist(ids), strict=True)]

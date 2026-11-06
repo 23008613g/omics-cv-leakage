@@ -5,8 +5,8 @@ from collections.abc import Mapping, Sequence
 import math
 from typing import Any
 
-from nm_v4.aggregation_schema import base_row, error
-from nm_v4.checkpoints import sha256_json
+from benchmark_v4.aggregation_schema import base_row, error
+from benchmark_v4.checkpoints import sha256_json
 
 
 def _auc(labels: Any, scores: Any) -> float:

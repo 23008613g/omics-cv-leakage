@@ -16,7 +16,7 @@ Arms (as in the formal design)
   fold_contained  preprocessing, supervised step and classifier fitted on each
                   outer training partition only.
 
-Everything else is the locked formal code, bound and hash-checked as in
+Other steps use the formal algorithms, with release source hashes checked as in
 ``run_control_arm.py``: data loading, label-dependent split plans (5 folds x 3
 repeats), preprocessing, permutation label vectors and the repeat-averaged pooled
 out-of-fold AUC.
@@ -34,7 +34,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 
 import numpy as np
 
-from run_control_arm import RESULTS, _pooled_auc, _write_atomic, verify_formal_code   # binds nm_v4
+from run_control_arm import RESULTS, _pooled_auc, _write_atomic, verify_formal_code   # binds benchmark_v4
 from run_v2_arms import NULL_INDICES, _load, select_ids
 
 PIPELINES = ("vip", "rf")
@@ -87,7 +87,7 @@ SELECT = {"vip": select_vip, "rf": select_topq}
 # ------------------------------------------------------------------ classifiers
 def classify(pipe, train_x, train_y, test_x, test_y, config, seed, phase):
     from sklearn.metrics import roc_auc_score
-    from nm_v4.protocol import _fit_auc
+    from benchmark_v4.protocol import _fit_auc
 
     if pipe == "vip":
         auc, scores, _ = _fit_auc(train_x, train_y, test_x, test_y, config, seed, phase=phase)
@@ -101,9 +101,9 @@ def classify(pipe, train_x, train_y, test_x, test_y, config, seed, phase):
 
 # ------------------------------------------------------------------ one label vector
 def evaluate_labels(X, y, ds, config, dataset_id, global_x, tag) -> dict:
-    from nm_v4.protocol import fit_preprocessor
-    from nm_v4.protocol_estimands import _fold_record
-    from nm_v4.splitting import derive_seed, materialize_plan
+    from benchmark_v4.protocol import fit_preprocessor
+    from benchmark_v4.protocol_estimands import _fold_record
+    from benchmark_v4.splitting import derive_seed, materialize_plan
 
     plan = materialize_plan(y, config, dataset_id, groups=ds.groups)
     pre_sel = {pipe: SELECT[pipe](global_x, y) for pipe in PIPELINES}      # fitted on all samples
@@ -134,7 +134,7 @@ def evaluate_labels(X, y, ds, config, dataset_id, global_x, tag) -> dict:
 
 
 def mode_observed(dataset_id, platform, entry):
-    from nm_v4.protocol import build_global_preprocessing_workspace
+    from benchmark_v4.protocol import build_global_preprocessing_workspace
 
     config, ds, X, y = _load(dataset_id, platform, entry)
     gx = build_global_preprocessing_workspace(X, config, transform_kind=ds.transform_kind).transformed_x
@@ -143,7 +143,7 @@ def mode_observed(dataset_id, platform, entry):
 
 
 def mode_null(dataset_id, platform, entry):
-    from nm_v4.protocol import build_global_preprocessing_workspace, materialize_permuted_labels
+    from benchmark_v4.protocol import build_global_preprocessing_workspace, materialize_permuted_labels
 
     config, ds, X, y = _load(dataset_id, platform, entry)
     gx = build_global_preprocessing_workspace(X, config, transform_kind=ds.transform_kind).transformed_x
@@ -178,7 +178,7 @@ def main() -> int:
     parser.add_argument("--out", default=None, help="results subdirectory (default v4_generality_<mode>)")
     args = parser.parse_args()
 
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
 
     code = verify_formal_code()
     if not all(code.values()):

@@ -22,10 +22,10 @@ scored on the held-out fold with its true labels. Hence
 and the two add up to the reported gap.
 
 Everything except the held-out labels is shared with the formal run: the
-locked ``nm_v4`` code, configuration, split plans, preprocessing workspaces,
+locked ``benchmark_v4`` code, configuration, split plans, preprocessing workspaces,
 the candidate selected by fold-contained inner cross-validation, and the
-representation and classifier seeds of the pre-split arm. The formal code is
-imported, never modified. Each dataset first reproduces the pre-split and
+representation and classifier seeds of the pre-split arm. The formal algorithms are preserved; release imports and paths are migrated.
+Historical and current source hashes are recorded separately. Each dataset first reproduces the pre-split and
 fold-contained pooled out-of-fold AUCs of the formal run and records whether
 they match the deposit exactly.
 """
@@ -53,31 +53,28 @@ sys.path.insert(0, str(RUNNER_ROOT))
 
 
 def _bind_formal_package() -> None:
-    """Import ``nm_v4`` from the directory the formal run used.
+    """Bind imports to the evaluator sources shipped with this release.
 
-    The formal ``mtbls_screen/nm_v4`` has no ``__init__.py`` (a namespace
-    package), while an editable install elsewhere on this machine exposes a
-    regular package of the same name, which Python's import system prefers
-    regardless of path order. Registering the package object explicitly
-    pins every ``nm_v4`` import to the formal code; the file hashes are then
-    checked against the formal run's manifest. Module-level, so spawned
-    worker processes bind the same way.
+    This also binds spawned workers to the same package. Historical source
+    hashes remain in the manifest; verify_formal_code checks release hashes.
     """
     import types
 
-    if "nm_v4" in sys.modules and list(getattr(sys.modules["nm_v4"], "__path__", [])) != [
-            str(RUNNER_ROOT / "nm_v4")]:
-        raise RuntimeError("a different nm_v4 was imported before binding")
-    pkg = types.ModuleType("nm_v4")
-    pkg.__path__ = [str(RUNNER_ROOT / "nm_v4")]
-    sys.modules["nm_v4"] = pkg
+    if "benchmark_v4" in sys.modules:
+        paths = {Path(path).resolve() for path in getattr(sys.modules["benchmark_v4"], "__path__", [])}
+        if paths != {(RUNNER_ROOT / "benchmark_v4").resolve()}:
+            raise RuntimeError("a different benchmark_v4 was imported before binding")
+        return
+    pkg = types.ModuleType("benchmark_v4")
+    pkg.__path__ = [str(RUNNER_ROOT / "benchmark_v4")]
+    sys.modules["benchmark_v4"] = pkg
 
 
 def verify_formal_code() -> dict:
-    """Hash every formal-run code file that exists here against the manifest."""
+    """Verify migrated release sources; historical run hashes remain separate."""
     import hashlib
 
-    recorded = json.loads(MANIFEST.read_text())["code_file_sha256"]
+    recorded = json.loads(MANIFEST.read_text())["release_code_file_sha256"]
     report = {}
     for rel, sha in recorded.items():
         path = RUNNER_ROOT / rel
@@ -93,7 +90,7 @@ TOLERANCE = 1e-12
 
 
 def _candidate_index(method: str, params: dict) -> int:
-    from nm_v4.methods import candidate_grid
+    from benchmark_v4.methods import candidate_grid
 
     for index, grid in enumerate(candidate_grid(method)):
         if all(params.get(key) == value for key, value in grid.items()):
@@ -103,7 +100,7 @@ def _candidate_index(method: str, params: dict) -> int:
 
 def _pooled_auc(folds: list[dict], n: int, repeats: int, context: str) -> float:
     from sklearn.metrics import roc_auc_score
-    from nm_v4.protocol_estimands import _repeat_averaged_oof_vectors
+    from benchmark_v4.protocol_estimands import _repeat_averaged_oof_vectors
 
     labels, scores = _repeat_averaged_oof_vectors(
         folds, n_samples=n, outer_repeats=repeats, context=context)
@@ -111,12 +108,12 @@ def _pooled_auc(folds: list[dict], n: int, repeats: int, context: str) -> float:
 
 
 def evaluate_dataset(dataset_id: str, platform: str, entry: dict, seed_tag: str) -> dict:
-    from nm_v4 import raw_loaders
-    from nm_v4.configuration import protocol_config_sha256
-    from nm_v4.methods import METHODS
-    from nm_v4.protocol import (ProtocolConfig, _evaluate_scenario, _fit_auc, _fit_bundle,
+    from benchmark_v4 import raw_loaders
+    from benchmark_v4.configuration import protocol_config_sha256
+    from benchmark_v4.methods import METHODS
+    from benchmark_v4.protocol import (ProtocolConfig, _evaluate_scenario, _fit_auc, _fit_bundle,
                                 _fold_record, _validated_xy, build_preprocessing_workspace)
-    from nm_v4.splitting import derive_seed, materialize_plan
+    from benchmark_v4.splitting import derive_seed, materialize_plan
 
     started = time.time()
     config = ProtocolConfig(n_permutations=199)
@@ -248,14 +245,14 @@ def main() -> int:
                         help="namespace for the held-out permutation draw (sensitivity reruns)")
     args = parser.parse_args()
 
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
 
     code = verify_formal_code()
     mismatched = [k for k, ok in code.items() if not ok]
     print(f"formal code files verified against manifest: {sum(code.values())}/{len(code)}"
           + (f"; MISMATCH {mismatched}" if mismatched else ""), flush=True)
-    if not raw_loaders.__file__.startswith(str(RUNNER_ROOT / "nm_v4")):
-        raise RuntimeError(f"wrong nm_v4 imported: {raw_loaders.__file__}")
+    if not raw_loaders.__file__.startswith(str(RUNNER_ROOT / "benchmark_v4")):
+        raise RuntimeError(f"wrong benchmark_v4 imported: {raw_loaders.__file__}")
     flow = pd.read_csv(TABLES / "dataset_eligibility_flow.csv", low_memory=False)
     analysed = flow.loc[flow.analysis_eligible == True, "dataset_id"].astype(str).tolist()  # noqa: E712
     ids = [i for i in analysed if not args.ids or i in set(args.ids)]

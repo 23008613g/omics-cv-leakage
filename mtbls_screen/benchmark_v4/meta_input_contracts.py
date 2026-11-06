@@ -8,9 +8,9 @@ from pathlib import Path
 
 import pandas as pd
 
-from nm_v4 import checkpoints
-from nm_v4.aggregation_schema import OBSERVED_METHOD_METRICS
-from nm_v4.methods import METHODS
+from benchmark_v4 import checkpoints
+from benchmark_v4.aggregation_schema import OBSERVED_METHOD_METRICS
+from benchmark_v4.methods import METHODS
 
 
 SUMMARY_FILENAME = "dataset_method_summary.csv"
@@ -39,43 +39,43 @@ _OBSERVED_RESULT_FIELDS = frozenset(OBSERVED_METHOD_METRICS) | frozenset({
     "pre_split_folds", "fold_contained_folds", "feature_stability",
 })
 _META_CODE_DEPENDENCIES = (
-    "nm_v4/meta_input.py",
-    "nm_v4/meta_input_contracts.py",
-    "nm_v4/meta_input_sources.py",
-    "nm_v4/meta_input_join.py",
-    "nm_v4/meta_input_validation.py",
-    "nm_v4/meta_qc_provenance.py",
-    "nm_v4/aggregate_results.py",
-    "nm_v4/aggregation_schema.py",
-    "nm_v4/aggregation_checkpoint_schema.py",
-    "nm_v4/aggregation_uncertainty.py",
-    "nm_v4/checkpoints.py",
-    "nm_v4/configuration.py",
-    "nm_v4/meta_analysis.py",
-    "nm_v4/meta_models.py",
-    "nm_v4/meta_model_common.py",
-    "nm_v4/meta_preparation.py",
-    "nm_v4/meta_sensitivity.py",
-    "nm_v4/methods.py",
-    "nm_v4/qc_report.py",
-    "nm_v4/qc_validation.py",
-    "nm_v4/runner_support.py",
+    "benchmark_v4/meta_input.py",
+    "benchmark_v4/meta_input_contracts.py",
+    "benchmark_v4/meta_input_sources.py",
+    "benchmark_v4/meta_input_join.py",
+    "benchmark_v4/meta_input_validation.py",
+    "benchmark_v4/meta_qc_provenance.py",
+    "benchmark_v4/aggregate_results.py",
+    "benchmark_v4/aggregation_schema.py",
+    "benchmark_v4/aggregation_checkpoint_schema.py",
+    "benchmark_v4/aggregation_uncertainty.py",
+    "benchmark_v4/checkpoints.py",
+    "benchmark_v4/configuration.py",
+    "benchmark_v4/meta_analysis.py",
+    "benchmark_v4/meta_models.py",
+    "benchmark_v4/meta_model_common.py",
+    "benchmark_v4/meta_preparation.py",
+    "benchmark_v4/meta_sensitivity.py",
+    "benchmark_v4/methods.py",
+    "benchmark_v4/qc_report.py",
+    "benchmark_v4/qc_validation.py",
+    "benchmark_v4/runner_support.py",
 )
 _QC_CODE_DEPENDENCIES = (
-    "nm_v4/qc_report.py",
-    "nm_v4/qc_validation.py",
-    "nm_v4/qc_checkpoint_validation.py",
-    "nm_v4/qc_contracts.py",
-    "nm_v4/qc_nulls.py",
-    "nm_v4/aggregate_results.py",
-    "nm_v4/aggregation_schema.py",
-    "nm_v4/aggregation_checkpoint_schema.py",
-    "nm_v4/aggregation_uncertainty.py",
-    "nm_v4/checkpoints.py",
-    "nm_v4/configuration.py",
-    "nm_v4/methods.py",
-    "nm_v4/runner_support.py",
-    "nm_v4/stability.py",
+    "benchmark_v4/qc_report.py",
+    "benchmark_v4/qc_validation.py",
+    "benchmark_v4/qc_checkpoint_validation.py",
+    "benchmark_v4/qc_contracts.py",
+    "benchmark_v4/qc_nulls.py",
+    "benchmark_v4/aggregate_results.py",
+    "benchmark_v4/aggregation_schema.py",
+    "benchmark_v4/aggregation_checkpoint_schema.py",
+    "benchmark_v4/aggregation_uncertainty.py",
+    "benchmark_v4/checkpoints.py",
+    "benchmark_v4/configuration.py",
+    "benchmark_v4/methods.py",
+    "benchmark_v4/runner_support.py",
+    "benchmark_v4/stability.py",
 )
 
 

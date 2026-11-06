@@ -8,10 +8,10 @@ from typing import Any
 
 import pandas as pd
 
-from nm_v4.checkpoints import sha256_json
-from nm_v4.aggregation_schema import OBSERVED_METHOD_METRICS, as_mapping
-from nm_v4.configuration import STATISTIC_RULE
-from nm_v4.meta_input_contracts import (
+from benchmark_v4.checkpoints import sha256_json
+from benchmark_v4.aggregation_schema import OBSERVED_METHOD_METRICS, as_mapping
+from benchmark_v4.configuration import STATISTIC_RULE
+from benchmark_v4.meta_input_contracts import (
     BASELINE_SOURCE,
     EFFECT_SOURCE,
     SUMMARY_FILENAME,
@@ -20,7 +20,7 @@ from nm_v4.meta_input_contracts import (
     _AUC_TOLERANCE,
     _fail,
 )
-from nm_v4.methods import METHODS
+from benchmark_v4.methods import METHODS
 
 
 _ALLOWED_NON_ANALYSIS_CLASSIFICATIONS = frozenset({

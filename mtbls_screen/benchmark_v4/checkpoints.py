@@ -19,7 +19,7 @@ from typing import Any, Callable, Iterable, Mapping, Sequence
 
 import fcntl
 
-from nm_v4.configuration import STATISTIC_RULE
+from benchmark_v4.configuration import STATISTIC_RULE
 
 
 SCHEMA_VERSION = 2

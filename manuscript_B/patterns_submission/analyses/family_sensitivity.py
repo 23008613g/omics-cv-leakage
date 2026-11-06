@@ -36,7 +36,7 @@ sys.path.insert(0, str(ROOT / "reserve"))
 import validate_against_formal as V                       # noqa: E402
 
 OUT = HERE / "results"
-CONTROL_ARM = ROOT.parent / "nm_brief_communication" / "control_arm"
+CONTROL_ARM = ROOT.parent / "benchmark_analyses" / "control_arm"
 DATASETS = ("ob_goodrich", "ob_gordon_2008_v2")
 N_PERM = 20
 BLOCKS = (("observed", 0, 1, 2, 3, 4, 5, 6), (7, 8, 9, 10, 11, 12, 13), (14, 15, 16, 17, 18, 19))
@@ -52,8 +52,8 @@ def families(dataset_id: str, ds) -> np.ndarray:
 
 
 def cv_block(job) -> dict:
-    from nm_v4.protocol import materialize_permuted_labels
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4.protocol import materialize_permuted_labels
+    from benchmark_v4.splitting import materialize_plan
 
     dataset_id, platform, entry, method, block = job
     t0 = time.time()
@@ -162,7 +162,7 @@ def main() -> int:
     code = V.verify_formal_code()
     if not all(code.values()):
         raise RuntimeError("formal code mismatch")
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     resolved = dict(zip(DATASETS, raw_loaders.entries_for_whitelist(list(DATASETS)), strict=True))
     partial = OUT / "family_sensitivity.partial.jsonl"
     parts = [json.loads(line) for line in partial.read_text().splitlines()] if partial.exists() else []

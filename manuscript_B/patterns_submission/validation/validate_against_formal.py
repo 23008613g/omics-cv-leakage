@@ -13,8 +13,8 @@ below, before any result was seen):
             formal fold preprocessor, to show how much the estimates move with
             fold assignment alone.
 
-The formal evaluator code is hash-checked against the formal-run manifest before
-anything runs. Results go to ``results/``; nothing in the formal deposit changes.
+Release evaluator sources are checked against their release hashes before
+anything runs; the manifest preserves historical formal-run hashes separately. Results go to ``results/``; nothing in the formal deposit changes.
 """
 from __future__ import annotations
 
@@ -31,12 +31,12 @@ import numpy as np
 
 HERE = Path(__file__).resolve().parent
 MANUSCRIPT_B = HERE.parents[1]
-CONTROL_ARM = MANUSCRIPT_B / "nm_brief_communication" / "control_arm"
+CONTROL_ARM = MANUSCRIPT_B / "benchmark_analyses" / "control_arm"
 DEPOSIT = Path(os.environ.get("PRESPLIT_FORMAL_DEPOSIT", MANUSCRIPT_B / "Formal_Public_Deposit_v3"))
 sys.path.insert(0, str(CONTROL_ARM))
 sys.path.insert(0, str(HERE.parent / "tool" / "src"))
 
-from run_control_arm import verify_formal_code            # noqa: E402  (binds nm_v4)
+from run_control_arm import verify_formal_code            # noqa: E402  (binds benchmark_v4)
 from run_v2_arms import _load, select_ids                  # noqa: E402
 
 from presplit_audit import (HTSPLS, OPLSDA, PLSDA, RFE, OuterFold, TopQ, default_splitter,  # noqa: E402
@@ -54,8 +54,8 @@ def make_step(method: str, config):
 
 
 def formal_seeds(config, dataset_id: str, method: str):
-    """The formal seed schedule (nm_v4.protocol._evaluate_scenario) behind the tool's fitting contexts."""
-    from nm_v4.splitting import derive_seed
+    """The formal seed schedule (benchmark_v4.protocol._evaluate_scenario) behind the tool's fitting contexts."""
+    from benchmark_v4.splitting import derive_seed
     names = {"inner_representation": lambda o, i: (o, method, "fold_contained", i, "representation"),
              "inner_classifier": lambda o, i, c: (o, method, "fold_contained", i, c),
              "pre_split_classifier": lambda o: (o, method, "pre_split_final"),
@@ -78,7 +78,7 @@ class FormalPreprocessor:
         self.config, self.transform_kind = config, transform_kind
 
     def fit(self, X):
-        from nm_v4.protocol import fit_preprocessor
+        from benchmark_v4.protocol import fit_preprocessor
         self.fitted = fit_preprocessor(X, self.config, transform_kind=self.transform_kind)
         return self
 
@@ -101,8 +101,8 @@ def checkpoint(dataset_id: str) -> dict:
 
 
 def run_one(job) -> dict:
-    from nm_v4.protocol import materialize_permuted_labels
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4.protocol import materialize_permuted_labels
+    from benchmark_v4.splitting import materialize_plan
 
     dataset_id, platform, entry, with_null = job
     t0 = time.time()
@@ -148,7 +148,7 @@ def main() -> int:
     code = verify_formal_code()
     if not all(code.values()):
         raise RuntimeError(f"formal code mismatch: {[k for k, v in code.items() if not v]}")
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
 
     primary = select_ids("gradient")                      # the exchangeable datasets
     ids = sorted(np.random.default_rng(SAMPLE_SEED).choice(primary, size=SAMPLE_SIZE, replace=False).tolist())

@@ -19,5 +19,45 @@
     "nm_v4/splitting.py": "e94981d3ad8c00e8e043002fecf890fad52a64888c3723e9f7132a5cbc024e1e",
     "nm_v4/stability.py": "36adffd1fd4e38423064a0c6bf583b0542f3b1c945bb70ce34b08721f3f069d8"
   },
-  "export_note": "Formal code hashes are preserved. The complete checkpoints are distributed in the versioned GitHub Release archive."
+  "export_note": "code_file_sha256 preserves historical formal-run sources. historical_to_release_paths maps them to this release; release_code_file_sha256 verifies the current files after directory/import migration and public input-path updates. Historical checkpoint hashes and scientific data are unchanged.",
+  "historical_to_release_paths": {
+    "fetch.py": "fetch.py",
+    "gxa.py": "gxa.py",
+    "isatab.py": "isatab.py",
+    "loader.py": "loader.py",
+    "mbhd.py": "mbhd.py",
+    "mw.py": "mw.py",
+    "nm_v4/checkpoints.py": "benchmark_v4/checkpoints.py",
+    "nm_v4/configuration.py": "benchmark_v4/configuration.py",
+    "nm_v4/evaluation_workspace.py": "benchmark_v4/evaluation_workspace.py",
+    "nm_v4/methods.py": "benchmark_v4/methods.py",
+    "nm_v4/preprocessing.py": "benchmark_v4/preprocessing.py",
+    "nm_v4/protocol.py": "benchmark_v4/protocol.py",
+    "nm_v4/protocol_estimands.py": "benchmark_v4/protocol_estimands.py",
+    "nm_v4/raw_loaders.py": "benchmark_v4/raw_loaders.py",
+    "nm_v4/run_benchmark.py": "benchmark_v4/run_benchmark.py",
+    "nm_v4/runner_support.py": "benchmark_v4/runner_support.py",
+    "nm_v4/splitting.py": "benchmark_v4/splitting.py",
+    "nm_v4/stability.py": "benchmark_v4/stability.py"
+  },
+  "release_code_file_sha256": {
+    "fetch.py": "e749ddec62bace38b76d55b827f984a10759e982f52164283480b6de71174a93",
+    "gxa.py": "5054c100229a006110f1c8f15e7d828edf34c50e9d704b788c3b4c0d0e19cda1",
+    "isatab.py": "f2a2913c20c3e644e5459ee9165a282a893b0a0c976cfd439f215fa3612a79ea",
+    "loader.py": "939cdec580304f34af04410e5b34873054c99b005928b1747e4c890fd259ef15",
+    "mbhd.py": "8c3348dcd2bca12c1d3b1ed967f70a31d41e60711034dc71ff60a2f87b00365e",
+    "mw.py": "1a6c717a9883b0219a603f46b7d354082d7c933e5b0fdedec4c70ac2714781cf",
+    "benchmark_v4/checkpoints.py": "47eab506e385c4a013916412cb1982ed16777ae49bd587c3e4478b664210a3d9",
+    "benchmark_v4/configuration.py": "ab844cf15f441b533aa437748c33451d0bd0e726ca9c98a034ccb91e87ab276c",
+    "benchmark_v4/evaluation_workspace.py": "d59d42d406b2d0fb41f1bf283949a7bd2faa8d08301ba0dd6553718ec7adf089",
+    "benchmark_v4/methods.py": "1db11f00b4cf811a5b322f186168b058390814c03cec6d8d0a497f63097534a2",
+    "benchmark_v4/preprocessing.py": "7958708816d0730be0c4d4df1320d1450a6d442f108e633e49057e9ef032d53c",
+    "benchmark_v4/protocol.py": "4adbd5c9c421f85b7cd03ed25da042f4cfa59d413c0200d7c6f5c80f92763fcc",
+    "benchmark_v4/protocol_estimands.py": "eec08c0410d57cb1ea9680d72a0d400958ad1e72cc521f3d2401618fde389685",
+    "benchmark_v4/raw_loaders.py": "63a103451e7aaa3fc438c7a4e8749782ac1134f226ebc4c891410614500dcc81",
+    "benchmark_v4/run_benchmark.py": "ad0d5ed3f433f74fefa57baa6480660f48ca1b1e54eeb2fa98b325907c3005ab",
+    "benchmark_v4/runner_support.py": "84b2000322df0bc152144f8a3a4fe9a444da5a5145860331c5885edca90b1605",
+    "benchmark_v4/splitting.py": "e94981d3ad8c00e8e043002fecf890fad52a64888c3723e9f7132a5cbc024e1e",
+    "benchmark_v4/stability.py": "36adffd1fd4e38423064a0c6bf583b0542f3b1c945bb70ce34b08721f3f069d8"
+  }
 }

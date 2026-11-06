@@ -1,6 +1,6 @@
-"""Shared code for the reserve analyses (material for a response to reviewers; not part of the manuscript).
+"""Shared code for cross-study and sensitivity analyses.
 
-Binding. Whatever exists in the locked formal code is taken from it, hash-checked through
+Binding. Shared formal algorithms use the released evaluator sources, hash-checked through
 ``validation/validate_against_formal.py``: the configuration, the binary split-plan generator, the seed
 derivation and the fold preprocessor, and, through presplit-audit, the five supervised steps that reproduce the
 formal methods exactly (Note S5). Multiclass and regression tasks need plans, steps and an evaluator that the
@@ -38,7 +38,7 @@ from sklearn.svm import LinearSVC
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT / "validation"))
-import validate_against_formal as V                       # noqa: E402  (binds nm_v4, presplit-audit, loaders)
+import validate_against_formal as V                       # noqa: E402  (binds benchmark_v4, presplit-audit, loaders)
 
 from presplit_audit import HTSPLS, OPLSDA, PLSDA, RFE, OuterFold, TopQ      # noqa: E402
 from presplit_audit.core import _fit_predict, logistic_l2, select_best      # noqa: E402
@@ -53,12 +53,12 @@ Seeds = Callable[..., int]
 
 def formal_config():
     """The formal configuration, as the formal runners construct it."""
-    from nm_v4.protocol import ProtocolConfig
+    from benchmark_v4.protocol import ProtocolConfig
     return ProtocolConfig(n_permutations=199)
 
 
 def derive_seed(base: int, *parts) -> int:
-    from nm_v4.splitting import derive_seed as formal_derive_seed
+    from benchmark_v4.splitting import derive_seed as formal_derive_seed
     return formal_derive_seed(base, *parts)
 
 
@@ -72,7 +72,7 @@ def check_formal_code() -> None:
 
 @dataclass(frozen=True)
 class Study:
-    """One MicrobiomeHD archive, read and aligned as nm_v4.raw_loaders._load_mbhd reads it."""
+    """One MicrobiomeHD archive, read and aligned as benchmark_v4.raw_loaders._load_mbhd reads it."""
 
     study: str
     sample_ids: tuple[str, ...]
@@ -87,7 +87,7 @@ class Study:
 
 
 def load_study(study: str) -> Study:
-    from nm_v4 import raw_loaders as R
+    from benchmark_v4 import raw_loaders as R
     entry = R._catalog_index()["mbhd"][study]
     metadata, counts, reason = R._read_mbhd_tables(entry)
     if reason != "ok" or metadata is None or counts is None:
@@ -140,8 +140,8 @@ def genus_counts(study: Study, mask: np.ndarray) -> pd.DataFrame:
 # ------------------------------------------------------------------ plans and permutations
 
 def binary_plan(y, groups, unit_id: str, cfg) -> list[OuterFold]:
-    """The formal split plan (nm_v4.splitting.materialize_plan) for a binary label vector."""
-    from nm_v4.splitting import materialize_plan
+    """The formal split plan (benchmark_v4.splitting.materialize_plan) for a binary label vector."""
+    from benchmark_v4.splitting import materialize_plan
     return V.formal_folds(materialize_plan(y, cfg, unit_id, groups=groups))
 
 

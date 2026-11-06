@@ -1,6 +1,6 @@
-"""Additional analyses requested by the blind review of Brief Communication v1.
+"""Additional benchmark analyses for the paired protocol comparison.
 
-Four modes, all running the locked formal ``nm_v4`` code (bound and hash-checked
+Four modes using the formal algorithms in ``benchmark_v4`` (release sources bound and hash-checked
 exactly as in ``run_control_arm.py``):
 
 gradient   Within-dataset signal gradient. For each dataset eligible for
@@ -45,7 +45,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import numpy as np
 import pandas as pd
 
-from run_control_arm import (RESULTS, TABLES, _candidate_index, _pooled_auc,  # binds nm_v4
+from run_control_arm import (RESULTS, TABLES, _candidate_index, _pooled_auc,  # binds benchmark_v4
                              _write_atomic, verify_formal_code)
 
 FRACTIONS = (0.25, 0.50, 0.75)
@@ -56,8 +56,8 @@ HOLDOUT_SHARE = 0.25
 
 # ------------------------------------------------------------------ shared
 def _load(dataset_id: str, platform: str, entry: dict):
-    from nm_v4 import raw_loaders
-    from nm_v4.protocol import ProtocolConfig, _validated_xy
+    from benchmark_v4 import raw_loaders
+    from benchmark_v4.protocol import ProtocolConfig, _validated_xy
 
     config = ProtocolConfig(n_permutations=199)
     dataset, reason = raw_loaders.load_raw(platform, entry)
@@ -68,8 +68,8 @@ def _load(dataset_id: str, platform: str, entry: dict):
 
 
 def _scenario(X, y, config, dataset_id, dataset, global_cache, tag):
-    from nm_v4.protocol import _evaluate_scenario, build_preprocessing_workspace
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4.protocol import _evaluate_scenario, build_preprocessing_workspace
+    from benchmark_v4.splitting import materialize_plan
 
     plan = materialize_plan(y, config, dataset_id, groups=dataset.groups)
     ws = build_preprocessing_workspace(X, plan, config, transform_kind=dataset.transform_kind,
@@ -88,9 +88,9 @@ def _two_arm_summary(scenario, n, repeats, ctx) -> dict:
 
 def extra_arms(y, plan, ws, scenario, config, dataset_id, seed_tag, arms) -> dict:
     """swap / global_prep / pre_tuned pooled OOF AUCs for any label vector."""
-    from nm_v4.methods import METHODS
-    from nm_v4.protocol import _fit_auc, _fit_bundle, _fold_record, select_best_candidate
-    from nm_v4.splitting import derive_seed
+    from benchmark_v4.methods import METHODS
+    from benchmark_v4.protocol import _fit_auc, _fit_bundle, _fold_record, select_best_candidate
+    from benchmark_v4.splitting import derive_seed
 
     global_x = ws.global_workspace.transformed_x
     n, repeats = y.size, config.outer_repeats
@@ -161,8 +161,8 @@ def extra_arms(y, plan, ws, scenario, config, dataset_id, seed_tag, arms) -> dic
 
 # ------------------------------------------------------------------ modes
 def partial_labels(y, groups, config, dataset_id, frac):
-    from nm_v4.protocol import _permutation_unit
-    from nm_v4.splitting import derive_seed
+    from benchmark_v4.protocol import _permutation_unit
+    from benchmark_v4.splitting import derive_seed
 
     unit = _permutation_unit(y, config, groups)
     rng = np.random.default_rng(derive_seed(config.seed, dataset_id, "partial_permutation", f"{frac:.2f}"))
@@ -185,7 +185,7 @@ def partial_labels(y, groups, config, dataset_id, frac):
 
 
 def mode_gradient(dataset_id, platform, entry, seed_tag):
-    from nm_v4.protocol import build_global_preprocessing_workspace
+    from benchmark_v4.protocol import build_global_preprocessing_workspace
 
     config, ds, X, y = _load(dataset_id, platform, entry)
     cache = build_global_preprocessing_workspace(X, config, transform_kind=ds.transform_kind)
@@ -202,7 +202,7 @@ def mode_gradient(dataset_id, platform, entry, seed_tag):
 
 
 def _holdout_split(y, groups, config, dataset_id):
-    from nm_v4.splitting import derive_seed, validate_groups
+    from benchmark_v4.splitting import derive_seed, validate_groups
 
     rng = np.random.default_rng(derive_seed(config.seed, dataset_id, "holdout_split"))
     g = None if groups is None else np.asarray(groups, dtype=object)
@@ -229,9 +229,9 @@ def _holdout_split(y, groups, config, dataset_id):
 
 
 def mode_holdout(dataset_id, platform, entry, seed_tag):
-    from nm_v4.methods import METHODS
-    from nm_v4.protocol import _fit_auc, _fit_bundle, fit_preprocessor
-    from nm_v4.splitting import derive_seed
+    from benchmark_v4.methods import METHODS
+    from benchmark_v4.protocol import _fit_auc, _fit_bundle, fit_preprocessor
+    from benchmark_v4.splitting import derive_seed
 
     config, ds, X, y = _load(dataset_id, platform, entry)
     dev, test, grouped = _holdout_split(y, ds.groups, config, dataset_id)
@@ -241,7 +241,7 @@ def mode_holdout(dataset_id, platform, entry, seed_tag):
         groups = None if ds.groups is None else np.asarray(ds.groups, dtype=object)[dev]
         transform_kind = ds.transform_kind
 
-    from nm_v4.protocol import build_global_preprocessing_workspace
+    from benchmark_v4.protocol import build_global_preprocessing_workspace
     cache = build_global_preprocessing_workspace(X[dev], config, transform_kind=ds.transform_kind)
     _, _, sc = _scenario(X[dev], y[dev], config, sub_id, _Dev, cache, "holdout-dev")
     cv = _two_arm_summary(sc, dev.size, config.outer_repeats, f"{sub_id}.")
@@ -292,7 +292,7 @@ def _formal_null_values(dataset_id):
 
 
 def mode_nullcheck(dataset_id, platform, entry, seed_tag):
-    from nm_v4.protocol import build_global_preprocessing_workspace, materialize_permuted_labels
+    from benchmark_v4.protocol import build_global_preprocessing_workspace, materialize_permuted_labels
 
     config, ds, X, y = _load(dataset_id, platform, entry)
     cache = build_global_preprocessing_workspace(X, config, transform_kind=ds.transform_kind)
@@ -346,14 +346,14 @@ def select_ids(mode: str) -> list[str]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="v2 analyses for the Brief Communication")
+    parser = argparse.ArgumentParser(description="Additional benchmark analyses")
     parser.add_argument("mode", choices=sorted(MODES))
     parser.add_argument("--workers", type=int, default=12)
     parser.add_argument("--limit", type=int)
     parser.add_argument("--seed-tag", default="primary")
     args = parser.parse_args()
 
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
 
     code = verify_formal_code()
     if not all(code.values()):

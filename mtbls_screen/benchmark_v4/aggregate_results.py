@@ -13,7 +13,7 @@ import shutil
 import tempfile
 from typing import Any
 
-from nm_v4.aggregation_schema import (
+from benchmark_v4.aggregation_schema import (
     AggregationError,
     OBSERVED_METHOD_METRICS,
     SUPPORTED_CHECKPOINT_SCHEMA_VERSIONS,
@@ -28,9 +28,9 @@ from nm_v4.aggregation_schema import (
     error,
     load_checkpoints,
 )
-from nm_v4.aggregation_uncertainty import append_uncertainty
-from nm_v4.checkpoints import sha256_file, sha256_json
-from nm_v4.configuration import STATISTIC_RULE
+from benchmark_v4.aggregation_uncertainty import append_uncertainty
+from benchmark_v4.checkpoints import sha256_file, sha256_json
+from benchmark_v4.configuration import STATISTIC_RULE
 
 
 FORMAL_MIN_PERMUTATIONS = 199
@@ -614,7 +614,7 @@ def aggregate_results(
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Aggregate nm_v4 checkpoints.")
+    parser = argparse.ArgumentParser(description="Aggregate benchmark_v4 checkpoints.")
     parser.add_argument("checkpoint_input", type=Path)
     parser.add_argument("output_dir", type=Path)
     parser.add_argument("--format", dest="output_format", choices=("auto", "csv", "parquet"), default="auto")

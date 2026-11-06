@@ -8,8 +8,8 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
-from nm_v4.methods import METHODS
-from nm_v4.qc_validation import FLOW_COLUMNS
+from benchmark_v4.methods import METHODS
+from benchmark_v4.qc_validation import FLOW_COLUMNS
 
 
 QC_ELIGIBLE_CLASSIFICATIONS = frozenset({

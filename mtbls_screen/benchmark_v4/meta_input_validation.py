@@ -9,16 +9,16 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
-from nm_v4.aggregation_schema import as_list, as_mapping
-from nm_v4.aggregation_uncertainty import _auc, _bootstrap_gap, _oof_vectors
-from nm_v4.checkpoints import sha256_json
-from nm_v4.meta_qc_provenance import (
+from benchmark_v4.aggregation_schema import as_list, as_mapping
+from benchmark_v4.aggregation_uncertainty import _auc, _bootstrap_gap, _oof_vectors
+from benchmark_v4.checkpoints import sha256_json
+from benchmark_v4.meta_qc_provenance import (
     QCProvenanceError,
     QC_CLASSIFICATIONS,
     QC_ELIGIBLE_CLASSIFICATIONS,
     validate_qc_artifacts,
 )
-from nm_v4.methods import METHODS
+from benchmark_v4.methods import METHODS
 
 
 _FLOAT_COLUMNS = (

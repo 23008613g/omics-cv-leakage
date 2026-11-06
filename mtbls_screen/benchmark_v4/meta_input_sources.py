@@ -10,9 +10,9 @@ from typing import Any
 
 import pandas as pd
 
-from nm_v4 import checkpoints
-from nm_v4.aggregate_results import TABLE_COLUMNS
-from nm_v4.aggregation_schema import (
+from benchmark_v4 import checkpoints
+from benchmark_v4.aggregate_results import TABLE_COLUMNS
+from benchmark_v4.aggregation_schema import (
     AggregationError,
     OBSERVED_METHOD_METRICS,
     analysis_metadata,
@@ -21,8 +21,8 @@ from nm_v4.aggregation_schema import (
     load_checkpoints,
     provenance,
 )
-from nm_v4.configuration import STATISTIC_RULE
-from nm_v4.meta_input_contracts import (
+from benchmark_v4.configuration import STATISTIC_RULE
+from benchmark_v4.meta_input_contracts import (
     MetaInputError,
     QC_FLOW_FILENAME,
     QC_MANIFEST_FILENAME,
@@ -35,13 +35,13 @@ from nm_v4.meta_input_contracts import (
     _regular_file,
     _runner_directory,
 )
-from nm_v4.meta_input_validation import (
+from benchmark_v4.meta_input_validation import (
     QCProvenanceError,
     derive_independent_unit_summary,
     validate_qc_artifacts,
 )
-from nm_v4.methods import METHODS
-from nm_v4.runner_support import (
+from benchmark_v4.methods import METHODS
+from benchmark_v4.runner_support import (
     CANONICAL_DATASET_COUNT,
     CANONICAL_ORDERED_ID_SHA256,
     WhitelistError,

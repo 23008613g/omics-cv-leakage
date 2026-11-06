@@ -61,7 +61,7 @@ CLUSTER = {"Breast cancer (Affymetrix)": "Breast cancer", "Breast cancer (Agilen
 
 
 def load(dataset_id: str, reference: str):
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     (platform, entry), = raw_loaders.entries_for_whitelist([dataset_id])
     config, ds, X, y = V._load(dataset_id, platform, dict(entry))
     level_pos, level_neg = ds.metadata["levels"]

@@ -8,10 +8,10 @@ import pytest
 from sklearn.exceptions import ConvergenceWarning
 from sklearn.preprocessing import StandardScaler
 
-from nm_v4 import methods as supervised_methods
-from nm_v4 import protocol as supervised_protocol
+from benchmark_v4 import methods as supervised_methods
+from benchmark_v4 import protocol as supervised_protocol
 
-from nm_v4.protocol import (
+from benchmark_v4.protocol import (
     METHODS,
     ProtocolConfig,
     STATISTIC_RULE,
@@ -586,7 +586,7 @@ def test_empirical_p_value_uses_plus_one_correction() -> None:
 
 
 def test_estimand_helpers_are_identical_protocol_module_aliases() -> None:
-    from nm_v4 import protocol_estimands
+    from benchmark_v4 import protocol_estimands
 
     assert supervised_protocol._fold_record is protocol_estimands._fold_record
     assert (
@@ -602,7 +602,7 @@ def test_estimand_helpers_are_identical_protocol_module_aliases() -> None:
 
 
 def test_estimand_fold_record_preserves_the_frozen_checkpoint_schema() -> None:
-    from nm_v4 import protocol_estimands
+    from benchmark_v4 import protocol_estimands
 
     split = supervised_protocol.OuterSplit(
         repeat=1,
@@ -671,7 +671,7 @@ def test_estimand_oof_vectors_fail_closed_at_index_and_score_boundaries(
     fold: dict,
     message: str,
 ) -> None:
-    from nm_v4 import protocol_estimands
+    from benchmark_v4 import protocol_estimands
 
     with pytest.raises(ValueError, match=message):
         protocol_estimands._repeat_averaged_oof_vectors(

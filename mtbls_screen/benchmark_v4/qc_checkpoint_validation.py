@@ -8,11 +8,11 @@ from pathlib import Path
 import re
 from typing import Any
 
-from nm_v4.aggregation_schema import OBSERVED_METHOD_METRICS
-from nm_v4.checkpoints import sha256_file, sha256_json
-from nm_v4.configuration import STATISTIC_RULE
-from nm_v4.methods import METHODS
-from nm_v4.qc_contracts import (
+from benchmark_v4.aggregation_schema import OBSERVED_METHOD_METRICS
+from benchmark_v4.checkpoints import sha256_file, sha256_json
+from benchmark_v4.configuration import STATISTIC_RULE
+from benchmark_v4.methods import METHODS
+from benchmark_v4.qc_contracts import (
     _boolean,
     _fail,
     _hash,

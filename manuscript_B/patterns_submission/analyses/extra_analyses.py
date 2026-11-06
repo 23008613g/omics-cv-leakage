@@ -24,7 +24,7 @@ from scipy.stats import spearmanr
 HERE = Path(__file__).resolve().parent
 MB = HERE.parents[1]
 TABLES = MB / "Formal_Public_Deposit_v3" / "tables"
-RES_BC = MB / "nm_brief_communication" / "control_arm" / "results"
+RES_BC = MB / "benchmark_analyses" / "control_arm" / "results"
 SD1 = HERE.parent / "output" / "Patterns_Data_S1_per_dataset.csv"
 OUT = HERE / "results"
 METHODS = ["top_k", "rfe", "spls", "pls_da", "opls_da"]

@@ -35,7 +35,7 @@ sys.path.insert(0, str(ROOT / "reserve"))
 import validate_against_formal as V                       # noqa: E402
 
 OUT = HERE / "results"
-CONTROL_ARM = ROOT.parent / "nm_brief_communication" / "control_arm"
+CONTROL_ARM = ROOT.parent / "benchmark_analyses" / "control_arm"
 
 
 def duplicate_groups(n: int, recorded, pairs: list[dict]) -> np.ndarray:
@@ -72,7 +72,7 @@ def needs_rerun(record: dict) -> bool:
 
 def cv_job(job) -> dict:
     import common as C
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4.splitting import materialize_plan
     dataset_id, platform, entry, pairs, variant = job
     t0 = time.time()
     config, ds, X, y = V._load(dataset_id, platform, entry)
@@ -138,7 +138,7 @@ def main() -> int:
     args = ap.parse_args()
     if not all(V.verify_formal_code().values()):
         raise RuntimeError("formal code mismatch")
-    from nm_v4 import raw_loaders
+    from benchmark_v4 import raw_loaders
     scan = {r["dataset_id"]: r for r in json.loads((OUT / "duplicate_scan.json").read_text())["records"]}
     ids = sorted(d for d, r in scan.items() if needs_rerun(r))
     resolved = dict(zip(ids, raw_loaders.entries_for_whitelist(ids), strict=True))

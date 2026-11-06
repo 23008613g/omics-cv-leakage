@@ -56,8 +56,8 @@ def test_preprocessing_cache_leaves_results_unchanged(task):
 
 
 def test_generic_evaluator_reproduces_the_formal_values_on_a_real_dataset():
-    from nm_v4 import raw_loaders
-    from nm_v4.splitting import materialize_plan
+    from benchmark_v4 import raw_loaders
+    from benchmark_v4.splitting import materialize_plan
     (platform, entry), = raw_loaders.entries_for_whitelist(["crc_xiang"])
     cfg, ds, X, y = C.V._load("crc_xiang", platform, dict(entry))
     folds = C.V.formal_folds(materialize_plan(y, cfg, "crc_xiang", groups=ds.groups))
@@ -81,7 +81,7 @@ def test_multiclass_rfe_with_two_classes_is_the_benchmark_rfe():
 
 
 def test_permutation_is_the_formal_one_without_groups():
-    from nm_v4.protocol import materialize_permuted_labels
+    from benchmark_v4.protocol import materialize_permuted_labels
     y = np.repeat([0, 1], [23, 31])
     for i in range(5):
         formal, unit = materialize_permuted_labels(y, CFG, "toy", i)
