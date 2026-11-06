@@ -1,0 +1,30 @@
+{
+ "crc_xiang": {
+  "top_k": {
+   "fold_contained_mean": 0.4811255411255411,
+   "fold_contained_se": 0.01226925732425191,
+   "fold_contained_mean_first10": 0.4597402597402597,
+   "pre_split_mean": 0.732965367965368
+  },
+  "pls_da": {
+   "fold_contained_mean": 0.48225108225108215,
+   "fold_contained_se": 0.01171185214784605,
+   "fold_contained_mean_first10": 0.5318181818181817,
+   "pre_split_mean": 0.9761038961038959
+  }
+ },
+ "hiv_dinh": {
+  "top_k": {
+   "fold_contained_mean": 0.4947301587301587,
+   "fold_contained_se": 0.013541194157672767,
+   "fold_contained_mean_first10": 0.5158730158730158,
+   "pre_split_mean": 0.7269523809523808
+  },
+  "pls_da": {
+   "fold_contained_mean": 0.5018730158730159,
+   "fold_contained_se": 0.013420703306346145,
+   "fold_contained_mean_first10": 0.5263492063492062,
+   "pre_split_mean": 0.9812698412698413
+  }
+ }
+}

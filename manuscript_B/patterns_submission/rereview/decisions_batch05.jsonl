@@ -1,0 +1,30 @@
+{"id":"E-MTAB-1690","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"COPD vs healthy; respiratory tract samples"}
+{"id":"E-MTAB-2967","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Crohn's disease, inflamed vs non-inflamed colonic mucosa: two disease states"}
+{"id":"E-MTAB-3017","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Obesity without metabolic syndrome vs normal; blood; obesity taken as a disease state (borderline)"}
+{"id":"E-MTAB-3073","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Glioblastoma vs astrocytoma: two disease states"}
+{"id":"E-MTAB-3408","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Cerebral small vessel disease vs normal; post-mortem cortex and white matter"}
+{"id":"E-MTAB-3708","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Oligodendroglioma vs astrocytoma: two disease states"}
+{"id":"E-MTAB-3823","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Pancreatic ductal adenocarcinoma vs healthy controls; whole blood"}
+{"id":"E-MTAB-4054","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Barrett's oesophagus vs normal oesophagus"}
+{"id":"E-MTAB-4785","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Very low birth weight infants with neonatal sepsis vs without"}
+{"id":"E-MTAB-5638","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Ventilator-associated pneumonia vs controls"}
+{"id":"E-MTAB-57","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Colon cancer tumour vs normal biopsies"}
+{"id":"E-MTAB-6863","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Chronic HCV genotype 1 vs genotype 3 infection; liver biopsies: two disease states (borderline: pathogen genotype)"}
+{"id":"E-MTAB-69","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Multiple sclerosis vs non-inflammatory neurological disease; CSF and blood lymphocytes"}
+{"id":"E-MTAB-779","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Breast carcinoma vs normal breast"}
+{"id":"E-MTAB-7805","human":"no","disease":"no","intervention":"yes","decision":"exclude","note":"Primary B cells infected in vitro with EBV (cell culture time course)"}
+{"id":"E-MTAB-7915","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Primary sclerosing cholangitis (PSC-IBD) vs normal colon"}
+{"id":"E-PROT-51","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Alzheimer's vs asymptomatic Alzheimer's disease; post-mortem DLPFC"}
+{"id":"E-PROT-54","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Alzheimer's vs asymptomatic Alzheimer's disease; post-mortem DLPFC"}
+{"id":"E-PROT-55","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Alzheimer's vs asymptomatic Alzheimer's disease; post-mortem precuneus"}
+{"id":"E-PROT-56","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Alzheimer's disease vs progressive supranuclear palsy; post-mortem temporal cortex"}
+{"id":"E-PROT-58","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Parkinson's disease/dementia vs ALS; post-mortem DLPFC"}
+{"id":"E-PROT-66","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Benign prostatic hyperplasia vs acinar adenocarcinoma: two disease states"}
+{"id":"E-TABM-176","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Diarrhoea-predominant IBS vs subjects without an IBS subtype ('not applicable', read as healthy controls)"}
+{"id":"E-TABM-666","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Children with pre-diabetes vs islet autoantibodies only: two disease stages"}
+{"id":"MTBLS1015","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Children who progressed to type 1 diabetes vs seroconverted without diabetes; PBMC"}
+{"id":"MTBLS1041","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Hypoxic-ischaemic encephalopathy infants, pathologic vs normal MRI outcome; plasma (blanks are QC, not part of the contrast)"}
+{"id":"MTBLS10634","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"STEMI patients, remodelling-related disease groups; plasma: two disease states"}
+{"id":"MTBLS11406","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"HBsAg-positive vs occult hepatitis B infection; plasma"}
+{"id":"MTBLS11996","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Liver cancer vs benign liver neoplasm; plasma"}
+{"id":"MTBLS12590","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Henoch-Schonlein purpura vs HSP nephritis children; nasal lavage"}

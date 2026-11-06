@@ -1,0 +1,30 @@
+{"id":"E-GEOD-65359","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Chronic HBV liver, immune clearance vs immune tolerant phase: two disease states"}
+{"id":"E-GEOD-65914","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Erythematotelangiectatic rosacea vs healthy skin"}
+{"id":"E-GEOD-6613","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Parkinson's vs Alzheimer's disease; blood: two disease states"}
+{"id":"E-GEOD-66207","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Crohn's disease vs non-IBD controls"}
+{"id":"E-GEOD-6631","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Head and neck SCC vs paired normal mucosa"}
+{"id":"E-GEOD-66354","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Posterior fossa group A vs B ependymoma: two disease states"}
+{"id":"E-GEOD-6691","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Waldenstrom macroglobulinaemia vs normal B lymphocytes/plasma cells"}
+{"id":"E-GEOD-67196","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"ALS without C9orf72 expansion vs normal; post-mortem brain"}
+{"id":"E-GEOD-72509","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Systemic lupus erythematosus vs healthy controls; blood"}
+{"id":"E-GEOD-72925","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Kidney allograft IF/TA vs normal biopsies"}
+{"id":"E-GEOD-76882","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Allograft biopsies, IF/TA vs normal"}
+{"id":"E-GEOD-7696","human":"yes","disease":"no","intervention":"yes","decision":"exclude","note":"Glioblastoma after temozolomide plus radiotherapy vs radiotherapy: treatment contrast"}
+{"id":"E-GEOD-76987","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Sessile serrated adenoma/polyp vs uninvolved mucosa"}
+{"id":"E-GEOD-78936","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Bipolar disorder vs schizophrenia; post-mortem brain: two disease states"}
+{"id":"E-GEOD-81046","human":"no","disease":"no","intervention":"yes","decision":"exclude","note":"Macrophages infected in vitro with Salmonella Typhimurium (cell culture)"}
+{"id":"E-GEOD-8586","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Newborns with vs without bronchopulmonary dysplasia; umbilical cord tissue"}
+{"id":"E-GEOD-93624","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Treatment-naive paediatric Crohn's disease vs non-IBD controls"}
+{"id":"E-GEOD-93798","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"IgA nephropathy vs normal glomeruli"}
+{"id":"E-GEOD-9493","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Chronic allograft nephropathy vs normal allograft biopsies"}
+{"id":"E-GEOD-9692","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Paediatric septic shock vs normal controls"}
+{"id":"E-MEXP-106","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Uterus in labour vs not in labour: physiological state, not disease"}
+{"id":"E-MEXP-3521","human":"no","disease":"no","intervention":"yes","decision":"exclude","note":"Dendritic cells and macrophages infected in vitro with M. tuberculosis"}
+{"id":"E-MEXP-3715","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Colorectal tumour vs adjacent normal tissue"}
+{"id":"E-MEXP-433","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"CML patients, later cytogenetic response vs no response to imatinib; groups by outcome, not by treatment (borderline)"}
+{"id":"E-MTAB-10232","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"HIV/HCV co-infection vs HIV mono-infection; PBMC: two disease states"}
+{"id":"E-MTAB-10604","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Down syndrome vs normal; PBMC (clinical syndrome)"}
+{"id":"E-MTAB-1075","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"AML patients split by high vs low miR-3151 expression: a molecular measurement, not a disease state"}
+{"id":"E-MTAB-11671","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Kawasaki disease vs meningococcal infection in children; blood"}
+{"id":"E-MTAB-1356","human":"yes","disease":"uncertain","intervention":"no","decision":"exclude","note":"AML 'Type A' vs 'Non-Type A' groups not identifiable as a clinical disease state from the metadata (second pass: exclude)"}
+{"id":"E-MTAB-1425","human":"no","disease":"yes","intervention":"no","decision":"exclude","note":"Lymphoblastoid cell lines"}

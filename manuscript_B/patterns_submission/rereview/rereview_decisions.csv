@@ -1,0 +1,259 @@
+id,human,disease,intervention,decision,note,pass
+E-ENAD-28,yes,yes,no,include,S. aureus bacteraemia vs normal; human blood,first
+E-GEOD-101794,yes,no,no,exclude,"Contrast is Paris A1b vs A1a (age-at-diagnosis category) among Crohn's patients; age, not disease",first
+E-GEOD-102008,yes,yes,no,include,Friedreich ataxia vs normal; peripheral blood,first
+E-GEOD-102133,yes,yes,no,include,"Crohn's ileal mucosa, post-operative recurrence vs newly diagnosed: two disease states; surgery was clinical care, not assigned by investigators",first
+E-GEOD-104288,no,yes,no,exclude,Cultured skin fibroblasts from FRDA patients and controls (cell culture),first
+E-GEOD-10780,yes,yes,no,include,"Histologically normal breast tissue, breast carcinoma vs normal participants",first
+E-GEOD-10927,yes,yes,no,include,Adrenocortical carcinoma vs adenoma tissue: two disease states,first
+E-GEOD-11083,yes,yes,no,include,RF-negative JIA vs normal; blood neutrophils/PBMC,first
+E-GEOD-11151,yes,yes,no,include,Clear cell vs papillary renal cell carcinoma: two disease states,first
+E-GEOD-11166,yes,no,no,exclude,"Living vs deceased donor kidney allografts: donor type, not disease",first
+E-GEOD-112057,yes,yes,no,include,Crohn disease vs polyarticular JIA; whole blood: two disease states,first
+E-GEOD-11348,yes,no,yes,exclude,"Experimental HRV-16 inoculation, pre vs post infection: investigator-applied challenge",first
+E-GEOD-120774,yes,yes,no,include,Coronary artery disease vs normal; epicardial and subcutaneous adipose tissue,first
+E-GEOD-13355,yes,yes,no,include,Skin of healthy controls (normal) vs uninvolved skin of psoriasis patients,first
+E-GEOD-13896,yes,no,no,exclude,"Smoker vs non-smoker alveolar macrophages: exposure, not disease",first
+E-GEOD-1402,yes,yes,no,include,Polyarticular juvenile arthritis vs normal; PBMC and synovial fluid cells,first
+E-GEOD-14346,yes,yes,no,include,Acute renal transplant rejection vs non-rejecting recipients; peripheral blood,first
+E-GEOD-14905,yes,yes,no,include,Psoriasis lesional vs non-lesional skin: two disease states,first
+E-GEOD-15235,yes,yes,no,include,"Biliary atresia liver, fibrosis vs inflammation subtype: two disease states",first
+E-GEOD-15471,yes,yes,no,include,Pancreatic ductal adenocarcinoma vs matched normal tissue,first
+E-GEOD-1563,yes,no,yes,exclude,"Contrast is immunosuppression regimen vs none: treatment, not disease",first
+E-GEOD-16134,yes,yes,no,include,Periodontitis vs normal gingival tissue,first
+E-GEOD-16237,yes,yes,no,include,"Neuroblastoma patients, survival vs death: prognostic disease groups",first
+E-GEOD-17156,yes,no,yes,exclude,Viral challenge study (RSV vs rhinovirus inoculation of volunteers),first
+E-GEOD-17967,yes,yes,no,include,HCV cirrhosis with vs without hepatocellular carcinoma: two disease states,first
+E-GEOD-18105,yes,yes,no,include,Primary colorectal tumours with vs without distant metastasis,first
+E-GEOD-18781,yes,yes,no,include,Axial spondyloarthropathy vs normal; blood,first
+E-GEOD-18791,no,no,yes,exclude,Dendritic cells infected in vitro with Newcastle disease virus (cell culture),first
+E-GEOD-18842,yes,yes,no,include,Non-small cell lung cancer vs normal lung tissue,first
+E-GEOD-19249,yes,yes,no,include,Colon cancer vs normal tissue (FFPE and fresh-frozen),first
+E-GEOD-19314,yes,yes,no,include,Sarcoidosis with low lung function vs normal; PBMC,first
+E-GEOD-19804,yes,yes,no,include,"NSCLC primary tumour vs normal lung, female non-smokers",first
+E-GEOD-20168,yes,yes,no,include,Parkinson's disease vs normal; post-mortem prefrontal cortex,first
+E-GEOD-20950,yes,yes,no,include,"Obese patients, insulin resistant vs insulin sensitive adipose tissue; insulin resistance taken as a disease state (borderline)",first
+E-GEOD-21138,yes,yes,no,include,Schizophrenia vs matched controls; post-mortem BA46,first
+E-GEOD-21293,no,no,yes,exclude,Invasive vs non-invasive oesophageal SCC cells engineered with hTERT/EGFR over-expression (cell culture),first
+E-GEOD-21374,yes,yes,no,include,"Renal allograft biopsies, rejection vs none",first
+E-GEOD-22229,yes,no,uncertain,exclude,"Operationally tolerant vs standard-immunotherapy transplant recipients: tolerance/treatment status, not disease",first
+E-GEOD-22260,yes,yes,no,include,Prostate carcinoma vs matched normal tissue,first
+E-GEOD-2240,yes,yes,no,include,Permanent atrial fibrillation vs sinus rhythm myocardium,first
+E-GEOD-22459,yes,yes,no,include,"Kidney transplant biopsies, interstitial fibrosis/tubular atrophy vs normal histology",first
+E-GEOD-22529,yes,yes,no,include,CLL vs normal B cells,first
+E-GEOD-23739,yes,yes,no,include,Gastric carcinoma vs adjacent normal tissue,first
+E-GEOD-26457,yes,no,no,exclude,"Parous vs nulliparous breast tissue: pregnancy history, not disease",first
+E-GEOD-26866,yes,yes,no,include,Psoriasis lesional vs non-lesional skin (laser capture),first
+E-GEOD-27034,yes,yes,no,include,Peripheral arterial disease vs normal; PBMC,first
+E-GEOD-27383,yes,yes,no,include,Schizophrenia vs normal; PBMC,first
+E-GEOD-27489,yes,no,no,exclude,"Within lung-cancer patients, nodule site vs contralateral site lining fluid: sampling site",first
+E-GEOD-29272,yes,yes,no,include,Gastric cancer tumour vs normal tissue,first
+E-GEOD-30718,yes,yes,no,include,Acute kidney injury vs normal in kidney transplants,first
+E-GEOD-30784,yes,yes,no,include,Oral squamous cell carcinoma vs normal oral tissue,first
+E-GEOD-30999,yes,yes,no,include,Psoriasis lesional vs non-lesional skin,first
+E-GEOD-31625,uncertain,no,no,exclude,Erlotinib sensitivity of lung cancer cell lines and tumours: drug-response phenotype; cell lines included,first
+E-GEOD-32924,yes,yes,no,include,Atopic dermatitis lesional skin vs healthy skin,first
+E-GEOD-3307,yes,yes,no,include,Juvenile dermatomyositis vs normal skeletal muscle,first
+E-GEOD-34205,yes,yes,no,include,Infants with acute RSV vs influenza infection; PBMC: two disease states,first
+E-GEOD-34437,yes,uncertain,no,exclude,Contrast labelled kidney transplant vs none; disease state not identifiable from the contrast (second pass: exclude),first
+E-GEOD-34748,yes,yes,no,include,"Positive-crossmatch allografts, transplant glomerulopathy vs normal",first
+E-GEOD-35493,yes,yes,no,include,Atypical teratoid/rhabdoid tumour vs medulloblastoma: two disease states,first
+E-GEOD-36842,yes,yes,no,include,Atopic dermatitis lesion vs normal skin,first
+E-GEOD-37171,yes,yes,no,include,End-stage renal failure (CKD) vs healthy controls; blood,first
+E-GEOD-38959,yes,yes,no,include,Triple-negative breast cancer vs normal ductal cells/tissue (microdissected tissue),first
+E-GEOD-40595,yes,yes,no,include,High-grade serous ovarian cancer vs normal; microdissected stroma/epithelium from tissue,first
+E-GEOD-41662,yes,yes,no,include,Psoriasis lesional vs non-lesional skin,first
+E-GEOD-4183,yes,yes,no,include,Colorectal cancer vs IBD colon biopsies: two disease states,first
+E-GEOD-43458,yes,no,no,exclude,"Contrast is never-smoker vs smoker: exposure, not disease",first
+E-GEOD-44077,yes,uncertain,no,exclude,"Levels 'normal airway epithelia' vs 'normal' in a field-cancerization study: a sampling-site contrast, not disease vs control (second pass: exclude)",first
+E-GEOD-45581,yes,yes,no,include,Inflammatory vs non-inflammatory breast cancer: two disease states,first
+E-GEOD-46474,yes,yes,no,include,"Kidney transplant recipients, acute rejection vs non-rejection; blood",first
+E-GEOD-46699,yes,yes,no,include,"ccRCC patients, obese vs non-obese; obesity taken as a disease state (borderline)",first
+E-GEOD-46960,yes,yes,no,include,Biliary atresia vs normal liver,first
+E-GEOD-47718,yes,no,no,exclude,Smoker vs non-smoker airway basal cells: exposure,first
+E-GEOD-49541,yes,yes,no,include,"NAFLD, fibrosis stage 0-1 vs 3-4: two disease states",first
+E-GEOD-50084,yes,yes,no,include,Donor-specific antibodies with rejection vs control; blood and biopsies,first
+E-GEOD-50161,yes,yes,no,include,Ependymoma vs glioblastoma: two disease states,first
+E-GEOD-52166,yes,yes,uncertain,include,Pre vs post P. falciparum infection; taken as natural infection in a field cohort (packet does not say; if controlled human infection this would be excluded),first
+E-GEOD-53239,yes,yes,no,include,Bipolar disorder vs normal; post-mortem DLPFC,first
+E-GEOD-53757,yes,yes,no,include,ccRCC vs matched normal kidney,first
+E-GEOD-5388,yes,yes,no,include,Bipolar disorder vs healthy controls; post-mortem DLPFC,first
+E-GEOD-55092,yes,yes,no,include,"HBV-associated HCC, malignant vs non-malignant liver tissue/hepatocytes ('not applicable' read as non-malignant)",first
+E-GEOD-57945,yes,yes,no,include,Treatment-naive paediatric Crohn's disease vs ulcerative colitis; ileal biopsies,first
+E-GEOD-59071,yes,yes,no,include,"IBD colonic mucosa, active vs inactive: two disease states",first
+E-GEOD-59612,yes,yes,no,include,Glioma vs normal brain (margins of glioblastoma),first
+E-GEOD-61739,yes,yes,no,include,Transplanted kidneys from deceased donors with acute kidney injury vs normal donors,first
+E-GEOD-63042,yes,yes,no,include,Septic shock vs sepsis death: disease/outcome states; blood,first
+E-GEOD-63085,yes,yes,no,include,Lyme disease vs normal; PBMC,first
+E-GEOD-63142,yes,yes,no,include,Mild-moderate vs severe asthma; fresh bronchial epithelial cells,first
+E-GEOD-6364,yes,yes,no,include,Endometriosis vs normal endometrium,first
+E-GEOD-65127,yes,yes,no,include,Vitiligo vs normal skin,first
+E-GEOD-65270,yes,yes,no,include,Acute pouchitis vs normal pouch/ileum after IPAA (surgery was clinical care),first
+E-GEOD-65359,yes,yes,no,include,"Chronic HBV liver, immune clearance vs immune tolerant phase: two disease states",first
+E-GEOD-65914,yes,yes,no,include,Erythematotelangiectatic rosacea vs healthy skin,first
+E-GEOD-6613,yes,yes,no,include,Parkinson's vs Alzheimer's disease; blood: two disease states,first
+E-GEOD-66207,yes,yes,no,include,Crohn's disease vs non-IBD controls,first
+E-GEOD-6631,yes,yes,no,include,Head and neck SCC vs paired normal mucosa,first
+E-GEOD-66354,yes,yes,no,include,Posterior fossa group A vs B ependymoma: two disease states,first
+E-GEOD-6691,yes,yes,no,include,Waldenstrom macroglobulinaemia vs normal B lymphocytes/plasma cells,first
+E-GEOD-67196,yes,yes,no,include,ALS without C9orf72 expansion vs normal; post-mortem brain,first
+E-GEOD-72509,yes,yes,no,include,Systemic lupus erythematosus vs healthy controls; blood,first
+E-GEOD-72925,yes,yes,no,include,Kidney allograft IF/TA vs normal biopsies,first
+E-GEOD-76882,yes,yes,no,include,"Allograft biopsies, IF/TA vs normal",first
+E-GEOD-7696,yes,no,yes,exclude,Glioblastoma after temozolomide plus radiotherapy vs radiotherapy: treatment contrast,first
+E-GEOD-76987,yes,yes,no,include,Sessile serrated adenoma/polyp vs uninvolved mucosa,first
+E-GEOD-78936,yes,yes,no,include,Bipolar disorder vs schizophrenia; post-mortem brain: two disease states,first
+E-GEOD-81046,no,no,yes,exclude,Macrophages infected in vitro with Salmonella Typhimurium (cell culture),first
+E-GEOD-8586,yes,yes,no,include,Newborns with vs without bronchopulmonary dysplasia; umbilical cord tissue,first
+E-GEOD-93624,yes,yes,no,include,Treatment-naive paediatric Crohn's disease vs non-IBD controls,first
+E-GEOD-93798,yes,yes,no,include,IgA nephropathy vs normal glomeruli,first
+E-GEOD-9493,yes,yes,no,include,Chronic allograft nephropathy vs normal allograft biopsies,first
+E-GEOD-9692,yes,yes,no,include,Paediatric septic shock vs normal controls,first
+E-MEXP-106,yes,no,no,exclude,"Uterus in labour vs not in labour: physiological state, not disease",first
+E-MEXP-3521,no,no,yes,exclude,Dendritic cells and macrophages infected in vitro with M. tuberculosis,first
+E-MEXP-3715,yes,yes,no,include,Colorectal tumour vs adjacent normal tissue,first
+E-MEXP-433,yes,no,no,exclude,"Second pass: CML patients split by cytogenetic response to imatinib are treatment-response groups, not a disease state (rule fixed while reviewing ST000919 and MTBLS92)",second (override)
+E-MTAB-10232,yes,yes,no,include,HIV/HCV co-infection vs HIV mono-infection; PBMC: two disease states,first
+E-MTAB-10604,yes,yes,no,include,Down syndrome vs normal; PBMC (clinical syndrome),first
+E-MTAB-1075,yes,no,no,exclude,"AML patients split by high vs low miR-3151 expression: a molecular measurement, not a disease state",first
+E-MTAB-11671,yes,yes,no,include,Kawasaki disease vs meningococcal infection in children; blood,first
+E-MTAB-1356,yes,uncertain,no,exclude,AML 'Type A' vs 'Non-Type A' groups not identifiable as a clinical disease state from the metadata (second pass: exclude),first
+E-MTAB-1425,no,yes,no,exclude,Lymphoblastoid cell lines,first
+E-MTAB-1690,yes,yes,no,include,COPD vs healthy; respiratory tract samples,first
+E-MTAB-2967,yes,yes,no,include,"Crohn's disease, inflamed vs non-inflamed colonic mucosa: two disease states",first
+E-MTAB-3017,yes,yes,no,include,Obesity without metabolic syndrome vs normal; blood; obesity taken as a disease state (borderline),first
+E-MTAB-3073,yes,yes,no,include,Glioblastoma vs astrocytoma: two disease states,first
+E-MTAB-3408,yes,yes,no,include,Cerebral small vessel disease vs normal; post-mortem cortex and white matter,first
+E-MTAB-3708,yes,yes,no,include,Oligodendroglioma vs astrocytoma: two disease states,first
+E-MTAB-3823,yes,yes,no,include,Pancreatic ductal adenocarcinoma vs healthy controls; whole blood,first
+E-MTAB-4054,yes,yes,no,include,Barrett's oesophagus vs normal oesophagus,first
+E-MTAB-4785,yes,yes,no,include,Very low birth weight infants with neonatal sepsis vs without,first
+E-MTAB-5638,yes,yes,no,include,Ventilator-associated pneumonia vs controls,first
+E-MTAB-57,yes,yes,no,include,Colon cancer tumour vs normal biopsies,first
+E-MTAB-6863,yes,yes,no,include,Chronic HCV genotype 1 vs genotype 3 infection; liver biopsies: two disease states (borderline: pathogen genotype),first
+E-MTAB-69,yes,yes,no,include,Multiple sclerosis vs non-inflammatory neurological disease; CSF and blood lymphocytes,first
+E-MTAB-779,yes,yes,no,include,Breast carcinoma vs normal breast,first
+E-MTAB-7805,no,no,yes,exclude,Primary B cells infected in vitro with EBV (cell culture time course),first
+E-MTAB-7915,yes,yes,no,include,Primary sclerosing cholangitis (PSC-IBD) vs normal colon,first
+E-PROT-51,yes,yes,no,include,Alzheimer's vs asymptomatic Alzheimer's disease; post-mortem DLPFC,first
+E-PROT-54,yes,yes,no,include,Alzheimer's vs asymptomatic Alzheimer's disease; post-mortem DLPFC,first
+E-PROT-55,yes,yes,no,include,Alzheimer's vs asymptomatic Alzheimer's disease; post-mortem precuneus,first
+E-PROT-56,yes,yes,no,include,Alzheimer's disease vs progressive supranuclear palsy; post-mortem temporal cortex,first
+E-PROT-58,yes,yes,no,include,Parkinson's disease/dementia vs ALS; post-mortem DLPFC,first
+E-PROT-66,yes,yes,no,include,Benign prostatic hyperplasia vs acinar adenocarcinoma: two disease states,first
+E-TABM-176,yes,yes,no,include,"Diarrhoea-predominant IBS vs subjects without an IBS subtype ('not applicable', read as healthy controls)",first
+E-TABM-666,yes,yes,no,include,Children with pre-diabetes vs islet autoantibodies only: two disease stages,first
+MTBLS1015,yes,yes,no,include,Children who progressed to type 1 diabetes vs seroconverted without diabetes; PBMC,first
+MTBLS1041,yes,yes,no,include,"Hypoxic-ischaemic encephalopathy infants, pathologic vs normal MRI outcome; plasma (blanks are QC, not part of the contrast)",first
+MTBLS10634,yes,yes,no,include,"STEMI patients, remodelling-related disease groups; plasma: two disease states",first
+MTBLS11406,yes,yes,no,include,HBsAg-positive vs occult hepatitis B infection; plasma,first
+MTBLS11996,yes,yes,no,include,Liver cancer vs benign liver neoplasm; plasma,first
+MTBLS12590,yes,yes,no,include,Henoch-Schonlein purpura vs HSP nephritis children; nasal lavage,first
+MTBLS12692,yes,uncertain,uncertain,exclude,Contrast labelled 'treatment' vs 'control group' in a Parkinson's olfactory study; description suggests patients vs controls but the label implies treatment (second pass: exclude),first
+MTBLS12820,yes,yes,no,include,Gout vs healthy; serum,first
+MTBLS1295,yes,yes,no,include,Infantile cholestasis vs impaired hepatic function; faeces: two disease states,first
+MTBLS13112,yes,yes,no,include,Severe vs mild influenza A; plasma,first
+MTBLS13136,yes,yes,no,include,Persistent vs paroxysmal atrial fibrillation; blood,first
+MTBLS162,yes,yes,no,include,Monogenic insulin resistance (lipodystrophy) vs controls; plasma,first
+MTBLS1866,yes,yes,no,include,COVID-19 vs healthy; plasma,first
+MTBLS1991,yes,no,no,exclude,Ageing cohort; contrast is current smoking: exposure,first
+MTBLS2014,yes,yes,no,include,SARS-CoV-2-positive patients vs healthy; plasma,first
+MTBLS2040,yes,no,no,exclude,"Endometriosis study, but the contrast is smoking yes vs no",first
+MTBLS205,yes,yes,no,include,"Allogeneic HSCT recipients, acute GVHD vs no GVHD",first
+MTBLS2224,yes,yes,no,include,COVID-19 acute (positive) vs after discharge (negative): two disease states,first
+MTBLS2262,yes,yes,no,include,Traumatic osteonecrosis of the femoral head vs controls; plasma,first
+MTBLS2266,no,no,no,exclude,"Chosen contrast is Parkinson's disease vs pooled quality-control samples, which are not participants",first
+MTBLS2419,yes,no,no,exclude,"Human milk, baby female vs male: sex",first
+MTBLS2542,yes,yes,no,include,COVID-19 mild vs asymptomatic; serum,first
+MTBLS3305,yes,yes,no,include,Convalescent COVID-19 vs healthy controls; plasma,first
+MTBLS424,yes,yes,no,include,"ER-positive early breast cancer, relapse vs no relapse; serum (outcome groups)",first
+MTBLS444,yes,yes,no,include,Keratoconus vs normal (cadaver) cornea and aqueous humour,first
+MTBLS4569,yes,yes,no,include,Caries-susceptible vs caries-free; saliva,first
+MTBLS4684,yes,yes,no,include,Periodontitis vs healthy gingival biopsies,first
+MTBLS4816,yes,yes,no,include,Paediatric influenza A pneumonia vs healthy; oropharyngeal swabs,first
+MTBLS4895,uncertain,uncertain,no,exclude,Contrast 'not applicable' vs healthy controls; the 'not applicable' group appears to be pooled/blank samples rather than patients,first
+MTBLS5297,yes,yes,no,include,Rheumatoid arthritis stage IV vs healthy; plasma,first
+MTBLS5665,yes,yes,no,include,Liver cirrhosis vs healthy; plasma,first
+MTBLS6739,yes,yes,no,include,Acute COVID-19 vs SARS-CoV-2-negative; plasma,first
+MTBLS7128,yes,yes,no,include,Pyogenic liver abscess with vs without diabetes; pus: two disease states,first
+MTBLS7337,yes,yes,no,include,COVID-19 acute vs convalescent phase; plasma: two disease states,first
+MTBLS740,yes,yes,no,include,Age-related nuclear cataract vs normal lens/aqueous humour,first
+MTBLS7753,yes,yes,no,include,Extracranial arteriovenous malformation vs healthy; plasma,first
+MTBLS7760,no,no,yes,exclude,HepG2 cells treated with metformin vs QC (cell culture),first
+MTBLS7776,yes,yes,no,include,"Nested case-control in the ATBC cohort: pre-diagnostic serum of future liver cancer cases vs controls (contrast is diagnosis, not trial arm)",first
+MTBLS8062,yes,yes,no,include,Thoracic aortic aneurysm vs control surgical aortic specimens (n = 73 equals the human samples; mouse samples are outside the contrast),first
+MTBLS869,yes,yes,no,include,Oligodendroglioma grade III vs grade II tumour tissue: two disease states,first
+MTBLS8713,yes,yes,no,include,Inflammatory bowel disease vs controls; faeces,first
+MTBLS9087,yes,yes,no,include,Subarachnoid haemorrhage vs unruptured intracranial aneurysm; faeces: two disease states,first
+MTBLS92,yes,no,no,exclude,"Breast cancer, pathological complete response vs none to neoadjuvant chemotherapy: treatment-response groups, not a disease state (rule applied consistently in second pass)",first
+ST000158,yes,no,yes,exclude,Faeces before vs after faecal microbiota transplant: intervention,first
+ST000284,yes,yes,no,include,Colorectal polyp patients vs healthy; serum,first
+ST000336,yes,yes,no,include,Duchenne muscular dystrophy vs controls; urine,first
+ST000389,yes,no,no,exclude,Contrast is former vs current smoking,first
+ST000390,yes,yes,no,include,Lung adenocarcinoma vs adjacent non-malignant tissue,first
+ST000396,yes,no,no,exclude,Contrast is current vs former smoking,first
+ST000491,yes,yes,no,include,Sleep apnoea vs cardiovascular disease; plasma: two disease states,first
+ST000612,yes,yes,no,include,Primary open-angle glaucoma vs control aqueous humour,first
+ST000613,yes,yes,no,include,Glaucomatous vs control trabecular meshwork (donor/surgical),first
+ST000614,yes,no,no,exclude,"Bladder cancer tissues, former smoker vs non-smoker: exposure",first
+ST000616,yes,yes,no,include,Glaucomatous vs control aqueous humour,first
+ST000624,yes,yes,no,include,Glaucomatous vs control trabecular meshwork,first
+ST000663,yes,yes,no,include,Metabolic syndrome vs control; plasma,first
+ST000673,yes,yes,no,include,Sudden infant death syndrome vs control infants; post-mortem serum,first
+ST000726,yes,yes,no,include,"PCOS vs control; clamp/OGTT sampling applied to both groups, contrast is disease",first
+ST000784,yes,yes,no,include,Prostate cancer vs benign adjacent tissue,first
+ST000802,yes,yes,no,include,ME/CFS cases vs controls; blood,first
+ST000855,yes,no,no,exclude,"Pregnant women, smoking in pregnancy yes vs no: exposure",first
+ST000865,yes,yes,no,include,Liver cirrhosis vs hepatocellular carcinoma; serum: two disease states,first
+ST000883,yes,yes,no,include,Clinical malaria infection positive vs negative; breath,first
+ST000910,yes,yes,no,include,Multiple sclerosis vs ME/CFS; CSF: two disease states,first
+ST000911,yes,yes,no,include,Multiple sclerosis vs ME/CFS; CSF: two disease states,first
+ST000912,yes,yes,no,include,Multiple sclerosis vs ME/CFS; CSF: two disease states,first
+ST000913,yes,yes,no,include,Multiple sclerosis vs ME/CFS; CSF: two disease states,first
+ST000915,yes,yes,no,include,"NAFLD spectrum, cirrhosis vs normal liver",first
+ST000919,yes,no,no,exclude,"Blood-pressure responders vs non-responders to hydrochlorothiazide: treatment-response groups, not a disease state",first
+ST000954,yes,no,no,exclude,Asthma patients split by ever smoked: exposure,first
+ST000983,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention)",first
+ST000984,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets",first
+ST000985,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets",first
+ST000986,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets",first
+ST000987,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets",first
+ST000988,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets",first
+ST000989,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets",first
+ST000990,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets",first
+ST000991,yes,no,yes,exclude,"Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets",first
+ST001000,yes,yes,no,include,Crohn's disease vs ulcerative colitis; stool: two disease states,first
+ST001035,no,no,yes,exclude,Cultured astrocytes (treatment summary describes murine-derived cortical astrocytes) treated with glutamine/glutamate,first
+ST001364,yes,yes,no,include,Ischaemic cardiomyopathy explants vs unused donor hearts; left ventricle,first
+ST003255,yes,yes,no,include,Membranous nephropathy vs IgA nephropathy; plasma: two disease states,first
+ST003274,yes,yes,no,include,Non-ischaemic cardiomyopathy without diabetes vs donor myocardium,first
+ST003275,yes,yes,no,include,Non-ischaemic cardiomyopathy without diabetes vs donor myocardium (lipidomics),first
+ST003655,yes,yes,no,include,Human serum from CRC patients vs human control serum (n = 63 human samples; mouse samples outside the contrast); 'HS CTRL' read as control participants,first
+ST003751,no,no,no,exclude,"Chosen contrast is X-linked Alport syndrome vs pooled quality-control samples, which are not participants",first
+ST003769,yes,yes,no,include,Alzheimer's disease vs controls; post-mortem frontal cortex extracellular vesicles,first
+ST003869,no,no,yes,exclude,IMR90 fibroblasts with siRNA knockdown (cell culture),first
+ST003924,yes,yes,no,include,Paediatric CKD stage 1-2 vs primary mitochondrial disorder; urine: two disease states,first
+ST003999,no,no,yes,exclude,Foreskin fibroblasts infected in vitro with HCMV,first
+asd_son,yes,yes,no,include,Autism spectrum disorder vs healthy; stool (MicrobiomeHD case-control),first
+cdi_schubert,yes,yes,no,include,C. difficile infection vs healthy; stool,first
+cdi_youngster,yes,no,yes,exclude,CDI patients after faecal microbiota transplant vs healthy donors: groups differ by the transplant,first
+crc_baxter,yes,yes,no,include,Non-cancer colonic lesions (adenoma) vs healthy; stool,first
+crc_zackular,yes,yes,no,include,Colonic adenoma (nonCRC lesions) vs healthy; stool,first
+crc_zeller,yes,yes,no,include,Colorectal cancer vs healthy; stool,first
+edd_singh,yes,yes,no,include,Enteric diarrhoeal disease vs healthy; stool,first
+hiv_dinh,yes,yes,no,include,HIV vs healthy; stool,first
+hiv_lozupone,yes,yes,no,include,HIV vs healthy; stool (blanks outside the contrast),first
+hiv_noguerajulian,yes,yes,no,include,HIV vs healthy; stool,first
+ibd_alm,yes,yes,no,include,Paediatric ulcerative colitis vs non-IBD; stool,first
+ibd_engstrand_maxee,yes,yes,no,include,Crohn's disease vs healthy; stool and tissue,first
+ibd_gevers_2014,yes,yes,no,include,Paediatric Crohn's disease vs not IBD,first
+ibd_huttenhower,yes,yes,no,include,Crohn's disease vs healthy; stool and biopsy,first
+mhe_zhang,yes,yes,no,include,Minimal hepatic encephalopathy vs healthy; stool,first
+nash_ob_baker,yes,yes,no,include,Obese children without NASH vs healthy; obesity taken as a disease state (borderline),first
+ob_goodrich,yes,no,no,exclude,"Overweight vs healthy weight: a BMI category, not a disease (unlike obesity)",first
+ob_gordon_2008_v2,yes,yes,no,include,Obese vs lean twins and mothers; stool (obesity as disease state),first
+ob_ross,yes,yes,no,include,Obese vs healthy; stool (obesity as disease state),first
+ob_zupancic,yes,yes,no,include,Obese vs healthy; stool (obesity as disease state),first
+par_scheperjans,yes,yes,no,include,Parkinson's disease vs healthy; stool,first
+ra_littman,yes,yes,no,include,Rheumatoid arthritis vs healthy; stool,first
+t1d_alkanani,yes,yes,no,include,Type 1 diabetes vs healthy; stool,first

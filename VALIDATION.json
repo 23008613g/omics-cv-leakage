@@ -1,0 +1,113 @@
+{
+  "validation_date": "2026-11-06",
+  "python_version": "3.14.3",
+  "dependencies": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8",
+    "statsmodels": "0.14.6",
+    "patsy": "1.0.2",
+    "requests": "2.33.1",
+    "pytest": "9.1.1"
+  },
+  "python_files_parsed": 86,
+  "formal_code_hashes": {
+    "fetch.py": true,
+    "gxa.py": true,
+    "isatab.py": true,
+    "loader.py": true,
+    "mbhd.py": true,
+    "mw.py": true,
+    "nm_v4/checkpoints.py": true,
+    "nm_v4/configuration.py": true,
+    "nm_v4/evaluation_workspace.py": true,
+    "nm_v4/methods.py": true,
+    "nm_v4/preprocessing.py": true,
+    "nm_v4/protocol.py": true,
+    "nm_v4/protocol_estimands.py": true,
+    "nm_v4/raw_loaders.py": true,
+    "nm_v4/run_benchmark.py": true,
+    "nm_v4/runner_support.py": true,
+    "nm_v4/splitting.py": true,
+    "nm_v4/stability.py": true
+  },
+  "checks": {
+    "tool_tests": {
+      "exit_code": 0,
+      "stdout": ".....................                                                    [100%]\n21 passed in 5.59s\n",
+      "stderr": ""
+    },
+    "synthetic_example": {
+      "exit_code": 0,
+      "stdout": "--- no signal\nSupervised step: top_q (n = 40 samples, p = 1000 features)\nFold-contained AUC (performance estimate): 0.610\nPre-split AUC (supervised step fitted to all samples): 0.965\nGap (pre-split minus fold-contained): +0.355\nFull-pipeline permutation test, B = 99:\n  fold-contained P = 0.2800; null median AUC 0.532\n  pre-split P = 0.8700; null median AUC 0.992\nReport the fold-contained AUC as the performance estimate. A pre-split AUC is not a performance estimate; its permutation P value tests association only.\n--- weak signal in 10 of 1,000 features\nSupervised step: top_q (n = 40 samples, p = 1000 features)\nFold-contained AUC (performance estimate): 0.685\nPre-split AUC (supervised step fitted to all samples): 0.942\nGap (pre-split minus fold-contained): +0.257\nFull-pipeline permutation test, B = 99:\n  fold-contained P = 0.1600; null median AUC 0.527\n  pre-split P = 0.9500; null median AUC 0.992\nReport the fold-contained AUC as the performance estimate. A pre-split AUC is not a performance estimate; its permutation P value tests association only.\n",
+      "stderr": ""
+    },
+    "numerical_summaries": {
+      "exit_code": 0,
+      "stdout": "PASS validation/summarize_validation.py\nPASS analyses/extra_analyses.py\nPASS analyses/metrics_lasso_summary.py\nPASS analyses/duplicate_summary.py\nPASS analyses/cv_folds_summary.py\nPASS rereview/compare_with_original.py\nPASS rereview/subset_sensitivity.py\nPASS reserve/summarize_reserve.py\nPASS analyses/cross_study_gxa_summary.py\nPASS 9 numerical summaries; archived records unchanged\n",
+      "stderr": ""
+    }
+  },
+  "scope": "Offline unit tests, simulated examples and reproduction of stored summaries; no new full model-training benchmark or independent human review.",
+  "data_archive_verification": {
+    "status": "PASS",
+    "date": "2026-11-06",
+    "release_tag": "v0.2.0",
+    "release_url": "https://github.com/23008613g/presplit-audit/releases/tag/v0.2.0",
+    "source_zip_sha256": "088d0bd4b375f0b7faeda26ceacd507754e402d9c60ed735ab6919f6d2b4a92c",
+    "current_zip_sha256": "bc13a1c46453d90a3c958d7a0e283e3c67adcc571f655554131716d5198524bf",
+    "current_zip_bytes": 376599776,
+    "uncompressed_bytes": 2278615402,
+    "source_archive_unchanged": true,
+    "source_and_current_all_file_crcs_checked": true,
+    "files_checked_per_archive": 1122,
+    "canonical_csv_tables": 12,
+    "sanitized_checkpoints": 1102,
+    "data_payload_files_compared": 1116,
+    "data_payload_hashes_unchanged": true,
+    "internal_checksum_records_checked": 1120,
+    "internal_checksum_mismatches": [],
+    "release_manifest_records_checked": 1118,
+    "release_manifest_hash_or_size_mismatches": [],
+    "changed_zip_members": [
+      "README.md",
+      "VALIDATION_REPORT.md",
+      "checksums.sha256"
+    ],
+    "all_other_zip_member_bytes_unchanged": true,
+    "licenses_inside_and_outside_unchanged": true,
+    "outer_checksum_records_checked": 6,
+    "outer_checksum_mismatches": [],
+    "original_archive_and_before_hashes_retained": true,
+    "source_archive_full_text_scan": {
+      "gzip_files": 1102,
+      "expanded_text_bytes": 2878619796,
+      "local_path_or_credential_pattern_hits": 0,
+      "performed_before_refresh": true
+    },
+    "refreshed_metadata_local_path_scan_hits": 0,
+    "ai_assistance_disclosure_present_inside_and_outside": true,
+    "structural_validator_or_model_training_rerun": false,
+    "elapsed_seconds": 28.32,
+    "outer_citation_synchronized_with_repository": true,
+    "outer_checksum_records_checked_after_citation_sync": 6
+  },
+  "dependency_audit": {
+    "status": "completed_no_known_vulnerabilities",
+    "tool_version": "pip-audit 2.10.1",
+    "exit_code": 0,
+    "audited_package_count": 27,
+    "direct_pinned_requirement_count": 10,
+    "resolved_transitive_package_count": 17,
+    "vulnerability_count": 0,
+    "skipped_dependencies": [],
+    "requirements_sha256": "c7063885937016ed23ae97f5232e4a988259de0f8c650db1835b0d0fb802af7b",
+    "requirements_unchanged": true,
+    "audit_started_utc": "2026-11-06T01:20:00.458989+00:00",
+    "audit_finished_utc": "2026-11-06T01:20:21.425797+00:00",
+    "scope": "Pinned direct requirements plus transitive dependencies resolved by pip on Python 3.14.3 from official PyPI at audit time. This is not an audit of all globally installed packages or an exact historical environment lock. No --fix was used; research dependencies were not upgraded."
+  }
+}

@@ -1,0 +1,119 @@
+{
+ "cpu": "Apple M4 Max",
+ "workers": 8,
+ "python": "3.14.3",
+ "rows": [
+  {
+   "n": 40,
+   "p": 1000,
+   "step": "top_q",
+   "permutations": 0,
+   "seconds": 0.17
+  },
+  {
+   "n": 40,
+   "p": 1000,
+   "step": "top_q",
+   "permutations": 199,
+   "seconds": 6.17
+  },
+  {
+   "n": 40,
+   "p": 1000,
+   "step": "pls_da",
+   "permutations": 0,
+   "seconds": 0.21
+  },
+  {
+   "n": 40,
+   "p": 1000,
+   "step": "pls_da",
+   "permutations": 199,
+   "seconds": 6.81
+  },
+  {
+   "n": 56,
+   "p": 1875,
+   "step": "top_q",
+   "permutations": 0,
+   "seconds": 0.25
+  },
+  {
+   "n": 56,
+   "p": 1875,
+   "step": "top_q",
+   "permutations": 199,
+   "seconds": 7.74
+  },
+  {
+   "n": 56,
+   "p": 1875,
+   "step": "pls_da",
+   "permutations": 0,
+   "seconds": 0.32
+  },
+  {
+   "n": 56,
+   "p": 1875,
+   "step": "pls_da",
+   "permutations": 199,
+   "seconds": 9.91
+  },
+  {
+   "n": 100,
+   "p": 5000,
+   "step": "top_q",
+   "permutations": 0,
+   "seconds": 0.74
+  },
+  {
+   "n": 100,
+   "p": 5000,
+   "step": "top_q",
+   "permutations": 199,
+   "seconds": 22.87
+  },
+  {
+   "n": 100,
+   "p": 5000,
+   "step": "pls_da",
+   "permutations": 0,
+   "seconds": 0.89
+  },
+  {
+   "n": 100,
+   "p": 5000,
+   "step": "pls_da",
+   "permutations": 199,
+   "seconds": 27.68
+  },
+  {
+   "n": 300,
+   "p": 20000,
+   "step": "top_q",
+   "permutations": 0,
+   "seconds": 8.33
+  },
+  {
+   "n": 300,
+   "p": 20000,
+   "step": "top_q",
+   "permutations": 199,
+   "seconds": 272.4
+  },
+  {
+   "n": 300,
+   "p": 20000,
+   "step": "pls_da",
+   "permutations": 0,
+   "seconds": 9.18
+  },
+  {
+   "n": 300,
+   "p": 20000,
+   "step": "pls_da",
+   "permutations": 199,
+   "seconds": 288.09
+  }
+ ]
+}

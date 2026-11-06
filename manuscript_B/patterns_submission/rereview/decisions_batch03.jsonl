@@ -1,0 +1,30 @@
+{"id":"E-GEOD-37171","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"End-stage renal failure (CKD) vs healthy controls; blood"}
+{"id":"E-GEOD-38959","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Triple-negative breast cancer vs normal ductal cells/tissue (microdissected tissue)"}
+{"id":"E-GEOD-40595","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"High-grade serous ovarian cancer vs normal; microdissected stroma/epithelium from tissue"}
+{"id":"E-GEOD-41662","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Psoriasis lesional vs non-lesional skin"}
+{"id":"E-GEOD-4183","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Colorectal cancer vs IBD colon biopsies: two disease states"}
+{"id":"E-GEOD-43458","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Contrast is never-smoker vs smoker: exposure, not disease"}
+{"id":"E-GEOD-44077","human":"yes","disease":"uncertain","intervention":"no","decision":"exclude","note":"Levels 'normal airway epithelia' vs 'normal' in a field-cancerization study: a sampling-site contrast, not disease vs control (second pass: exclude)"}
+{"id":"E-GEOD-45581","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Inflammatory vs non-inflammatory breast cancer: two disease states"}
+{"id":"E-GEOD-46474","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Kidney transplant recipients, acute rejection vs non-rejection; blood"}
+{"id":"E-GEOD-46699","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"ccRCC patients, obese vs non-obese; obesity taken as a disease state (borderline)"}
+{"id":"E-GEOD-46960","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Biliary atresia vs normal liver"}
+{"id":"E-GEOD-47718","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Smoker vs non-smoker airway basal cells: exposure"}
+{"id":"E-GEOD-49541","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"NAFLD, fibrosis stage 0-1 vs 3-4: two disease states"}
+{"id":"E-GEOD-50084","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Donor-specific antibodies with rejection vs control; blood and biopsies"}
+{"id":"E-GEOD-50161","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Ependymoma vs glioblastoma: two disease states"}
+{"id":"E-GEOD-52166","human":"yes","disease":"yes","intervention":"uncertain","decision":"include","note":"Pre vs post P. falciparum infection; taken as natural infection in a field cohort (packet does not say; if controlled human infection this would be excluded)"}
+{"id":"E-GEOD-53239","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Bipolar disorder vs normal; post-mortem DLPFC"}
+{"id":"E-GEOD-53757","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"ccRCC vs matched normal kidney"}
+{"id":"E-GEOD-5388","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Bipolar disorder vs healthy controls; post-mortem DLPFC"}
+{"id":"E-GEOD-55092","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"HBV-associated HCC, malignant vs non-malignant liver tissue/hepatocytes ('not applicable' read as non-malignant)"}
+{"id":"E-GEOD-57945","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Treatment-naive paediatric Crohn's disease vs ulcerative colitis; ileal biopsies"}
+{"id":"E-GEOD-59071","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"IBD colonic mucosa, active vs inactive: two disease states"}
+{"id":"E-GEOD-59612","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Glioma vs normal brain (margins of glioblastoma)"}
+{"id":"E-GEOD-61739","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Transplanted kidneys from deceased donors with acute kidney injury vs normal donors"}
+{"id":"E-GEOD-63042","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Septic shock vs sepsis death: disease/outcome states; blood"}
+{"id":"E-GEOD-63085","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Lyme disease vs normal; PBMC"}
+{"id":"E-GEOD-63142","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Mild-moderate vs severe asthma; fresh bronchial epithelial cells"}
+{"id":"E-GEOD-6364","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Endometriosis vs normal endometrium"}
+{"id":"E-GEOD-65127","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Vitiligo vs normal skin"}
+{"id":"E-GEOD-65270","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Acute pouchitis vs normal pouch/ileum after IPAA (surgery was clinical care)"}

@@ -1,0 +1,30 @@
+{"id":"E-ENAD-28","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"S. aureus bacteraemia vs normal; human blood"}
+{"id":"E-GEOD-101794","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Contrast is Paris A1b vs A1a (age-at-diagnosis category) among Crohn's patients; age, not disease"}
+{"id":"E-GEOD-102008","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Friedreich ataxia vs normal; peripheral blood"}
+{"id":"E-GEOD-102133","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Crohn's ileal mucosa, post-operative recurrence vs newly diagnosed: two disease states; surgery was clinical care, not assigned by investigators"}
+{"id":"E-GEOD-104288","human":"no","disease":"yes","intervention":"no","decision":"exclude","note":"Cultured skin fibroblasts from FRDA patients and controls (cell culture)"}
+{"id":"E-GEOD-10780","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Histologically normal breast tissue, breast carcinoma vs normal participants"}
+{"id":"E-GEOD-10927","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Adrenocortical carcinoma vs adenoma tissue: two disease states"}
+{"id":"E-GEOD-11083","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"RF-negative JIA vs normal; blood neutrophils/PBMC"}
+{"id":"E-GEOD-11151","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Clear cell vs papillary renal cell carcinoma: two disease states"}
+{"id":"E-GEOD-11166","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Living vs deceased donor kidney allografts: donor type, not disease"}
+{"id":"E-GEOD-112057","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Crohn disease vs polyarticular JIA; whole blood: two disease states"}
+{"id":"E-GEOD-11348","human":"yes","disease":"no","intervention":"yes","decision":"exclude","note":"Experimental HRV-16 inoculation, pre vs post infection: investigator-applied challenge"}
+{"id":"E-GEOD-120774","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Coronary artery disease vs normal; epicardial and subcutaneous adipose tissue"}
+{"id":"E-GEOD-13355","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Skin of healthy controls (normal) vs uninvolved skin of psoriasis patients"}
+{"id":"E-GEOD-13896","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Smoker vs non-smoker alveolar macrophages: exposure, not disease"}
+{"id":"E-GEOD-1402","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Polyarticular juvenile arthritis vs normal; PBMC and synovial fluid cells"}
+{"id":"E-GEOD-14346","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Acute renal transplant rejection vs non-rejecting recipients; peripheral blood"}
+{"id":"E-GEOD-14905","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Psoriasis lesional vs non-lesional skin: two disease states"}
+{"id":"E-GEOD-15235","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Biliary atresia liver, fibrosis vs inflammation subtype: two disease states"}
+{"id":"E-GEOD-15471","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Pancreatic ductal adenocarcinoma vs matched normal tissue"}
+{"id":"E-GEOD-1563","human":"yes","disease":"no","intervention":"yes","decision":"exclude","note":"Contrast is immunosuppression regimen vs none: treatment, not disease"}
+{"id":"E-GEOD-16134","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Periodontitis vs normal gingival tissue"}
+{"id":"E-GEOD-16237","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Neuroblastoma patients, survival vs death: prognostic disease groups"}
+{"id":"E-GEOD-17156","human":"yes","disease":"no","intervention":"yes","decision":"exclude","note":"Viral challenge study (RSV vs rhinovirus inoculation of volunteers)"}
+{"id":"E-GEOD-17967","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"HCV cirrhosis with vs without hepatocellular carcinoma: two disease states"}
+{"id":"E-GEOD-18105","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Primary colorectal tumours with vs without distant metastasis"}
+{"id":"E-GEOD-18781","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Axial spondyloarthropathy vs normal; blood"}
+{"id":"E-GEOD-18791","human":"no","disease":"no","intervention":"yes","decision":"exclude","note":"Dendritic cells infected in vitro with Newcastle disease virus (cell culture)"}
+{"id":"E-GEOD-18842","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Non-small cell lung cancer vs normal lung tissue"}
+{"id":"E-GEOD-19249","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Colon cancer vs normal tissue (FFPE and fresh-frozen)"}

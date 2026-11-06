@@ -1,0 +1,35 @@
+{"id":"MTBLS7760","human":"no","disease":"no","intervention":"yes","decision":"exclude","note":"HepG2 cells treated with metformin vs QC (cell culture)"}
+{"id":"MTBLS7776","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Nested case-control in the ATBC cohort: pre-diagnostic serum of future liver cancer cases vs controls (contrast is diagnosis, not trial arm)"}
+{"id":"MTBLS8062","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Thoracic aortic aneurysm vs control surgical aortic specimens (n = 73 equals the human samples; mouse samples are outside the contrast)"}
+{"id":"MTBLS869","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Oligodendroglioma grade III vs grade II tumour tissue: two disease states"}
+{"id":"MTBLS8713","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Inflammatory bowel disease vs controls; faeces"}
+{"id":"MTBLS9087","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Subarachnoid haemorrhage vs unruptured intracranial aneurysm; faeces: two disease states"}
+{"id":"MTBLS92","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Breast cancer, pathological complete response vs none to neoadjuvant chemotherapy: treatment-response groups, not a disease state (rule applied consistently in second pass)"}
+{"id":"ST000158","human":"yes","disease":"no","intervention":"yes","decision":"exclude","note":"Faeces before vs after faecal microbiota transplant: intervention"}
+{"id":"ST000284","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Colorectal polyp patients vs healthy; serum"}
+{"id":"ST000336","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Duchenne muscular dystrophy vs controls; urine"}
+{"id":"ST000389","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Contrast is former vs current smoking"}
+{"id":"ST000390","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Lung adenocarcinoma vs adjacent non-malignant tissue"}
+{"id":"ST000396","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Contrast is current vs former smoking"}
+{"id":"ST000491","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Sleep apnoea vs cardiovascular disease; plasma: two disease states"}
+{"id":"ST000612","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Primary open-angle glaucoma vs control aqueous humour"}
+{"id":"ST000613","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Glaucomatous vs control trabecular meshwork (donor/surgical)"}
+{"id":"ST000614","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Bladder cancer tissues, former smoker vs non-smoker: exposure"}
+{"id":"ST000616","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Glaucomatous vs control aqueous humour"}
+{"id":"ST000624","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Glaucomatous vs control trabecular meshwork"}
+{"id":"ST000663","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Metabolic syndrome vs control; plasma"}
+{"id":"ST000673","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Sudden infant death syndrome vs control infants; post-mortem serum"}
+{"id":"ST000726","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"PCOS vs control; clamp/OGTT sampling applied to both groups, contrast is disease"}
+{"id":"ST000784","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Prostate cancer vs benign adjacent tissue"}
+{"id":"ST000802","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"ME/CFS cases vs controls; blood"}
+{"id":"ST000855","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Pregnant women, smoking in pregnancy yes vs no: exposure"}
+{"id":"ST000865","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Liver cirrhosis vs hepatocellular carcinoma; serum: two disease states"}
+{"id":"ST000883","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Clinical malaria infection positive vs negative; breath"}
+{"id":"ST000910","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Multiple sclerosis vs ME/CFS; CSF: two disease states"}
+{"id":"ST000911","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Multiple sclerosis vs ME/CFS; CSF: two disease states"}
+{"id":"ST000912","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Multiple sclerosis vs ME/CFS; CSF: two disease states"}
+{"id":"ST000913","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Multiple sclerosis vs ME/CFS; CSF: two disease states"}
+{"id":"ST000915","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"NAFLD spectrum, cirrhosis vs normal liver"}
+{"id":"ST000919","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Blood-pressure responders vs non-responders to hydrochlorothiazide: treatment-response groups, not a disease state"}
+{"id":"ST000954","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Asthma patients split by ever smoked: exposure"}
+{"id":"ST000983","human":"yes","disease":"no","intervention":"yes","decision":"exclude","note":"Healthy subjects, GLA test meal vs control meal (crossover diet intervention)"}

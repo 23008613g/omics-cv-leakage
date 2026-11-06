@@ -1,0 +1,2001 @@
+dataset_id,method,labels,arm,formal,tool
+E-CURD-50,top_k,observed,pre_split,0.8518123667377399,0.8518123667377399
+E-CURD-50,top_k,permutation 0,pre_split,0.6360465116279069,0.6360465116279069
+E-CURD-50,top_k,permutation 1,pre_split,0.8537549407114625,0.8537549407114625
+E-CURD-50,top_k,permutation 2,pre_split,0.7566951566951566,0.7566951566951566
+E-CURD-50,top_k,permutation 3,pre_split,0.7844344904815229,0.7844344904815229
+E-CURD-50,top_k,permutation 4,pre_split,0.6682968929804374,0.6682968929804374
+E-CURD-50,top_k,observed,fold_contained,0.8403518123667377,0.8403518123667377
+E-CURD-50,top_k,permutation 0,fold_contained,0.43459302325581395,0.43459302325581395
+E-CURD-50,top_k,permutation 1,fold_contained,0.5443252399774139,0.5443252399774139
+E-CURD-50,top_k,permutation 2,fold_contained,0.568091168091168,0.568091168091168
+E-CURD-50,top_k,permutation 3,fold_contained,0.5691489361702127,0.5691489361702127
+E-CURD-50,top_k,permutation 4,fold_contained,0.37514384349827384,0.37514384349827384
+E-CURD-50,rfe,observed,pre_split,0.9989339019189765,0.9989339019189765
+E-CURD-50,rfe,permutation 0,pre_split,0.8468023255813953,0.8468023255813953
+E-CURD-50,rfe,permutation 1,pre_split,0.9387351778656127,0.9387351778656127
+E-CURD-50,rfe,permutation 2,pre_split,0.8598290598290599,0.8598290598290599
+E-CURD-50,rfe,permutation 3,pre_split,0.9081746920492721,0.9081746920492721
+E-CURD-50,rfe,permutation 4,pre_split,0.8161680092059839,0.8161680092059839
+E-CURD-50,rfe,observed,fold_contained,0.8392857142857143,0.8392857142857143
+E-CURD-50,rfe,permutation 0,fold_contained,0.38749999999999996,0.38749999999999996
+E-CURD-50,rfe,permutation 1,fold_contained,0.5765104460756635,0.5765104460756635
+E-CURD-50,rfe,permutation 2,fold_contained,0.5034188034188034,0.5034188034188034
+E-CURD-50,rfe,permutation 3,fold_contained,0.5725083986562151,0.5725083986562151
+E-CURD-50,rfe,permutation 4,fold_contained,0.35989643268124283,0.35989643268124283
+E-CURD-50,spls,observed,pre_split,0.976545842217484,0.976545842217484
+E-CURD-50,spls,permutation 0,pre_split,0.7313953488372094,0.7313953488372094
+E-CURD-50,spls,permutation 1,pre_split,0.847261434217956,0.847261434217956
+E-CURD-50,spls,permutation 2,pre_split,0.7831908831908831,0.7831908831908831
+E-CURD-50,spls,permutation 3,pre_split,0.7849944008958567,0.7849944008958567
+E-CURD-50,spls,permutation 4,pre_split,0.7583429228998848,0.7583429228998848
+E-CURD-50,spls,observed,fold_contained,0.9208422174840085,0.9208422174840085
+E-CURD-50,spls,permutation 0,fold_contained,0.508139534883721,0.508139534883721
+E-CURD-50,spls,permutation 1,fold_contained,0.4980237154150197,0.4980237154150197
+E-CURD-50,spls,permutation 2,fold_contained,0.58005698005698,0.58005698005698
+E-CURD-50,spls,permutation 3,fold_contained,0.6091825307950728,0.6091825307950728
+E-CURD-50,spls,permutation 4,fold_contained,0.3852128883774453,0.3852128883774453
+E-CURD-50,pls_da,observed,pre_split,1.0,1.0
+E-CURD-50,pls_da,permutation 0,pre_split,0.8037790697674418,0.8037790697674418
+E-CURD-50,pls_da,permutation 1,pre_split,0.9884246188594015,0.9884246188594015
+E-CURD-50,pls_da,permutation 2,pre_split,0.7886039886039885,0.7886039886039885
+E-CURD-50,pls_da,permutation 3,pre_split,0.879619260918253,0.879619260918253
+E-CURD-50,pls_da,permutation 4,pre_split,0.8817606444188723,0.8817606444188723
+E-CURD-50,pls_da,observed,fold_contained,0.9360341151385927,0.9360341151385927
+E-CURD-50,pls_da,permutation 0,fold_contained,0.488953488372093,0.488953488372093
+E-CURD-50,pls_da,permutation 1,fold_contained,0.533314511575381,0.533314511575381
+E-CURD-50,pls_da,permutation 2,fold_contained,0.5641025641025641,0.5641025641025641
+E-CURD-50,pls_da,permutation 3,fold_contained,0.5025195968645016,0.5025195968645016
+E-CURD-50,pls_da,permutation 4,fold_contained,0.4358457997698504,0.4358457997698504
+E-CURD-50,opls_da,observed,pre_split,0.9994669509594882,0.9994669509594882
+E-CURD-50,opls_da,permutation 0,pre_split,0.7630813953488372,0.7630813953488372
+E-CURD-50,opls_da,permutation 1,pre_split,0.9666854884246189,0.9666854884246189
+E-CURD-50,opls_da,permutation 2,pre_split,0.7931623931623931,0.7931623931623931
+E-CURD-50,opls_da,permutation 3,pre_split,0.8894176931690929,0.8894176931690929
+E-CURD-50,opls_da,permutation 4,pre_split,0.7756041426927505,0.7756041426927505
+E-CURD-50,opls_da,observed,fold_contained,0.9360341151385927,0.9360341151385927
+E-CURD-50,opls_da,permutation 0,fold_contained,0.48168604651162794,0.48168604651162794
+E-CURD-50,opls_da,permutation 1,fold_contained,0.5652173913043479,0.5652173913043479
+E-CURD-50,opls_da,permutation 2,fold_contained,0.5538461538461539,0.5538461538461539
+E-CURD-50,opls_da,permutation 3,fold_contained,0.48264277715565507,0.48264277715565507
+E-CURD-50,opls_da,permutation 4,fold_contained,0.39470655926352133,0.39470655926352133
+E-CURD-73,top_k,observed,pre_split,0.7463844797178131,0.7463844797178131
+E-CURD-73,top_k,observed,fold_contained,0.6506760728982951,0.6506760728982951
+E-CURD-73,rfe,observed,pre_split,0.9067607289829513,0.9067607289829513
+E-CURD-73,rfe,observed,fold_contained,0.5951793062904175,0.5951793062904175
+E-CURD-73,spls,observed,pre_split,0.8531452087007642,0.8531452087007642
+E-CURD-73,spls,observed,fold_contained,0.6766607877718989,0.6766607877718989
+E-CURD-73,pls_da,observed,pre_split,0.968724279835391,0.968724279835391
+E-CURD-73,pls_da,observed,fold_contained,0.7554379776601999,0.7554379776601999
+E-CURD-73,opls_da,observed,pre_split,0.9209876543209876,0.9209876543209876
+E-CURD-73,opls_da,observed,fold_contained,0.6871252204585538,0.6871252204585538
+E-ENAD-28,top_k,observed,pre_split,1.0,1.0
+E-ENAD-28,top_k,observed,fold_contained,1.0,1.0
+E-ENAD-28,rfe,observed,pre_split,1.0,1.0
+E-ENAD-28,rfe,observed,fold_contained,1.0,1.0
+E-ENAD-28,spls,observed,pre_split,1.0,1.0
+E-ENAD-28,spls,observed,fold_contained,1.0,1.0
+E-ENAD-28,pls_da,observed,pre_split,1.0,1.0
+E-ENAD-28,pls_da,observed,fold_contained,1.0,1.0
+E-ENAD-28,opls_da,observed,pre_split,1.0,1.0
+E-ENAD-28,opls_da,observed,fold_contained,1.0,1.0
+E-ERAD-181,top_k,observed,pre_split,1.0,1.0
+E-ERAD-181,top_k,observed,fold_contained,1.0,1.0
+E-ERAD-181,rfe,observed,pre_split,1.0,1.0
+E-ERAD-181,rfe,observed,fold_contained,1.0,1.0
+E-ERAD-181,spls,observed,pre_split,1.0,1.0
+E-ERAD-181,spls,observed,fold_contained,1.0,1.0
+E-ERAD-181,pls_da,observed,pre_split,1.0,1.0
+E-ERAD-181,pls_da,observed,fold_contained,1.0,1.0
+E-ERAD-181,opls_da,observed,pre_split,1.0,1.0
+E-ERAD-181,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-100371,top_k,observed,pre_split,1.0,1.0
+E-GEOD-100371,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-100371,rfe,observed,pre_split,1.0,1.0
+E-GEOD-100371,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-100371,spls,observed,pre_split,1.0,1.0
+E-GEOD-100371,spls,observed,fold_contained,1.0,1.0
+E-GEOD-100371,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-100371,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-100371,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-100371,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-100667,top_k,observed,pre_split,1.0,1.0
+E-GEOD-100667,top_k,permutation 0,pre_split,0.6163194444444444,0.6163194444444444
+E-GEOD-100667,top_k,permutation 1,pre_split,0.5798611111111112,0.5798611111111112
+E-GEOD-100667,top_k,permutation 2,pre_split,0.6510416666666666,0.6510416666666666
+E-GEOD-100667,top_k,permutation 3,pre_split,0.6475694444444444,0.6475694444444444
+E-GEOD-100667,top_k,permutation 4,pre_split,0.7916666666666666,0.7916666666666666
+E-GEOD-100667,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-100667,top_k,permutation 0,fold_contained,0.38020833333333337,0.38020833333333337
+E-GEOD-100667,top_k,permutation 1,fold_contained,0.4427083333333333,0.4427083333333333
+E-GEOD-100667,top_k,permutation 2,fold_contained,0.5121527777777778,0.5121527777777778
+E-GEOD-100667,top_k,permutation 3,fold_contained,0.43923611111111105,0.43923611111111105
+E-GEOD-100667,top_k,permutation 4,fold_contained,0.6788194444444444,0.6788194444444444
+E-GEOD-100667,rfe,observed,pre_split,1.0,1.0
+E-GEOD-100667,rfe,permutation 0,pre_split,0.8263888888888888,0.8263888888888888
+E-GEOD-100667,rfe,permutation 1,pre_split,0.9670138888888888,0.9670138888888888
+E-GEOD-100667,rfe,permutation 2,pre_split,0.9166666666666667,0.9166666666666667
+E-GEOD-100667,rfe,permutation 3,pre_split,0.9670138888888888,0.9670138888888888
+E-GEOD-100667,rfe,permutation 4,pre_split,0.9427083333333333,0.9427083333333333
+E-GEOD-100667,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-100667,rfe,permutation 0,fold_contained,0.3454861111111111,0.3454861111111111
+E-GEOD-100667,rfe,permutation 1,fold_contained,0.4670138888888889,0.4670138888888889
+E-GEOD-100667,rfe,permutation 2,fold_contained,0.5607638888888888,0.5607638888888888
+E-GEOD-100667,rfe,permutation 3,fold_contained,0.5295138888888888,0.5295138888888888
+E-GEOD-100667,rfe,permutation 4,fold_contained,0.6840277777777777,0.6840277777777777
+E-GEOD-100667,spls,observed,pre_split,1.0,1.0
+E-GEOD-100667,spls,permutation 0,pre_split,0.7708333333333333,0.7708333333333333
+E-GEOD-100667,spls,permutation 1,pre_split,0.8090277777777778,0.8090277777777778
+E-GEOD-100667,spls,permutation 2,pre_split,0.798611111111111,0.798611111111111
+E-GEOD-100667,spls,permutation 3,pre_split,0.8385416666666666,0.8385416666666666
+E-GEOD-100667,spls,permutation 4,pre_split,0.8645833333333334,0.8645833333333334
+E-GEOD-100667,spls,observed,fold_contained,1.0,1.0
+E-GEOD-100667,spls,permutation 0,fold_contained,0.41145833333333337,0.41145833333333337
+E-GEOD-100667,spls,permutation 1,fold_contained,0.41666666666666663,0.41666666666666663
+E-GEOD-100667,spls,permutation 2,fold_contained,0.517361111111111,0.517361111111111
+E-GEOD-100667,spls,permutation 3,fold_contained,0.453125,0.453125
+E-GEOD-100667,spls,permutation 4,fold_contained,0.6631944444444444,0.6631944444444444
+E-GEOD-100667,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-100667,pls_da,permutation 0,pre_split,0.7725694444444444,0.7725694444444444
+E-GEOD-100667,pls_da,permutation 1,pre_split,0.717013888888889,0.717013888888889
+E-GEOD-100667,pls_da,permutation 2,pre_split,0.7760416666666666,0.7760416666666666
+E-GEOD-100667,pls_da,permutation 3,pre_split,0.7274305555555556,0.7274305555555556
+E-GEOD-100667,pls_da,permutation 4,pre_split,0.9166666666666667,0.9166666666666667
+E-GEOD-100667,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-100667,pls_da,permutation 0,fold_contained,0.43229166666666663,0.43229166666666663
+E-GEOD-100667,pls_da,permutation 1,fold_contained,0.4461805555555555,0.4461805555555555
+E-GEOD-100667,pls_da,permutation 2,fold_contained,0.5659722222222223,0.5659722222222223
+E-GEOD-100667,pls_da,permutation 3,fold_contained,0.42013888888888884,0.42013888888888884
+E-GEOD-100667,pls_da,permutation 4,fold_contained,0.6423611111111112,0.6423611111111112
+E-GEOD-100667,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-100667,opls_da,permutation 0,pre_split,0.8402777777777778,0.8402777777777778
+E-GEOD-100667,opls_da,permutation 1,pre_split,0.7222222222222223,0.7222222222222223
+E-GEOD-100667,opls_da,permutation 2,pre_split,0.814236111111111,0.814236111111111
+E-GEOD-100667,opls_da,permutation 3,pre_split,0.7986111111111112,0.7986111111111112
+E-GEOD-100667,opls_da,permutation 4,pre_split,0.8958333333333334,0.8958333333333334
+E-GEOD-100667,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-100667,opls_da,permutation 0,fold_contained,0.43750000000000006,0.43750000000000006
+E-GEOD-100667,opls_da,permutation 1,fold_contained,0.4114583333333333,0.4114583333333333
+E-GEOD-100667,opls_da,permutation 2,fold_contained,0.5763888888888888,0.5763888888888888
+E-GEOD-100667,opls_da,permutation 3,fold_contained,0.4548611111111111,0.4548611111111111
+E-GEOD-100667,opls_da,permutation 4,fold_contained,0.6371527777777778,0.6371527777777778
+E-GEOD-102133,top_k,observed,pre_split,0.9652777777777778,0.9652777777777778
+E-GEOD-102133,top_k,observed,fold_contained,0.8796296296296297,0.8796296296296297
+E-GEOD-102133,rfe,observed,pre_split,1.0,1.0
+E-GEOD-102133,rfe,observed,fold_contained,0.837962962962963,0.837962962962963
+E-GEOD-102133,spls,observed,pre_split,0.9907407407407407,0.9907407407407407
+E-GEOD-102133,spls,observed,fold_contained,0.8958333333333334,0.8958333333333334
+E-GEOD-102133,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-102133,pls_da,observed,fold_contained,0.8564814814814815,0.8564814814814815
+E-GEOD-102133,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-102133,opls_da,observed,fold_contained,0.8796296296296297,0.8796296296296297
+E-GEOD-10780,top_k,observed,pre_split,0.9783549783549784,0.9783549783549784
+E-GEOD-10780,top_k,observed,fold_contained,0.9768564768564768,0.9768564768564768
+E-GEOD-10780,rfe,observed,pre_split,1.0,1.0
+E-GEOD-10780,rfe,observed,fold_contained,0.9753579753579753,0.9753579753579753
+E-GEOD-10780,spls,observed,pre_split,0.9786879786879787,0.9786879786879787
+E-GEOD-10780,spls,observed,fold_contained,0.9773559773559773,0.9773559773559773
+E-GEOD-10780,pls_da,observed,pre_split,0.9785214785214785,0.9785214785214785
+E-GEOD-10780,pls_da,observed,fold_contained,0.975024975024975,0.975024975024975
+E-GEOD-10780,opls_da,observed,pre_split,0.9761904761904762,0.9761904761904762
+E-GEOD-10780,opls_da,observed,fold_contained,0.9733599733599734,0.9733599733599734
+E-GEOD-10797,top_k,observed,pre_split,0.9821428571428572,0.9821428571428572
+E-GEOD-10797,top_k,observed,fold_contained,0.9428571428571428,0.9428571428571428
+E-GEOD-10797,rfe,observed,pre_split,1.0,1.0
+E-GEOD-10797,rfe,observed,fold_contained,0.9696428571428573,0.9696428571428573
+E-GEOD-10797,spls,observed,pre_split,1.0,1.0
+E-GEOD-10797,spls,observed,fold_contained,0.9714285714285715,0.9714285714285715
+E-GEOD-10797,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-10797,pls_da,observed,fold_contained,0.9767857142857143,0.9767857142857143
+E-GEOD-10797,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-10797,opls_da,observed,fold_contained,0.9696428571428573,0.9696428571428573
+E-GEOD-11151,top_k,observed,pre_split,1.0,1.0
+E-GEOD-11151,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-11151,rfe,observed,pre_split,1.0,1.0
+E-GEOD-11151,rfe,observed,fold_contained,0.9939271255060729,0.9939271255060729
+E-GEOD-11151,spls,observed,pre_split,1.0,1.0
+E-GEOD-11151,spls,observed,fold_contained,1.0,1.0
+E-GEOD-11151,pls_da,observed,pre_split,0.9979757085020243,0.9979757085020243
+E-GEOD-11151,pls_da,observed,fold_contained,0.9959514170040485,0.9959514170040485
+E-GEOD-11151,opls_da,observed,pre_split,0.9979757085020243,0.9979757085020243
+E-GEOD-11151,opls_da,observed,fold_contained,0.9959514170040485,0.9959514170040485
+E-GEOD-1148,top_k,observed,pre_split,1.0,1.0
+E-GEOD-1148,top_k,permutation 0,pre_split,0.5885416666666666,0.5885416666666666
+E-GEOD-1148,top_k,permutation 1,pre_split,0.5225694444444444,0.5225694444444444
+E-GEOD-1148,top_k,permutation 2,pre_split,0.5850694444444444,0.5850694444444444
+E-GEOD-1148,top_k,permutation 3,pre_split,0.45486111111111105,0.45486111111111105
+E-GEOD-1148,top_k,permutation 4,pre_split,0.6111111111111112,0.6111111111111112
+E-GEOD-1148,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-1148,top_k,permutation 0,fold_contained,0.4791666666666667,0.4791666666666667
+E-GEOD-1148,top_k,permutation 1,fold_contained,0.4184027777777778,0.4184027777777778
+E-GEOD-1148,top_k,permutation 2,fold_contained,0.5572916666666666,0.5572916666666666
+E-GEOD-1148,top_k,permutation 3,fold_contained,0.3315972222222222,0.3315972222222222
+E-GEOD-1148,top_k,permutation 4,fold_contained,0.4930555555555556,0.4930555555555556
+E-GEOD-1148,rfe,observed,pre_split,1.0,1.0
+E-GEOD-1148,rfe,permutation 0,pre_split,0.8680555555555556,0.8680555555555556
+E-GEOD-1148,rfe,permutation 1,pre_split,0.8107638888888888,0.8107638888888888
+E-GEOD-1148,rfe,permutation 2,pre_split,0.9444444444444444,0.9444444444444444
+E-GEOD-1148,rfe,permutation 3,pre_split,0.9149305555555555,0.9149305555555555
+E-GEOD-1148,rfe,permutation 4,pre_split,0.9253472222222222,0.9253472222222222
+E-GEOD-1148,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-1148,rfe,permutation 0,fold_contained,0.48263888888888895,0.48263888888888895
+E-GEOD-1148,rfe,permutation 1,fold_contained,0.46875,0.46875
+E-GEOD-1148,rfe,permutation 2,fold_contained,0.5538194444444444,0.5538194444444444
+E-GEOD-1148,rfe,permutation 3,fold_contained,0.4305555555555556,0.4305555555555556
+E-GEOD-1148,rfe,permutation 4,fold_contained,0.4947916666666667,0.4947916666666667
+E-GEOD-1148,spls,observed,pre_split,1.0,1.0
+E-GEOD-1148,spls,permutation 0,pre_split,0.8159722222222222,0.8159722222222222
+E-GEOD-1148,spls,permutation 1,pre_split,0.7430555555555556,0.7430555555555556
+E-GEOD-1148,spls,permutation 2,pre_split,0.7430555555555556,0.7430555555555556
+E-GEOD-1148,spls,permutation 3,pre_split,0.6909722222222222,0.6909722222222222
+E-GEOD-1148,spls,permutation 4,pre_split,0.7586805555555556,0.7586805555555556
+E-GEOD-1148,spls,observed,fold_contained,1.0,1.0
+E-GEOD-1148,spls,permutation 0,fold_contained,0.42187500000000006,0.42187500000000006
+E-GEOD-1148,spls,permutation 1,fold_contained,0.4913194444444444,0.4913194444444444
+E-GEOD-1148,spls,permutation 2,fold_contained,0.5590277777777778,0.5590277777777778
+E-GEOD-1148,spls,permutation 3,fold_contained,0.3524305555555556,0.3524305555555556
+E-GEOD-1148,spls,permutation 4,fold_contained,0.4565972222222222,0.4565972222222222
+E-GEOD-1148,pls_da,observed,pre_split,0.9965277777777778,0.9965277777777778
+E-GEOD-1148,pls_da,permutation 0,pre_split,0.8194444444444444,0.8194444444444444
+E-GEOD-1148,pls_da,permutation 1,pre_split,0.6388888888888888,0.6388888888888888
+E-GEOD-1148,pls_da,permutation 2,pre_split,0.7743055555555556,0.7743055555555556
+E-GEOD-1148,pls_da,permutation 3,pre_split,0.828125,0.828125
+E-GEOD-1148,pls_da,permutation 4,pre_split,0.7135416666666666,0.7135416666666666
+E-GEOD-1148,pls_da,observed,fold_contained,0.9340277777777778,0.9340277777777778
+E-GEOD-1148,pls_da,permutation 0,fold_contained,0.5,0.5
+E-GEOD-1148,pls_da,permutation 1,fold_contained,0.4826388888888889,0.4826388888888889
+E-GEOD-1148,pls_da,permutation 2,fold_contained,0.5503472222222222,0.5503472222222222
+E-GEOD-1148,pls_da,permutation 3,fold_contained,0.3663194444444444,0.3663194444444444
+E-GEOD-1148,pls_da,permutation 4,fold_contained,0.44097222222222227,0.44097222222222227
+E-GEOD-1148,opls_da,observed,pre_split,0.9513888888888888,0.9513888888888888
+E-GEOD-1148,opls_da,permutation 0,pre_split,0.78125,0.78125
+E-GEOD-1148,opls_da,permutation 1,pre_split,0.6493055555555555,0.6493055555555555
+E-GEOD-1148,opls_da,permutation 2,pre_split,0.7309027777777778,0.7309027777777778
+E-GEOD-1148,opls_da,permutation 3,pre_split,0.6701388888888888,0.6701388888888888
+E-GEOD-1148,opls_da,permutation 4,pre_split,0.6927083333333334,0.6927083333333334
+E-GEOD-1148,opls_da,observed,fold_contained,0.8194444444444444,0.8194444444444444
+E-GEOD-1148,opls_da,permutation 0,fold_contained,0.41145833333333337,0.41145833333333337
+E-GEOD-1148,opls_da,permutation 1,fold_contained,0.4895833333333333,0.4895833333333333
+E-GEOD-1148,opls_da,permutation 2,fold_contained,0.5277777777777778,0.5277777777777778
+E-GEOD-1148,opls_da,permutation 3,fold_contained,0.31423611111111116,0.31423611111111116
+E-GEOD-1148,opls_da,permutation 4,fold_contained,0.4236111111111111,0.4236111111111111
+E-GEOD-13355,top_k,observed,pre_split,0.8116918103448276,0.8116918103448276
+E-GEOD-13355,top_k,observed,fold_contained,0.7607758620689655,0.7607758620689655
+E-GEOD-13355,rfe,observed,pre_split,0.994073275862069,0.994073275862069
+E-GEOD-13355,rfe,observed,fold_contained,0.7922952586206896,0.7922952586206896
+E-GEOD-13355,spls,observed,pre_split,0.9488146551724137,0.9488146551724137
+E-GEOD-13355,spls,observed,fold_contained,0.7844827586206897,0.7844827586206897
+E-GEOD-13355,pls_da,observed,pre_split,0.9762931034482759,0.9762931034482759
+E-GEOD-13355,pls_da,observed,fold_contained,0.7955280172413792,0.7955280172413792
+E-GEOD-13355,opls_da,observed,pre_split,0.9757543103448276,0.9757543103448276
+E-GEOD-13355,opls_da,observed,fold_contained,0.7879849137931034,0.7879849137931034
+E-GEOD-13739,top_k,observed,pre_split,0.9961734693877551,0.9961734693877551
+E-GEOD-13739,top_k,observed,fold_contained,0.9885204081632653,0.9885204081632653
+E-GEOD-13739,rfe,observed,pre_split,1.0,1.0
+E-GEOD-13739,rfe,observed,fold_contained,0.9987244897959184,0.9987244897959184
+E-GEOD-13739,spls,observed,pre_split,0.9974489795918368,0.9974489795918368
+E-GEOD-13739,spls,observed,fold_contained,0.9732142857142857,0.9732142857142857
+E-GEOD-13739,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-13739,pls_da,observed,fold_contained,0.9706632653061225,0.9706632653061225
+E-GEOD-13739,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-13739,opls_da,observed,fold_contained,0.9579081632653063,0.9579081632653063
+E-GEOD-14346,top_k,observed,pre_split,0.8840682788051208,0.8840682788051208
+E-GEOD-14346,top_k,observed,fold_contained,0.8456614509246088,0.8456614509246088
+E-GEOD-14346,rfe,observed,pre_split,0.9850640113798008,0.9850640113798008
+E-GEOD-14346,rfe,observed,fold_contained,0.9082503556187767,0.9082503556187767
+E-GEOD-14346,spls,observed,pre_split,0.9366998577524893,0.9366998577524893
+E-GEOD-14346,spls,observed,fold_contained,0.864153627311522,0.864153627311522
+E-GEOD-14346,pls_da,observed,pre_split,0.942389758179232,0.942389758179232
+E-GEOD-14346,pls_da,observed,fold_contained,0.8847795163584637,0.8847795163584637
+E-GEOD-14346,opls_da,observed,pre_split,0.9409672830725462,0.9409672830725462
+E-GEOD-14346,opls_da,observed,fold_contained,0.8705547652916074,0.8705547652916074
+E-GEOD-147507,top_k,observed,pre_split,1.0,1.0
+E-GEOD-147507,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-147507,rfe,observed,pre_split,1.0,1.0
+E-GEOD-147507,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-147507,spls,observed,pre_split,1.0,1.0
+E-GEOD-147507,spls,observed,fold_contained,1.0,1.0
+E-GEOD-147507,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-147507,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-147507,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-147507,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-16237,top_k,observed,pre_split,0.9956140350877193,0.9956140350877193
+E-GEOD-16237,top_k,permutation 0,pre_split,0.9254385964912281,0.9254385964912281
+E-GEOD-16237,top_k,permutation 1,pre_split,0.8881578947368421,0.8881578947368421
+E-GEOD-16237,top_k,permutation 2,pre_split,0.9298245614035088,0.9298245614035088
+E-GEOD-16237,top_k,permutation 3,pre_split,0.9736842105263158,0.9736842105263158
+E-GEOD-16237,top_k,permutation 4,pre_split,0.7916666666666666,0.7916666666666666
+E-GEOD-16237,top_k,observed,fold_contained,0.9495614035087719,0.9495614035087719
+E-GEOD-16237,top_k,permutation 0,fold_contained,0.5504385964912282,0.5504385964912282
+E-GEOD-16237,top_k,permutation 1,fold_contained,0.6162280701754386,0.6162280701754386
+E-GEOD-16237,top_k,permutation 2,fold_contained,0.8377192982456141,0.8377192982456141
+E-GEOD-16237,top_k,permutation 3,fold_contained,0.6403508771929824,0.6403508771929824
+E-GEOD-16237,top_k,permutation 4,fold_contained,0.5657894736842106,0.5657894736842106
+E-GEOD-16237,rfe,observed,pre_split,1.0,1.0
+E-GEOD-16237,rfe,permutation 0,pre_split,0.993421052631579,0.993421052631579
+E-GEOD-16237,rfe,permutation 1,pre_split,0.9583333333333333,0.9583333333333333
+E-GEOD-16237,rfe,permutation 2,pre_split,0.9583333333333333,0.9583333333333333
+E-GEOD-16237,rfe,permutation 3,pre_split,0.9956140350877193,0.9956140350877193
+E-GEOD-16237,rfe,permutation 4,pre_split,0.9956140350877194,0.9956140350877194
+E-GEOD-16237,rfe,observed,fold_contained,0.9692982456140351,0.9692982456140351
+E-GEOD-16237,rfe,permutation 0,fold_contained,0.5197368421052632,0.5197368421052632
+E-GEOD-16237,rfe,permutation 1,fold_contained,0.7697368421052632,0.7697368421052632
+E-GEOD-16237,rfe,permutation 2,fold_contained,0.7675438596491228,0.7675438596491228
+E-GEOD-16237,rfe,permutation 3,fold_contained,0.5899122807017544,0.5899122807017544
+E-GEOD-16237,rfe,permutation 4,fold_contained,0.5548245614035088,0.5548245614035088
+E-GEOD-16237,spls,observed,pre_split,1.0,1.0
+E-GEOD-16237,spls,permutation 0,pre_split,0.9692982456140351,0.9692982456140351
+E-GEOD-16237,spls,permutation 1,pre_split,0.9846491228070176,0.9846491228070176
+E-GEOD-16237,spls,permutation 2,pre_split,0.9736842105263157,0.9736842105263157
+E-GEOD-16237,spls,permutation 3,pre_split,1.0,1.0
+E-GEOD-16237,spls,permutation 4,pre_split,0.9364035087719298,0.9364035087719298
+E-GEOD-16237,spls,observed,fold_contained,0.9276315789473684,0.9276315789473684
+E-GEOD-16237,spls,permutation 0,fold_contained,0.5328947368421052,0.5328947368421052
+E-GEOD-16237,spls,permutation 1,fold_contained,0.6359649122807017,0.6359649122807017
+E-GEOD-16237,spls,permutation 2,fold_contained,0.8245614035087719,0.8245614035087719
+E-GEOD-16237,spls,permutation 3,fold_contained,0.6666666666666666,0.6666666666666666
+E-GEOD-16237,spls,permutation 4,fold_contained,0.6513157894736842,0.6513157894736842
+E-GEOD-16237,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-16237,pls_da,permutation 0,pre_split,0.9473684210526316,0.9473684210526316
+E-GEOD-16237,pls_da,permutation 1,pre_split,1.0,1.0
+E-GEOD-16237,pls_da,permutation 2,pre_split,0.9868421052631579,0.9868421052631579
+E-GEOD-16237,pls_da,permutation 3,pre_split,1.0,1.0
+E-GEOD-16237,pls_da,permutation 4,pre_split,0.763157894736842,0.763157894736842
+E-GEOD-16237,pls_da,observed,fold_contained,0.925438596491228,0.925438596491228
+E-GEOD-16237,pls_da,permutation 0,fold_contained,0.4978070175438596,0.4978070175438596
+E-GEOD-16237,pls_da,permutation 1,fold_contained,0.7324561403508772,0.7324561403508772
+E-GEOD-16237,pls_da,permutation 2,fold_contained,0.48903508771929827,0.48903508771929827
+E-GEOD-16237,pls_da,permutation 3,fold_contained,0.5153508771929824,0.5153508771929824
+E-GEOD-16237,pls_da,permutation 4,fold_contained,0.668859649122807,0.668859649122807
+E-GEOD-16237,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-16237,opls_da,permutation 0,pre_split,0.9451754385964912,0.9451754385964912
+E-GEOD-16237,opls_da,permutation 1,pre_split,1.0,1.0
+E-GEOD-16237,opls_da,permutation 2,pre_split,0.9802631578947368,0.9802631578947368
+E-GEOD-16237,opls_da,permutation 3,pre_split,1.0,1.0
+E-GEOD-16237,opls_da,permutation 4,pre_split,0.7807017543859649,0.7807017543859649
+E-GEOD-16237,opls_da,observed,fold_contained,0.9232456140350878,0.9232456140350878
+E-GEOD-16237,opls_da,permutation 0,fold_contained,0.4868421052631579,0.4868421052631579
+E-GEOD-16237,opls_da,permutation 1,fold_contained,0.6293859649122807,0.6293859649122807
+E-GEOD-16237,opls_da,permutation 2,fold_contained,0.5175438596491228,0.5175438596491228
+E-GEOD-16237,opls_da,permutation 3,fold_contained,0.5679824561403509,0.5679824561403509
+E-GEOD-16237,opls_da,permutation 4,fold_contained,0.668859649122807,0.668859649122807
+E-GEOD-1676,top_k,observed,pre_split,1.0,1.0
+E-GEOD-1676,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-1676,rfe,observed,pre_split,1.0,1.0
+E-GEOD-1676,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-1676,spls,observed,pre_split,1.0,1.0
+E-GEOD-1676,spls,observed,fold_contained,1.0,1.0
+E-GEOD-1676,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-1676,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-1676,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-1676,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-20498,top_k,observed,pre_split,0.9736842105263157,0.9736842105263157
+E-GEOD-20498,top_k,observed,fold_contained,0.9394736842105262,0.9394736842105262
+E-GEOD-20498,rfe,observed,pre_split,1.0,1.0
+E-GEOD-20498,rfe,observed,fold_contained,0.9157894736842105,0.9157894736842105
+E-GEOD-20498,spls,observed,pre_split,1.0,1.0
+E-GEOD-20498,spls,observed,fold_contained,0.9210526315789473,0.9210526315789473
+E-GEOD-20498,pls_da,observed,pre_split,0.9973684210526317,0.9973684210526317
+E-GEOD-20498,pls_da,observed,fold_contained,0.9026315789473685,0.9026315789473685
+E-GEOD-20498,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-20498,opls_da,observed,fold_contained,0.9210526315789473,0.9210526315789473
+E-GEOD-24594,top_k,observed,pre_split,0.99,0.99
+E-GEOD-24594,top_k,observed,fold_contained,0.965,0.965
+E-GEOD-24594,rfe,observed,pre_split,1.0,1.0
+E-GEOD-24594,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-24594,spls,observed,pre_split,0.99,0.99
+E-GEOD-24594,spls,observed,fold_contained,0.945,0.945
+E-GEOD-24594,pls_da,observed,pre_split,0.9724999999999999,0.9724999999999999
+E-GEOD-24594,pls_da,observed,fold_contained,0.385,0.385
+E-GEOD-24594,opls_da,observed,pre_split,0.935,0.935
+E-GEOD-24594,opls_da,observed,fold_contained,0.32999999999999996,0.32999999999999996
+E-GEOD-26679,top_k,observed,pre_split,1.0,1.0
+E-GEOD-26679,top_k,observed,fold_contained,0.98828125,0.98828125
+E-GEOD-26679,rfe,observed,pre_split,1.0,1.0
+E-GEOD-26679,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-26679,spls,observed,pre_split,1.0,1.0
+E-GEOD-26679,spls,observed,fold_contained,0.98828125,0.98828125
+E-GEOD-26679,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-26679,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-26679,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-26679,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-27383,top_k,observed,pre_split,0.9106583072100313,0.9106583072100313
+E-GEOD-27383,top_k,permutation 0,pre_split,0.9476190476190476,0.9476190476190476
+E-GEOD-27383,top_k,permutation 1,pre_split,0.9764890282131661,0.9764890282131661
+E-GEOD-27383,top_k,permutation 2,pre_split,0.9174603174603175,0.9174603174603175
+E-GEOD-27383,top_k,permutation 3,pre_split,0.9650793650793652,0.9650793650793652
+E-GEOD-27383,top_k,permutation 4,pre_split,0.8666666666666666,0.8666666666666666
+E-GEOD-27383,top_k,observed,fold_contained,0.6724137931034483,0.6724137931034483
+E-GEOD-27383,top_k,permutation 0,fold_contained,0.5793650793650794,0.5793650793650794
+E-GEOD-27383,top_k,permutation 1,fold_contained,0.432601880877743,0.432601880877743
+E-GEOD-27383,top_k,permutation 2,fold_contained,0.4587301587301587,0.4587301587301587
+E-GEOD-27383,top_k,permutation 3,fold_contained,0.4492063492063493,0.4492063492063493
+E-GEOD-27383,top_k,permutation 4,fold_contained,0.4015873015873016,0.4015873015873016
+E-GEOD-27383,rfe,observed,pre_split,1.0,1.0
+E-GEOD-27383,rfe,permutation 0,pre_split,1.0,1.0
+E-GEOD-27383,rfe,permutation 1,pre_split,0.9968652037617555,0.9968652037617555
+E-GEOD-27383,rfe,permutation 2,pre_split,0.9555555555555555,0.9555555555555555
+E-GEOD-27383,rfe,permutation 3,pre_split,1.0,1.0
+E-GEOD-27383,rfe,permutation 4,pre_split,1.0,1.0
+E-GEOD-27383,rfe,observed,fold_contained,0.8056426332288402,0.8056426332288402
+E-GEOD-27383,rfe,permutation 0,fold_contained,0.5412698412698413,0.5412698412698413
+E-GEOD-27383,rfe,permutation 1,fold_contained,0.5391849529780565,0.5391849529780565
+E-GEOD-27383,rfe,permutation 2,fold_contained,0.4634920634920635,0.4634920634920635
+E-GEOD-27383,rfe,permutation 3,fold_contained,0.5095238095238096,0.5095238095238096
+E-GEOD-27383,rfe,permutation 4,fold_contained,0.4952380952380952,0.4952380952380952
+E-GEOD-27383,spls,observed,pre_split,0.9874608150470219,0.9874608150470219
+E-GEOD-27383,spls,permutation 0,pre_split,0.9968253968253968,0.9968253968253968
+E-GEOD-27383,spls,permutation 1,pre_split,1.0,1.0
+E-GEOD-27383,spls,permutation 2,pre_split,1.0,1.0
+E-GEOD-27383,spls,permutation 3,pre_split,0.9968253968253967,0.9968253968253967
+E-GEOD-27383,spls,permutation 4,pre_split,0.9968253968253968,0.9968253968253968
+E-GEOD-27383,spls,observed,fold_contained,0.6661442006269592,0.6661442006269592
+E-GEOD-27383,spls,permutation 0,fold_contained,0.6031746031746033,0.6031746031746033
+E-GEOD-27383,spls,permutation 1,fold_contained,0.48746081504702193,0.48746081504702193
+E-GEOD-27383,spls,permutation 2,fold_contained,0.3619047619047619,0.3619047619047619
+E-GEOD-27383,spls,permutation 3,fold_contained,0.4523809523809524,0.4523809523809524
+E-GEOD-27383,spls,permutation 4,fold_contained,0.4746031746031746,0.4746031746031746
+E-GEOD-27383,pls_da,observed,pre_split,0.9937304075235109,0.9937304075235109
+E-GEOD-27383,pls_da,permutation 0,pre_split,0.9952380952380951,0.9952380952380951
+E-GEOD-27383,pls_da,permutation 1,pre_split,0.9937304075235109,0.9937304075235109
+E-GEOD-27383,pls_da,permutation 2,pre_split,0.9968253968253967,0.9968253968253967
+E-GEOD-27383,pls_da,permutation 3,pre_split,1.0,1.0
+E-GEOD-27383,pls_da,permutation 4,pre_split,0.9968253968253968,0.9968253968253968
+E-GEOD-27383,pls_da,observed,fold_contained,0.7492163009404389,0.7492163009404389
+E-GEOD-27383,pls_da,permutation 0,fold_contained,0.6349206349206349,0.6349206349206349
+E-GEOD-27383,pls_da,permutation 1,fold_contained,0.21473354231974923,0.21473354231974923
+E-GEOD-27383,pls_da,permutation 2,fold_contained,0.40952380952380957,0.40952380952380957
+E-GEOD-27383,pls_da,permutation 3,fold_contained,0.4190476190476191,0.4190476190476191
+E-GEOD-27383,pls_da,permutation 4,fold_contained,0.3412698412698413,0.3412698412698413
+E-GEOD-27383,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-27383,opls_da,permutation 0,pre_split,0.9698412698412698,0.9698412698412698
+E-GEOD-27383,opls_da,permutation 1,pre_split,0.9905956112852664,0.9905956112852664
+E-GEOD-27383,opls_da,permutation 2,pre_split,0.9984126984126983,0.9984126984126983
+E-GEOD-27383,opls_da,permutation 3,pre_split,1.0,1.0
+E-GEOD-27383,opls_da,permutation 4,pre_split,1.0,1.0
+E-GEOD-27383,opls_da,observed,fold_contained,0.7413793103448276,0.7413793103448276
+E-GEOD-27383,opls_da,permutation 0,fold_contained,0.5984126984126984,0.5984126984126984
+E-GEOD-27383,opls_da,permutation 1,fold_contained,0.24608150470219436,0.24608150470219436
+E-GEOD-27383,opls_da,permutation 2,fold_contained,0.41111111111111115,0.41111111111111115
+E-GEOD-27383,opls_da,permutation 3,fold_contained,0.41746031746031753,0.41746031746031753
+E-GEOD-27383,opls_da,permutation 4,fold_contained,0.36666666666666664,0.36666666666666664
+E-GEOD-33204,top_k,observed,pre_split,1.0,1.0
+E-GEOD-33204,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-33204,rfe,observed,pre_split,1.0,1.0
+E-GEOD-33204,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-33204,spls,observed,pre_split,1.0,1.0
+E-GEOD-33204,spls,observed,fold_contained,1.0,1.0
+E-GEOD-33204,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-33204,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-33204,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-33204,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-35428,top_k,observed,pre_split,1.0,1.0
+E-GEOD-35428,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-35428,rfe,observed,pre_split,1.0,1.0
+E-GEOD-35428,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-35428,spls,observed,pre_split,1.0,1.0
+E-GEOD-35428,spls,observed,fold_contained,1.0,1.0
+E-GEOD-35428,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-35428,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-35428,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-35428,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-37571,top_k,observed,pre_split,0.9917695473251029,0.9917695473251029
+E-GEOD-37571,top_k,observed,fold_contained,0.9794238683127572,0.9794238683127572
+E-GEOD-37571,rfe,observed,pre_split,1.0,1.0
+E-GEOD-37571,rfe,observed,fold_contained,0.9972565157750343,0.9972565157750343
+E-GEOD-37571,spls,observed,pre_split,0.9972565157750343,0.9972565157750343
+E-GEOD-37571,spls,observed,fold_contained,0.9739368998628257,0.9739368998628257
+E-GEOD-37571,pls_da,observed,pre_split,0.9739368998628258,0.9739368998628258
+E-GEOD-37571,pls_da,observed,fold_contained,0.9547325102880659,0.9547325102880659
+E-GEOD-37571,opls_da,observed,pre_split,0.9862825788751715,0.9862825788751715
+E-GEOD-37571,opls_da,observed,fold_contained,0.9506172839506173,0.9506172839506173
+E-GEOD-37940,top_k,observed,pre_split,1.0,1.0
+E-GEOD-37940,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-37940,rfe,observed,pre_split,1.0,1.0
+E-GEOD-37940,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-37940,spls,observed,pre_split,1.0,1.0
+E-GEOD-37940,spls,observed,fold_contained,1.0,1.0
+E-GEOD-37940,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-37940,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-37940,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-37940,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-43767,top_k,observed,pre_split,1.0,1.0
+E-GEOD-43767,top_k,permutation 0,pre_split,0.7476604278074866,0.7476604278074866
+E-GEOD-43767,top_k,permutation 1,pre_split,0.7292780748663101,0.7292780748663101
+E-GEOD-43767,top_k,permutation 2,pre_split,0.7897727272727272,0.7897727272727272
+E-GEOD-43767,top_k,permutation 3,pre_split,0.706216577540107,0.706216577540107
+E-GEOD-43767,top_k,permutation 4,pre_split,0.7085561497326204,0.7085561497326204
+E-GEOD-43767,top_k,observed,fold_contained,0.9993315508021391,0.9993315508021391
+E-GEOD-43767,top_k,permutation 0,fold_contained,0.5267379679144385,0.5267379679144385
+E-GEOD-43767,top_k,permutation 1,fold_contained,0.45153743315508027,0.45153743315508027
+E-GEOD-43767,top_k,permutation 2,fold_contained,0.517379679144385,0.517379679144385
+E-GEOD-43767,top_k,permutation 3,fold_contained,0.3980614973262032,0.3980614973262032
+E-GEOD-43767,top_k,permutation 4,fold_contained,0.5504679144385027,0.5504679144385027
+E-GEOD-43767,rfe,observed,pre_split,1.0,1.0
+E-GEOD-43767,rfe,permutation 0,pre_split,0.8058155080213903,0.8058155080213903
+E-GEOD-43767,rfe,permutation 1,pre_split,0.823529411764706,0.823529411764706
+E-GEOD-43767,rfe,permutation 2,pre_split,0.7703877005347594,0.7703877005347594
+E-GEOD-43767,rfe,permutation 3,pre_split,0.7954545454545454,0.7954545454545454
+E-GEOD-43767,rfe,permutation 4,pre_split,0.8439171122994652,0.8439171122994652
+E-GEOD-43767,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-43767,rfe,permutation 0,fold_contained,0.6019385026737967,0.6019385026737967
+E-GEOD-43767,rfe,permutation 1,fold_contained,0.4525401069518717,0.4525401069518717
+E-GEOD-43767,rfe,permutation 2,fold_contained,0.48362299465240643,0.48362299465240643
+E-GEOD-43767,rfe,permutation 3,fold_contained,0.4953208556149733,0.4953208556149733
+E-GEOD-43767,rfe,permutation 4,fold_contained,0.5086898395721925,0.5086898395721925
+E-GEOD-43767,spls,observed,pre_split,1.0,1.0
+E-GEOD-43767,spls,permutation 0,pre_split,0.8783422459893049,0.8783422459893049
+E-GEOD-43767,spls,permutation 1,pre_split,0.8455882352941176,0.8455882352941176
+E-GEOD-43767,spls,permutation 2,pre_split,0.8442513368983958,0.8442513368983958
+E-GEOD-43767,spls,permutation 3,pre_split,0.8312165775401069,0.8312165775401069
+E-GEOD-43767,spls,permutation 4,pre_split,0.7807486631016043,0.7807486631016043
+E-GEOD-43767,spls,observed,fold_contained,0.9986631016042782,0.9986631016042782
+E-GEOD-43767,spls,permutation 0,fold_contained,0.4869652406417112,0.4869652406417112
+E-GEOD-43767,spls,permutation 1,fold_contained,0.474264705882353,0.474264705882353
+E-GEOD-43767,spls,permutation 2,fold_contained,0.4418449197860963,0.4418449197860963
+E-GEOD-43767,spls,permutation 3,fold_contained,0.464572192513369,0.464572192513369
+E-GEOD-43767,spls,permutation 4,fold_contained,0.48763368983957217,0.48763368983957217
+E-GEOD-43767,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-43767,pls_da,permutation 0,pre_split,0.9278074866310161,0.9278074866310161
+E-GEOD-43767,pls_da,permutation 1,pre_split,0.929144385026738,0.929144385026738
+E-GEOD-43767,pls_da,permutation 2,pre_split,0.8626336898395723,0.8626336898395723
+E-GEOD-43767,pls_da,permutation 3,pre_split,0.8726604278074866,0.8726604278074866
+E-GEOD-43767,pls_da,permutation 4,pre_split,0.8368983957219251,0.8368983957219251
+E-GEOD-43767,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-43767,pls_da,permutation 0,fold_contained,0.4732620320855615,0.4732620320855615
+E-GEOD-43767,pls_da,permutation 1,fold_contained,0.5197192513368984,0.5197192513368984
+E-GEOD-43767,pls_da,permutation 2,fold_contained,0.4749331550802139,0.4749331550802139
+E-GEOD-43767,pls_da,permutation 3,fold_contained,0.4067513368983957,0.4067513368983957
+E-GEOD-43767,pls_da,permutation 4,fold_contained,0.48161764705882354,0.48161764705882354
+E-GEOD-43767,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-43767,opls_da,permutation 0,pre_split,0.9254679144385027,0.9254679144385027
+E-GEOD-43767,opls_da,permutation 1,pre_split,0.920120320855615,0.920120320855615
+E-GEOD-43767,opls_da,permutation 2,pre_split,0.8201871657754011,0.8201871657754011
+E-GEOD-43767,opls_da,permutation 3,pre_split,0.8191844919786095,0.8191844919786095
+E-GEOD-43767,opls_da,permutation 4,pre_split,0.7359625668449197,0.7359625668449197
+E-GEOD-43767,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-43767,opls_da,permutation 0,fold_contained,0.535427807486631,0.535427807486631
+E-GEOD-43767,opls_da,permutation 1,fold_contained,0.5421122994652406,0.5421122994652406
+E-GEOD-43767,opls_da,permutation 2,fold_contained,0.4742647058823529,0.4742647058823529
+E-GEOD-43767,opls_da,permutation 3,fold_contained,0.4184491978609626,0.4184491978609626
+E-GEOD-43767,opls_da,permutation 4,fold_contained,0.5187165775401069,0.5187165775401069
+E-GEOD-46699,top_k,observed,pre_split,0.8180778032036614,0.8180778032036614
+E-GEOD-46699,top_k,observed,fold_contained,0.7365560640732266,0.7365560640732266
+E-GEOD-46699,rfe,observed,pre_split,0.9839816933638443,0.9839816933638443
+E-GEOD-46699,rfe,observed,fold_contained,0.7783180778032036,0.7783180778032036
+E-GEOD-46699,spls,observed,pre_split,0.898741418764302,0.898741418764302
+E-GEOD-46699,spls,observed,fold_contained,0.7625858123569794,0.7625858123569794
+E-GEOD-46699,pls_da,observed,pre_split,0.943649885583524,0.943649885583524
+E-GEOD-46699,pls_da,observed,fold_contained,0.7242562929061784,0.7242562929061784
+E-GEOD-46699,opls_da,observed,pre_split,0.9004576659038902,0.9004576659038902
+E-GEOD-46699,opls_da,observed,fold_contained,0.7131006864988558,0.7131006864988558
+E-GEOD-52471,top_k,observed,pre_split,1.0,1.0
+E-GEOD-52471,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-52471,rfe,observed,pre_split,1.0,1.0
+E-GEOD-52471,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-52471,spls,observed,pre_split,1.0,1.0
+E-GEOD-52471,spls,observed,fold_contained,1.0,1.0
+E-GEOD-52471,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-52471,pls_da,observed,fold_contained,1.0,1.0
+E-GEOD-52471,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-52471,opls_da,observed,fold_contained,1.0,1.0
+E-GEOD-53552,top_k,observed,pre_split,1.0,1.0
+E-GEOD-53552,top_k,observed,fold_contained,0.9625,0.9625
+E-GEOD-53552,rfe,observed,pre_split,1.0,1.0
+E-GEOD-53552,rfe,observed,fold_contained,0.9541666666666667,0.9541666666666667
+E-GEOD-53552,spls,observed,pre_split,1.0,1.0
+E-GEOD-53552,spls,observed,fold_contained,0.9666666666666667,0.9666666666666667
+E-GEOD-53552,pls_da,observed,pre_split,0.9458333333333333,0.9458333333333333
+E-GEOD-53552,pls_da,observed,fold_contained,0.9125000000000001,0.9125000000000001
+E-GEOD-53552,opls_da,observed,pre_split,0.9500000000000001,0.9500000000000001
+E-GEOD-53552,opls_da,observed,fold_contained,0.9208333333333334,0.9208333333333334
+E-GEOD-65775,top_k,observed,pre_split,0.9255347593582888,0.9255347593582888
+E-GEOD-65775,top_k,observed,fold_contained,0.8561497326203209,0.8561497326203209
+E-GEOD-65775,rfe,observed,pre_split,0.967379679144385,0.967379679144385
+E-GEOD-65775,rfe,observed,fold_contained,0.9508021390374332,0.9508021390374332
+E-GEOD-65775,spls,observed,pre_split,0.8295454545454546,0.8295454545454546
+E-GEOD-65775,spls,observed,fold_contained,0.5647058823529412,0.5647058823529412
+E-GEOD-65775,pls_da,observed,pre_split,0.9212566844919787,0.9212566844919787
+E-GEOD-65775,pls_da,observed,fold_contained,0.7589572192513369,0.7589572192513369
+E-GEOD-65775,opls_da,observed,pre_split,0.8144385026737968,0.8144385026737968
+E-GEOD-65775,opls_da,observed,fold_contained,0.5125668449197861,0.5125668449197861
+E-GEOD-68921,top_k,observed,pre_split,1.0,1.0
+E-GEOD-68921,top_k,permutation 0,pre_split,0.6987577639751553,0.6987577639751553
+E-GEOD-68921,top_k,permutation 1,pre_split,0.7639751552795031,0.7639751552795031
+E-GEOD-68921,top_k,permutation 2,pre_split,0.826086956521739,0.826086956521739
+E-GEOD-68921,top_k,permutation 3,pre_split,0.6987577639751552,0.6987577639751552
+E-GEOD-68921,top_k,permutation 4,pre_split,0.8509316770186335,0.8509316770186335
+E-GEOD-68921,top_k,observed,fold_contained,1.0,1.0
+E-GEOD-68921,top_k,permutation 0,fold_contained,0.4782608695652174,0.4782608695652174
+E-GEOD-68921,top_k,permutation 1,fold_contained,0.44720496894409945,0.44720496894409945
+E-GEOD-68921,top_k,permutation 2,fold_contained,0.6614906832298136,0.6614906832298136
+E-GEOD-68921,top_k,permutation 3,fold_contained,0.5341614906832298,0.5341614906832298
+E-GEOD-68921,top_k,permutation 4,fold_contained,0.6987577639751552,0.6987577639751552
+E-GEOD-68921,rfe,observed,pre_split,1.0,1.0
+E-GEOD-68921,rfe,permutation 0,pre_split,0.9813664596273293,0.9813664596273293
+E-GEOD-68921,rfe,permutation 1,pre_split,0.9937888198757765,0.9937888198757765
+E-GEOD-68921,rfe,permutation 2,pre_split,1.0,1.0
+E-GEOD-68921,rfe,permutation 3,pre_split,1.0,1.0
+E-GEOD-68921,rfe,permutation 4,pre_split,0.9968944099378882,0.9968944099378882
+E-GEOD-68921,rfe,observed,fold_contained,1.0,1.0
+E-GEOD-68921,rfe,permutation 0,fold_contained,0.5186335403726708,0.5186335403726708
+E-GEOD-68921,rfe,permutation 1,fold_contained,0.6242236024844721,0.6242236024844721
+E-GEOD-68921,rfe,permutation 2,fold_contained,0.5869565217391305,0.5869565217391305
+E-GEOD-68921,rfe,permutation 3,fold_contained,0.45962732919254656,0.45962732919254656
+E-GEOD-68921,rfe,permutation 4,fold_contained,0.7236024844720497,0.7236024844720497
+E-GEOD-68921,spls,observed,pre_split,1.0,1.0
+E-GEOD-68921,spls,permutation 0,pre_split,0.8726708074534162,0.8726708074534162
+E-GEOD-68921,spls,permutation 1,pre_split,0.891304347826087,0.891304347826087
+E-GEOD-68921,spls,permutation 2,pre_split,0.8726708074534162,0.8726708074534162
+E-GEOD-68921,spls,permutation 3,pre_split,0.8540372670807453,0.8540372670807453
+E-GEOD-68921,spls,permutation 4,pre_split,0.9254658385093169,0.9254658385093169
+E-GEOD-68921,spls,observed,fold_contained,1.0,1.0
+E-GEOD-68921,spls,permutation 0,fold_contained,0.4347826086956522,0.4347826086956522
+E-GEOD-68921,spls,permutation 1,fold_contained,0.329192546583851,0.329192546583851
+E-GEOD-68921,spls,permutation 2,fold_contained,0.6863354037267081,0.6863354037267081
+E-GEOD-68921,spls,permutation 3,fold_contained,0.4658385093167702,0.4658385093167702
+E-GEOD-68921,spls,permutation 4,fold_contained,0.5590062111801242,0.5590062111801242
+E-GEOD-68921,pls_da,observed,pre_split,1.0,1.0
+E-GEOD-68921,pls_da,permutation 0,pre_split,0.6956521739130435,0.6956521739130435
+E-GEOD-68921,pls_da,permutation 1,pre_split,0.8478260869565217,0.8478260869565217
+E-GEOD-68921,pls_da,permutation 2,pre_split,0.8509316770186336,0.8509316770186336
+E-GEOD-68921,pls_da,permutation 3,pre_split,0.860248447204969,0.860248447204969
+E-GEOD-68921,pls_da,permutation 4,pre_split,0.968944099378882,0.968944099378882
+E-GEOD-68921,pls_da,observed,fold_contained,0.9347826086956522,0.9347826086956522
+E-GEOD-68921,pls_da,permutation 0,fold_contained,0.43788819875776397,0.43788819875776397
+E-GEOD-68921,pls_da,permutation 1,fold_contained,0.4658385093167702,0.4658385093167702
+E-GEOD-68921,pls_da,permutation 2,fold_contained,0.6832298136645962,0.6832298136645962
+E-GEOD-68921,pls_da,permutation 3,fold_contained,0.41304347826086957,0.41304347826086957
+E-GEOD-68921,pls_da,permutation 4,fold_contained,0.5900621118012424,0.5900621118012424
+E-GEOD-68921,opls_da,observed,pre_split,1.0,1.0
+E-GEOD-68921,opls_da,permutation 0,pre_split,0.6770186335403726,0.6770186335403726
+E-GEOD-68921,opls_da,permutation 1,pre_split,0.8819875776397516,0.8819875776397516
+E-GEOD-68921,opls_da,permutation 2,pre_split,0.7888198757763975,0.7888198757763975
+E-GEOD-68921,opls_da,permutation 3,pre_split,0.8354037267080745,0.8354037267080745
+E-GEOD-68921,opls_da,permutation 4,pre_split,0.9813664596273293,0.9813664596273293
+E-GEOD-68921,opls_da,observed,fold_contained,0.9534161490683231,0.9534161490683231
+E-GEOD-68921,opls_da,permutation 0,fold_contained,0.4751552795031056,0.4751552795031056
+E-GEOD-68921,opls_da,permutation 1,fold_contained,0.4627329192546584,0.4627329192546584
+E-GEOD-68921,opls_da,permutation 2,fold_contained,0.6490683229813665,0.6490683229813665
+E-GEOD-68921,opls_da,permutation 3,fold_contained,0.38819875776397517,0.38819875776397517
+E-GEOD-68921,opls_da,permutation 4,fold_contained,0.642857142857143,0.642857142857143
+E-MTAB-4054,top_k,observed,pre_split,1.0,1.0
+E-MTAB-4054,top_k,observed,fold_contained,1.0,1.0
+E-MTAB-4054,rfe,observed,pre_split,1.0,1.0
+E-MTAB-4054,rfe,observed,fold_contained,0.9922027290448343,0.9922027290448343
+E-MTAB-4054,spls,observed,pre_split,1.0,1.0
+E-MTAB-4054,spls,observed,fold_contained,1.0,1.0
+E-MTAB-4054,pls_da,observed,pre_split,0.9629629629629629,0.9629629629629629
+E-MTAB-4054,pls_da,observed,fold_contained,0.9629629629629629,0.9629629629629629
+E-MTAB-4054,opls_da,observed,pre_split,0.9629629629629629,0.9629629629629629
+E-MTAB-4054,opls_da,observed,fold_contained,0.9629629629629629,0.9629629629629629
+E-MTAB-5146,top_k,observed,pre_split,1.0,1.0
+E-MTAB-5146,top_k,observed,fold_contained,1.0,1.0
+E-MTAB-5146,rfe,observed,pre_split,1.0,1.0
+E-MTAB-5146,rfe,observed,fold_contained,1.0,1.0
+E-MTAB-5146,spls,observed,pre_split,1.0,1.0
+E-MTAB-5146,spls,observed,fold_contained,1.0,1.0
+E-MTAB-5146,pls_da,observed,pre_split,0.9523809523809523,0.9523809523809523
+E-MTAB-5146,pls_da,observed,fold_contained,0.9523809523809523,0.9523809523809523
+E-MTAB-5146,opls_da,observed,pre_split,0.9523809523809523,0.9523809523809523
+E-MTAB-5146,opls_da,observed,fold_contained,0.9523809523809523,0.9523809523809523
+E-MTAB-5984,top_k,observed,pre_split,1.0,1.0
+E-MTAB-5984,top_k,observed,fold_contained,1.0,1.0
+E-MTAB-5984,rfe,observed,pre_split,1.0,1.0
+E-MTAB-5984,rfe,observed,fold_contained,1.0,1.0
+E-MTAB-5984,spls,observed,pre_split,1.0,1.0
+E-MTAB-5984,spls,observed,fold_contained,1.0,1.0
+E-MTAB-5984,pls_da,observed,pre_split,1.0,1.0
+E-MTAB-5984,pls_da,observed,fold_contained,1.0,1.0
+E-MTAB-5984,opls_da,observed,pre_split,1.0,1.0
+E-MTAB-5984,opls_da,observed,fold_contained,1.0,1.0
+E-MTAB-6038,top_k,observed,pre_split,0.922554347826087,0.922554347826087
+E-MTAB-6038,top_k,observed,fold_contained,0.9035326086956521,0.9035326086956521
+E-MTAB-6038,rfe,observed,pre_split,0.9904891304347826,0.9904891304347826
+E-MTAB-6038,rfe,observed,fold_contained,0.9189311594202899,0.9189311594202899
+E-MTAB-6038,spls,observed,pre_split,0.9451992753623188,0.9451992753623188
+E-MTAB-6038,spls,observed,fold_contained,0.8994565217391304,0.8994565217391304
+E-MTAB-6038,pls_da,observed,pre_split,0.9954710144927537,0.9954710144927537
+E-MTAB-6038,pls_da,observed,fold_contained,0.822463768115942,0.822463768115942
+E-MTAB-6038,opls_da,observed,pre_split,0.9669384057971014,0.9669384057971014
+E-MTAB-6038,opls_da,observed,fold_contained,0.811141304347826,0.811141304347826
+E-MTAB-7104,top_k,observed,pre_split,1.0,1.0
+E-MTAB-7104,top_k,permutation 0,pre_split,0.9305555555555556,0.9305555555555556
+E-MTAB-7104,top_k,permutation 1,pre_split,0.9490740740740742,0.9490740740740742
+E-MTAB-7104,top_k,permutation 2,pre_split,0.9907407407407407,0.9907407407407407
+E-MTAB-7104,top_k,permutation 3,pre_split,0.851851851851852,0.851851851851852
+E-MTAB-7104,top_k,permutation 4,pre_split,0.9722222222222222,0.9722222222222222
+E-MTAB-7104,top_k,observed,fold_contained,0.962962962962963,0.962962962962963
+E-MTAB-7104,top_k,permutation 0,fold_contained,0.675925925925926,0.675925925925926
+E-MTAB-7104,top_k,permutation 1,fold_contained,0.47685185185185186,0.47685185185185186
+E-MTAB-7104,top_k,permutation 2,fold_contained,0.6805555555555556,0.6805555555555556
+E-MTAB-7104,top_k,permutation 3,fold_contained,0.32407407407407407,0.32407407407407407
+E-MTAB-7104,top_k,permutation 4,fold_contained,0.6342592592592593,0.6342592592592593
+E-MTAB-7104,rfe,observed,pre_split,1.0,1.0
+E-MTAB-7104,rfe,permutation 0,pre_split,0.9814814814814815,0.9814814814814815
+E-MTAB-7104,rfe,permutation 1,pre_split,1.0,1.0
+E-MTAB-7104,rfe,permutation 2,pre_split,1.0,1.0
+E-MTAB-7104,rfe,permutation 3,pre_split,1.0,1.0
+E-MTAB-7104,rfe,permutation 4,pre_split,1.0,1.0
+E-MTAB-7104,rfe,observed,fold_contained,0.8842592592592592,0.8842592592592592
+E-MTAB-7104,rfe,permutation 0,fold_contained,0.6435185185185185,0.6435185185185185
+E-MTAB-7104,rfe,permutation 1,fold_contained,0.4212962962962963,0.4212962962962963
+E-MTAB-7104,rfe,permutation 2,fold_contained,0.712962962962963,0.712962962962963
+E-MTAB-7104,rfe,permutation 3,fold_contained,0.5046296296296297,0.5046296296296297
+E-MTAB-7104,rfe,permutation 4,fold_contained,0.46759259259259256,0.46759259259259256
+E-MTAB-7104,spls,observed,pre_split,1.0,1.0
+E-MTAB-7104,spls,permutation 0,pre_split,0.9861111111111112,0.9861111111111112
+E-MTAB-7104,spls,permutation 1,pre_split,1.0,1.0
+E-MTAB-7104,spls,permutation 2,pre_split,1.0,1.0
+E-MTAB-7104,spls,permutation 3,pre_split,0.9583333333333333,0.9583333333333333
+E-MTAB-7104,spls,permutation 4,pre_split,1.0,1.0
+E-MTAB-7104,spls,observed,fold_contained,0.9212962962962963,0.9212962962962963
+E-MTAB-7104,spls,permutation 0,fold_contained,0.6805555555555556,0.6805555555555556
+E-MTAB-7104,spls,permutation 1,fold_contained,0.4490740740740741,0.4490740740740741
+E-MTAB-7104,spls,permutation 2,fold_contained,0.6805555555555556,0.6805555555555556
+E-MTAB-7104,spls,permutation 3,fold_contained,0.36111111111111116,0.36111111111111116
+E-MTAB-7104,spls,permutation 4,fold_contained,0.537037037037037,0.537037037037037
+E-MTAB-7104,pls_da,observed,pre_split,1.0,1.0
+E-MTAB-7104,pls_da,permutation 0,pre_split,0.9907407407407407,0.9907407407407407
+E-MTAB-7104,pls_da,permutation 1,pre_split,1.0,1.0
+E-MTAB-7104,pls_da,permutation 2,pre_split,0.9675925925925926,0.9675925925925926
+E-MTAB-7104,pls_da,permutation 3,pre_split,1.0,1.0
+E-MTAB-7104,pls_da,permutation 4,pre_split,1.0,1.0
+E-MTAB-7104,pls_da,observed,fold_contained,0.8935185185185185,0.8935185185185185
+E-MTAB-7104,pls_da,permutation 0,fold_contained,0.7083333333333333,0.7083333333333333
+E-MTAB-7104,pls_da,permutation 1,fold_contained,0.41666666666666663,0.41666666666666663
+E-MTAB-7104,pls_da,permutation 2,fold_contained,0.6574074074074074,0.6574074074074074
+E-MTAB-7104,pls_da,permutation 3,fold_contained,0.375,0.375
+E-MTAB-7104,pls_da,permutation 4,fold_contained,0.6388888888888888,0.6388888888888888
+E-MTAB-7104,opls_da,observed,pre_split,1.0,1.0
+E-MTAB-7104,opls_da,permutation 0,pre_split,0.9444444444444444,0.9444444444444444
+E-MTAB-7104,opls_da,permutation 1,pre_split,1.0,1.0
+E-MTAB-7104,opls_da,permutation 2,pre_split,0.9814814814814815,0.9814814814814815
+E-MTAB-7104,opls_da,permutation 3,pre_split,0.9722222222222223,0.9722222222222223
+E-MTAB-7104,opls_da,permutation 4,pre_split,0.8981481481481481,0.8981481481481481
+E-MTAB-7104,opls_da,observed,fold_contained,0.8842592592592592,0.8842592592592592
+E-MTAB-7104,opls_da,permutation 0,fold_contained,0.6898148148148148,0.6898148148148148
+E-MTAB-7104,opls_da,permutation 1,fold_contained,0.39814814814814814,0.39814814814814814
+E-MTAB-7104,opls_da,permutation 2,fold_contained,0.6712962962962963,0.6712962962962963
+E-MTAB-7104,opls_da,permutation 3,fold_contained,0.36574074074074076,0.36574074074074076
+E-MTAB-7104,opls_da,permutation 4,fold_contained,0.6574074074074074,0.6574074074074074
+E-MTAB-7604,top_k,observed,pre_split,0.8954248366013071,0.8954248366013071
+E-MTAB-7604,top_k,observed,fold_contained,0.5947712418300654,0.5947712418300654
+E-MTAB-7604,rfe,observed,pre_split,1.0,1.0
+E-MTAB-7604,rfe,observed,fold_contained,0.616557734204793,0.616557734204793
+E-MTAB-7604,spls,observed,pre_split,0.9433551198257081,0.9433551198257081
+E-MTAB-7604,spls,observed,fold_contained,0.588235294117647,0.588235294117647
+E-MTAB-7604,pls_da,observed,pre_split,1.0,1.0
+E-MTAB-7604,pls_da,observed,fold_contained,0.542483660130719,0.542483660130719
+E-MTAB-7604,opls_da,observed,pre_split,1.0,1.0
+E-MTAB-7604,opls_da,observed,fold_contained,0.579520697167756,0.579520697167756
+E-MTAB-8478,top_k,observed,pre_split,1.0,1.0
+E-MTAB-8478,top_k,observed,fold_contained,1.0,1.0
+E-MTAB-8478,rfe,observed,pre_split,1.0,1.0
+E-MTAB-8478,rfe,observed,fold_contained,1.0,1.0
+E-MTAB-8478,spls,observed,pre_split,1.0,1.0
+E-MTAB-8478,spls,observed,fold_contained,1.0,1.0
+E-MTAB-8478,pls_da,observed,pre_split,1.0,1.0
+E-MTAB-8478,pls_da,observed,fold_contained,1.0,1.0
+E-MTAB-8478,opls_da,observed,pre_split,1.0,1.0
+E-MTAB-8478,opls_da,observed,fold_contained,1.0,1.0
+E-MTAB-9808,top_k,observed,pre_split,0.91796875,0.91796875
+E-MTAB-9808,top_k,observed,fold_contained,0.216796875,0.216796875
+E-MTAB-9808,rfe,observed,pre_split,1.0,1.0
+E-MTAB-9808,rfe,observed,fold_contained,0.1923828125,0.1923828125
+E-MTAB-9808,spls,observed,pre_split,0.9794921875,0.9794921875
+E-MTAB-9808,spls,observed,fold_contained,0.205078125,0.205078125
+E-MTAB-9808,pls_da,observed,pre_split,0.9130859375,0.9130859375
+E-MTAB-9808,pls_da,observed,fold_contained,0.4345703125,0.4345703125
+E-MTAB-9808,opls_da,observed,pre_split,0.9130859375,0.9130859375
+E-MTAB-9808,opls_da,observed,fold_contained,0.4326171875,0.4326171875
+E-PROT-55,top_k,observed,pre_split,0.9884615384615385,0.9884615384615385
+E-PROT-55,top_k,observed,fold_contained,0.773076923076923,0.773076923076923
+E-PROT-55,rfe,observed,pre_split,1.0,1.0
+E-PROT-55,rfe,observed,fold_contained,0.7999999999999999,0.7999999999999999
+E-PROT-55,spls,observed,pre_split,1.0,1.0
+E-PROT-55,spls,observed,fold_contained,0.7846153846153846,0.7846153846153846
+E-PROT-55,pls_da,observed,pre_split,1.0,1.0
+E-PROT-55,pls_da,observed,fold_contained,0.8269230769230769,0.8269230769230769
+E-PROT-55,opls_da,observed,pre_split,1.0,1.0
+E-PROT-55,opls_da,observed,fold_contained,0.8269230769230769,0.8269230769230769
+E-TABM-1205,top_k,observed,pre_split,0.9658203125,0.9658203125
+E-TABM-1205,top_k,permutation 0,pre_split,0.83203125,0.83203125
+E-TABM-1205,top_k,permutation 1,pre_split,0.8740234375,0.8740234375
+E-TABM-1205,top_k,permutation 2,pre_split,0.783203125,0.783203125
+E-TABM-1205,top_k,permutation 3,pre_split,0.8955078125,0.8955078125
+E-TABM-1205,top_k,permutation 4,pre_split,0.8359375,0.8359375
+E-TABM-1205,top_k,observed,fold_contained,0.9541015625,0.9541015625
+E-TABM-1205,top_k,permutation 0,fold_contained,0.5126953125,0.5126953125
+E-TABM-1205,top_k,permutation 1,fold_contained,0.6376953125,0.6376953125
+E-TABM-1205,top_k,permutation 2,fold_contained,0.48046875,0.48046875
+E-TABM-1205,top_k,permutation 3,fold_contained,0.57421875,0.57421875
+E-TABM-1205,top_k,permutation 4,fold_contained,0.640625,0.640625
+E-TABM-1205,rfe,observed,pre_split,1.0,1.0
+E-TABM-1205,rfe,permutation 0,pre_split,0.966796875,0.966796875
+E-TABM-1205,rfe,permutation 1,pre_split,0.98828125,0.98828125
+E-TABM-1205,rfe,permutation 2,pre_split,0.9443359375,0.9443359375
+E-TABM-1205,rfe,permutation 3,pre_split,1.0,1.0
+E-TABM-1205,rfe,permutation 4,pre_split,0.9921875,0.9921875
+E-TABM-1205,rfe,observed,fold_contained,0.9580078125,0.9580078125
+E-TABM-1205,rfe,permutation 0,fold_contained,0.4775390625,0.4775390625
+E-TABM-1205,rfe,permutation 1,fold_contained,0.6123046875,0.6123046875
+E-TABM-1205,rfe,permutation 2,fold_contained,0.3740234375,0.3740234375
+E-TABM-1205,rfe,permutation 3,fold_contained,0.630859375,0.630859375
+E-TABM-1205,rfe,permutation 4,fold_contained,0.58984375,0.58984375
+E-TABM-1205,spls,observed,pre_split,0.9931640625,0.9931640625
+E-TABM-1205,spls,permutation 0,pre_split,0.923828125,0.923828125
+E-TABM-1205,spls,permutation 1,pre_split,0.994140625,0.994140625
+E-TABM-1205,spls,permutation 2,pre_split,0.9443359375,0.9443359375
+E-TABM-1205,spls,permutation 3,pre_split,0.9609375,0.9609375
+E-TABM-1205,spls,permutation 4,pre_split,0.9453125,0.9453125
+E-TABM-1205,spls,observed,fold_contained,0.9267578125,0.9267578125
+E-TABM-1205,spls,permutation 0,fold_contained,0.455078125,0.455078125
+E-TABM-1205,spls,permutation 1,fold_contained,0.6455078125,0.6455078125
+E-TABM-1205,spls,permutation 2,fold_contained,0.4404296875,0.4404296875
+E-TABM-1205,spls,permutation 3,fold_contained,0.54296875,0.54296875
+E-TABM-1205,spls,permutation 4,fold_contained,0.6279296875,0.6279296875
+E-TABM-1205,pls_da,observed,pre_split,1.0,1.0
+E-TABM-1205,pls_da,permutation 0,pre_split,0.9990234375,0.9990234375
+E-TABM-1205,pls_da,permutation 1,pre_split,0.962890625,0.962890625
+E-TABM-1205,pls_da,permutation 2,pre_split,0.8896484375,0.8896484375
+E-TABM-1205,pls_da,permutation 3,pre_split,0.916015625,0.916015625
+E-TABM-1205,pls_da,permutation 4,pre_split,0.9990234375,0.9990234375
+E-TABM-1205,pls_da,observed,fold_contained,0.908203125,0.908203125
+E-TABM-1205,pls_da,permutation 0,fold_contained,0.4267578125,0.4267578125
+E-TABM-1205,pls_da,permutation 1,fold_contained,0.580078125,0.580078125
+E-TABM-1205,pls_da,permutation 2,fold_contained,0.43359375,0.43359375
+E-TABM-1205,pls_da,permutation 3,fold_contained,0.490234375,0.490234375
+E-TABM-1205,pls_da,permutation 4,fold_contained,0.6083984375,0.6083984375
+E-TABM-1205,opls_da,observed,pre_split,1.0,1.0
+E-TABM-1205,opls_da,permutation 0,pre_split,0.9931640625,0.9931640625
+E-TABM-1205,opls_da,permutation 1,pre_split,0.9375,0.9375
+E-TABM-1205,opls_da,permutation 2,pre_split,0.9189453125,0.9189453125
+E-TABM-1205,opls_da,permutation 3,pre_split,0.916015625,0.916015625
+E-TABM-1205,opls_da,permutation 4,pre_split,0.9921875,0.9921875
+E-TABM-1205,opls_da,observed,fold_contained,0.8544921875,0.8544921875
+E-TABM-1205,opls_da,permutation 0,fold_contained,0.4013671875,0.4013671875
+E-TABM-1205,opls_da,permutation 1,fold_contained,0.5673828125,0.5673828125
+E-TABM-1205,opls_da,permutation 2,fold_contained,0.431640625,0.431640625
+E-TABM-1205,opls_da,permutation 3,fold_contained,0.505859375,0.505859375
+E-TABM-1205,opls_da,permutation 4,fold_contained,0.59765625,0.59765625
+E-TABM-82,top_k,observed,pre_split,0.9945987654320987,0.9945987654320987
+E-TABM-82,top_k,observed,fold_contained,0.9930555555555556,0.9930555555555556
+E-TABM-82,rfe,observed,pre_split,0.9992283950617283,0.9992283950617283
+E-TABM-82,rfe,observed,fold_contained,0.9714506172839507,0.9714506172839507
+E-TABM-82,spls,observed,pre_split,0.9953703703703703,0.9953703703703703
+E-TABM-82,spls,observed,fold_contained,0.9915123456790123,0.9915123456790123
+E-TABM-82,pls_da,observed,pre_split,0.9598765432098766,0.9598765432098766
+E-TABM-82,pls_da,observed,fold_contained,0.9560185185185185,0.9560185185185185
+E-TABM-82,opls_da,observed,pre_split,0.9714506172839507,0.9714506172839507
+E-TABM-82,opls_da,observed,fold_contained,0.9475308641975307,0.9475308641975307
+E-TABM-898,top_k,observed,pre_split,0.9438596491228071,0.9438596491228071
+E-TABM-898,top_k,observed,fold_contained,0.4,0.4
+E-TABM-898,rfe,observed,pre_split,1.0,1.0
+E-TABM-898,rfe,observed,fold_contained,0.3894736842105263,0.3894736842105263
+E-TABM-898,spls,observed,pre_split,1.0,1.0
+E-TABM-898,spls,observed,fold_contained,0.45614035087719296,0.45614035087719296
+E-TABM-898,pls_da,observed,pre_split,0.9929824561403509,0.9929824561403509
+E-TABM-898,pls_da,observed,fold_contained,0.631578947368421,0.631578947368421
+E-TABM-898,opls_da,observed,pre_split,0.9964912280701754,0.9964912280701754
+E-TABM-898,opls_da,observed,fold_contained,0.6245614035087719,0.6245614035087719
+MTBLS1107,top_k,observed,pre_split,1.0,1.0
+MTBLS1107,top_k,observed,fold_contained,1.0,1.0
+MTBLS1107,rfe,observed,pre_split,1.0,1.0
+MTBLS1107,rfe,observed,fold_contained,1.0,1.0
+MTBLS1107,spls,observed,pre_split,0.9991511035653651,0.9991511035653651
+MTBLS1107,spls,observed,fold_contained,0.9966044142614602,0.9966044142614602
+MTBLS1107,pls_da,observed,pre_split,1.0,1.0
+MTBLS1107,pls_da,observed,fold_contained,0.9762308998302207,0.9762308998302207
+MTBLS1107,opls_da,observed,pre_split,1.0,1.0
+MTBLS1107,opls_da,observed,fold_contained,0.9736842105263158,0.9736842105263158
+MTBLS12854,top_k,observed,pre_split,0.9971590909090909,0.9971590909090909
+MTBLS12854,top_k,observed,fold_contained,0.9965277777777778,0.9965277777777778
+MTBLS12854,rfe,observed,pre_split,0.9996843434343434,0.9996843434343434
+MTBLS12854,rfe,observed,fold_contained,0.9857954545454546,0.9857954545454546
+MTBLS12854,spls,observed,pre_split,0.9993686868686869,0.9993686868686869
+MTBLS12854,spls,observed,fold_contained,0.9984217171717172,0.9984217171717172
+MTBLS12854,pls_da,observed,pre_split,1.0,1.0
+MTBLS12854,pls_da,observed,fold_contained,0.9984217171717172,0.9984217171717172
+MTBLS12854,opls_da,observed,pre_split,1.0,1.0
+MTBLS12854,opls_da,observed,fold_contained,0.9984217171717172,0.9984217171717172
+MTBLS13211,top_k,observed,pre_split,1.0,1.0
+MTBLS13211,top_k,permutation 0,pre_split,0.6442901234567902,0.6442901234567902
+MTBLS13211,top_k,permutation 1,pre_split,0.6211419753086419,0.6211419753086419
+MTBLS13211,top_k,permutation 2,pre_split,0.6543209876543211,0.6543209876543211
+MTBLS13211,top_k,permutation 3,pre_split,0.47993827160493824,0.47993827160493824
+MTBLS13211,top_k,permutation 4,pre_split,0.533179012345679,0.533179012345679
+MTBLS13211,top_k,observed,fold_contained,1.0,1.0
+MTBLS13211,top_k,permutation 0,fold_contained,0.5810185185185185,0.5810185185185185
+MTBLS13211,top_k,permutation 1,fold_contained,0.4521604938271605,0.4521604938271605
+MTBLS13211,top_k,permutation 2,fold_contained,0.5709876543209875,0.5709876543209875
+MTBLS13211,top_k,permutation 3,fold_contained,0.3402777777777778,0.3402777777777778
+MTBLS13211,top_k,permutation 4,fold_contained,0.39506172839506176,0.39506172839506176
+MTBLS13211,rfe,observed,pre_split,1.0,1.0
+MTBLS13211,rfe,permutation 0,pre_split,0.720679012345679,0.720679012345679
+MTBLS13211,rfe,permutation 1,pre_split,0.6257716049382716,0.6257716049382716
+MTBLS13211,rfe,permutation 2,pre_split,0.6820987654320987,0.6820987654320987
+MTBLS13211,rfe,permutation 3,pre_split,0.533179012345679,0.533179012345679
+MTBLS13211,rfe,permutation 4,pre_split,0.5586419753086419,0.5586419753086419
+MTBLS13211,rfe,observed,fold_contained,1.0,1.0
+MTBLS13211,rfe,permutation 0,fold_contained,0.6126543209876543,0.6126543209876543
+MTBLS13211,rfe,permutation 1,fold_contained,0.49614197530864196,0.49614197530864196
+MTBLS13211,rfe,permutation 2,fold_contained,0.5540123456790124,0.5540123456790124
+MTBLS13211,rfe,permutation 3,fold_contained,0.3487654320987654,0.3487654320987654
+MTBLS13211,rfe,permutation 4,fold_contained,0.44598765432098764,0.44598765432098764
+MTBLS13211,spls,observed,pre_split,1.0,1.0
+MTBLS13211,spls,permutation 0,pre_split,0.7677469135802468,0.7677469135802468
+MTBLS13211,spls,permutation 1,pre_split,0.6921296296296297,0.6921296296296297
+MTBLS13211,spls,permutation 2,pre_split,0.771604938271605,0.771604938271605
+MTBLS13211,spls,permutation 3,pre_split,0.6705246913580246,0.6705246913580246
+MTBLS13211,spls,permutation 4,pre_split,0.6813271604938271,0.6813271604938271
+MTBLS13211,spls,observed,fold_contained,1.0,1.0
+MTBLS13211,spls,permutation 0,fold_contained,0.6010802469135803,0.6010802469135803
+MTBLS13211,spls,permutation 1,fold_contained,0.4783950617283951,0.4783950617283951
+MTBLS13211,spls,permutation 2,fold_contained,0.5848765432098766,0.5848765432098766
+MTBLS13211,spls,permutation 3,fold_contained,0.3325617283950617,0.3325617283950617
+MTBLS13211,spls,permutation 4,fold_contained,0.4274691358024691,0.4274691358024691
+MTBLS13211,pls_da,observed,pre_split,1.0,1.0
+MTBLS13211,pls_da,permutation 0,pre_split,0.7939814814814815,0.7939814814814815
+MTBLS13211,pls_da,permutation 1,pre_split,0.6820987654320988,0.6820987654320988
+MTBLS13211,pls_da,permutation 2,pre_split,0.7615740740740741,0.7615740740740741
+MTBLS13211,pls_da,permutation 3,pre_split,0.5486111111111112,0.5486111111111112
+MTBLS13211,pls_da,permutation 4,pre_split,0.7006172839506173,0.7006172839506173
+MTBLS13211,pls_da,observed,fold_contained,1.0,1.0
+MTBLS13211,pls_da,permutation 0,fold_contained,0.6118827160493827,0.6118827160493827
+MTBLS13211,pls_da,permutation 1,fold_contained,0.5015432098765432,0.5015432098765432
+MTBLS13211,pls_da,permutation 2,fold_contained,0.5987654320987654,0.5987654320987654
+MTBLS13211,pls_da,permutation 3,fold_contained,0.28935185185185186,0.28935185185185186
+MTBLS13211,pls_da,permutation 4,fold_contained,0.4583333333333333,0.4583333333333333
+MTBLS13211,opls_da,observed,pre_split,1.0,1.0
+MTBLS13211,opls_da,permutation 0,pre_split,0.8194444444444444,0.8194444444444444
+MTBLS13211,opls_da,permutation 1,pre_split,0.6481481481481481,0.6481481481481481
+MTBLS13211,opls_da,permutation 2,pre_split,0.7885802469135803,0.7885802469135803
+MTBLS13211,opls_da,permutation 3,pre_split,0.6157407407407407,0.6157407407407407
+MTBLS13211,opls_da,permutation 4,pre_split,0.7399691358024691,0.7399691358024691
+MTBLS13211,opls_da,observed,fold_contained,1.0,1.0
+MTBLS13211,opls_da,permutation 0,fold_contained,0.6219135802469136,0.6219135802469136
+MTBLS13211,opls_da,permutation 1,fold_contained,0.5123456790123456,0.5123456790123456
+MTBLS13211,opls_da,permutation 2,fold_contained,0.6203703703703705,0.6203703703703705
+MTBLS13211,opls_da,permutation 3,fold_contained,0.26388888888888884,0.26388888888888884
+MTBLS13211,opls_da,permutation 4,fold_contained,0.4513888888888889,0.4513888888888889
+MTBLS13364,top_k,observed,pre_split,0.9714285714285715,0.9714285714285715
+MTBLS13364,top_k,observed,fold_contained,0.6755102040816325,0.6755102040816325
+MTBLS13364,rfe,observed,pre_split,1.0,1.0
+MTBLS13364,rfe,observed,fold_contained,0.6387755102040816,0.6387755102040816
+MTBLS13364,spls,observed,pre_split,0.9918367346938776,0.9918367346938776
+MTBLS13364,spls,observed,fold_contained,0.7204081632653061,0.7204081632653061
+MTBLS13364,pls_da,observed,pre_split,0.9938775510204081,0.9938775510204081
+MTBLS13364,pls_da,observed,fold_contained,0.7326530612244898,0.7326530612244898
+MTBLS13364,opls_da,observed,pre_split,1.0,1.0
+MTBLS13364,opls_da,observed,fold_contained,0.7530612244897958,0.7530612244897958
+MTBLS13497,top_k,observed,pre_split,0.7895833333333333,0.7895833333333333
+MTBLS13497,top_k,observed,fold_contained,0.9291666666666666,0.9291666666666666
+MTBLS13497,rfe,observed,pre_split,0.7895833333333333,0.7895833333333333
+MTBLS13497,rfe,observed,fold_contained,0.9083333333333333,0.9083333333333333
+MTBLS13497,spls,observed,pre_split,0.7895833333333333,0.7895833333333333
+MTBLS13497,spls,observed,fold_contained,0.9375,0.9375
+MTBLS13497,pls_da,observed,pre_split,0.7895833333333333,0.7895833333333333
+MTBLS13497,pls_da,observed,fold_contained,0.9750000000000001,0.9750000000000001
+MTBLS13497,opls_da,observed,pre_split,0.7895833333333333,0.7895833333333333
+MTBLS13497,opls_da,observed,fold_contained,0.9791666666666667,0.9791666666666667
+MTBLS14293,top_k,observed,pre_split,0.9861111111111112,0.9861111111111112
+MTBLS14293,top_k,observed,fold_contained,0.9870580808080808,0.9870580808080808
+MTBLS14293,rfe,observed,pre_split,1.0,1.0
+MTBLS14293,rfe,observed,fold_contained,0.9993686868686869,0.9993686868686869
+MTBLS14293,spls,observed,pre_split,1.0,1.0
+MTBLS14293,spls,observed,fold_contained,1.0,1.0
+MTBLS14293,pls_da,observed,pre_split,1.0,1.0
+MTBLS14293,pls_da,observed,fold_contained,0.9987373737373737,0.9987373737373737
+MTBLS14293,opls_da,observed,pre_split,1.0,1.0
+MTBLS14293,opls_da,observed,fold_contained,0.9987373737373737,0.9987373737373737
+MTBLS14861,top_k,observed,pre_split,0.643552311435523,0.643552311435523
+MTBLS14861,top_k,observed,fold_contained,0.578345498783455,0.578345498783455
+MTBLS14861,rfe,observed,pre_split,0.6852068126520682,0.6852068126520682
+MTBLS14861,rfe,observed,fold_contained,0.6067153284671533,0.6067153284671533
+MTBLS14861,spls,observed,pre_split,0.735279805352798,0.735279805352798
+MTBLS14861,spls,observed,fold_contained,0.5731873479318734,0.5731873479318734
+MTBLS14861,pls_da,observed,pre_split,0.7620437956204379,0.7620437956204379
+MTBLS14861,pls_da,observed,fold_contained,0.5631143552311436,0.5631143552311436
+MTBLS14861,opls_da,observed,pre_split,0.754014598540146,0.754014598540146
+MTBLS14861,opls_da,observed,fold_contained,0.565352798053528,0.565352798053528
+MTBLS2040,top_k,observed,pre_split,0.7922453703703703,0.7922453703703703
+MTBLS2040,top_k,permutation 0,pre_split,0.5734953703703703,0.5734953703703703
+MTBLS2040,top_k,permutation 1,pre_split,0.5815972222222222,0.5815972222222222
+MTBLS2040,top_k,permutation 2,pre_split,0.6770833333333333,0.6770833333333333
+MTBLS2040,top_k,permutation 3,pre_split,0.6741898148148148,0.6741898148148148
+MTBLS2040,top_k,permutation 4,pre_split,0.6232638888888888,0.6232638888888888
+MTBLS2040,top_k,observed,fold_contained,0.6811342592592592,0.6811342592592592
+MTBLS2040,top_k,permutation 0,fold_contained,0.45254629629629634,0.45254629629629634
+MTBLS2040,top_k,permutation 1,fold_contained,0.41435185185185186,0.41435185185185186
+MTBLS2040,top_k,permutation 2,fold_contained,0.5815972222222222,0.5815972222222222
+MTBLS2040,top_k,permutation 3,fold_contained,0.5792824074074073,0.5792824074074073
+MTBLS2040,top_k,permutation 4,fold_contained,0.527199074074074,0.527199074074074
+MTBLS2040,rfe,observed,pre_split,0.8819444444444444,0.8819444444444444
+MTBLS2040,rfe,permutation 0,pre_split,0.7002314814814815,0.7002314814814815
+MTBLS2040,rfe,permutation 1,pre_split,0.7013888888888888,0.7013888888888888
+MTBLS2040,rfe,permutation 2,pre_split,0.7667824074074074,0.7667824074074074
+MTBLS2040,rfe,permutation 3,pre_split,0.7314814814814815,0.7314814814814815
+MTBLS2040,rfe,permutation 4,pre_split,0.78125,0.78125
+MTBLS2040,rfe,observed,fold_contained,0.7164351851851852,0.7164351851851852
+MTBLS2040,rfe,permutation 0,fold_contained,0.3310185185185185,0.3310185185185185
+MTBLS2040,rfe,permutation 1,fold_contained,0.4189814814814815,0.4189814814814815
+MTBLS2040,rfe,permutation 2,fold_contained,0.5659722222222223,0.5659722222222223
+MTBLS2040,rfe,permutation 3,fold_contained,0.5381944444444444,0.5381944444444444
+MTBLS2040,rfe,permutation 4,fold_contained,0.5486111111111112,0.5486111111111112
+MTBLS2040,spls,observed,pre_split,0.8003472222222222,0.8003472222222222
+MTBLS2040,spls,permutation 0,pre_split,0.6585648148148149,0.6585648148148149
+MTBLS2040,spls,permutation 1,pre_split,0.7262731481481481,0.7262731481481481
+MTBLS2040,spls,permutation 2,pre_split,0.7552083333333334,0.7552083333333334
+MTBLS2040,spls,permutation 3,pre_split,0.7899305555555556,0.7899305555555556
+MTBLS2040,spls,permutation 4,pre_split,0.7991898148148148,0.7991898148148148
+MTBLS2040,spls,observed,fold_contained,0.5856481481481481,0.5856481481481481
+MTBLS2040,spls,permutation 0,fold_contained,0.49537037037037035,0.49537037037037035
+MTBLS2040,spls,permutation 1,fold_contained,0.41956018518518523,0.41956018518518523
+MTBLS2040,spls,permutation 2,fold_contained,0.4716435185185185,0.4716435185185185
+MTBLS2040,spls,permutation 3,fold_contained,0.5318287037037036,0.5318287037037036
+MTBLS2040,spls,permutation 4,fold_contained,0.6035879629629629,0.6035879629629629
+MTBLS2040,pls_da,observed,pre_split,0.9577546296296297,0.9577546296296297
+MTBLS2040,pls_da,permutation 0,pre_split,0.6851851851851851,0.6851851851851851
+MTBLS2040,pls_da,permutation 1,pre_split,0.8223379629629629,0.8223379629629629
+MTBLS2040,pls_da,permutation 2,pre_split,0.9212962962962963,0.9212962962962963
+MTBLS2040,pls_da,permutation 3,pre_split,0.8258101851851851,0.8258101851851851
+MTBLS2040,pls_da,permutation 4,pre_split,0.8229166666666666,0.8229166666666666
+MTBLS2040,pls_da,observed,fold_contained,0.724537037037037,0.724537037037037
+MTBLS2040,pls_da,permutation 0,fold_contained,0.4716435185185185,0.4716435185185185
+MTBLS2040,pls_da,permutation 1,fold_contained,0.4473379629629629,0.4473379629629629
+MTBLS2040,pls_da,permutation 2,fold_contained,0.5497685185185185,0.5497685185185185
+MTBLS2040,pls_da,permutation 3,fold_contained,0.6215277777777778,0.6215277777777778
+MTBLS2040,pls_da,permutation 4,fold_contained,0.5920138888888888,0.5920138888888888
+MTBLS2040,opls_da,observed,pre_split,0.9473379629629629,0.9473379629629629
+MTBLS2040,opls_da,permutation 0,pre_split,0.6753472222222223,0.6753472222222223
+MTBLS2040,opls_da,permutation 1,pre_split,0.8229166666666667,0.8229166666666667
+MTBLS2040,opls_da,permutation 2,pre_split,0.890625,0.890625
+MTBLS2040,opls_da,permutation 3,pre_split,0.8535879629629629,0.8535879629629629
+MTBLS2040,opls_da,permutation 4,pre_split,0.833912037037037,0.833912037037037
+MTBLS2040,opls_da,observed,fold_contained,0.6886574074074073,0.6886574074074073
+MTBLS2040,opls_da,permutation 0,fold_contained,0.4913194444444445,0.4913194444444445
+MTBLS2040,opls_da,permutation 1,fold_contained,0.4890046296296296,0.4890046296296296
+MTBLS2040,opls_da,permutation 2,fold_contained,0.5381944444444445,0.5381944444444445
+MTBLS2040,opls_da,permutation 3,fold_contained,0.6105324074074073,0.6105324074074073
+MTBLS2040,opls_da,permutation 4,fold_contained,0.6041666666666667,0.6041666666666667
+MTBLS219,top_k,observed,pre_split,0.6877828054298643,0.6877828054298643
+MTBLS219,top_k,observed,fold_contained,0.5837104072398189,0.5837104072398189
+MTBLS219,rfe,observed,pre_split,0.9638009049773755,0.9638009049773755
+MTBLS219,rfe,observed,fold_contained,0.7149321266968326,0.7149321266968326
+MTBLS219,spls,observed,pre_split,0.9366515837104072,0.9366515837104072
+MTBLS219,spls,observed,fold_contained,0.6244343891402715,0.6244343891402715
+MTBLS219,pls_da,observed,pre_split,0.9864253393665159,0.9864253393665159
+MTBLS219,pls_da,observed,fold_contained,0.6968325791855203,0.6968325791855203
+MTBLS219,opls_da,observed,pre_split,0.995475113122172,0.995475113122172
+MTBLS219,opls_da,observed,fold_contained,0.7104072398190044,0.7104072398190044
+MTBLS2266,top_k,observed,pre_split,0.9975324264473268,0.9975324264473268
+MTBLS2266,top_k,observed,fold_contained,0.992787092692186,0.992787092692186
+MTBLS2266,rfe,observed,pre_split,0.993103448275862,0.993103448275862
+MTBLS2266,rfe,observed,fold_contained,0.992787092692186,0.992787092692186
+MTBLS2266,spls,observed,pre_split,0.9925972793419804,0.9925972793419804
+MTBLS2266,spls,observed,fold_contained,0.9930401771591268,0.9930401771591268
+MTBLS2266,pls_da,observed,pre_split,0.9965200885795634,0.9965200885795634
+MTBLS2266,pls_da,observed,fold_contained,0.993103448275862,0.993103448275862
+MTBLS2266,opls_da,observed,pre_split,1.0,1.0
+MTBLS2266,opls_da,observed,fold_contained,0.9930718127174945,0.9930718127174945
+MTBLS2419,top_k,observed,pre_split,0.9201680672268907,0.9201680672268907
+MTBLS2419,top_k,observed,fold_contained,0.4789915966386554,0.4789915966386554
+MTBLS2419,rfe,observed,pre_split,0.9957983193277311,0.9957983193277311
+MTBLS2419,rfe,observed,fold_contained,0.5,0.5
+MTBLS2419,spls,observed,pre_split,0.9873949579831933,0.9873949579831933
+MTBLS2419,spls,observed,fold_contained,0.42016806722689076,0.42016806722689076
+MTBLS2419,pls_da,observed,pre_split,0.9957983193277311,0.9957983193277311
+MTBLS2419,pls_da,observed,fold_contained,0.4285714285714286,0.4285714285714286
+MTBLS2419,opls_da,observed,pre_split,0.9873949579831932,0.9873949579831932
+MTBLS2419,opls_da,observed,fold_contained,0.40336134453781514,0.40336134453781514
+MTBLS283,top_k,observed,pre_split,0.9722222222222222,0.9722222222222222
+MTBLS283,top_k,observed,fold_contained,0.962962962962963,0.962962962962963
+MTBLS283,rfe,observed,pre_split,0.9969135802469136,0.9969135802469136
+MTBLS283,rfe,observed,fold_contained,0.9907407407407407,0.9907407407407407
+MTBLS283,spls,observed,pre_split,0.9598765432098765,0.9598765432098765
+MTBLS283,spls,observed,fold_contained,0.9104938271604939,0.9104938271604939
+MTBLS283,pls_da,observed,pre_split,1.0,1.0
+MTBLS283,pls_da,observed,fold_contained,0.9876543209876543,0.9876543209876543
+MTBLS283,opls_da,observed,pre_split,1.0,1.0
+MTBLS283,opls_da,observed,fold_contained,0.9907407407407407,0.9907407407407407
+MTBLS358,top_k,observed,pre_split,0.8210313447927199,0.8210313447927199
+MTBLS358,top_k,permutation 0,pre_split,0.44051230198854063,0.44051230198854063
+MTBLS358,top_k,permutation 1,pre_split,0.47050893158072127,0.47050893158072127
+MTBLS358,top_k,permutation 2,pre_split,0.5151668351870576,0.5151668351870576
+MTBLS358,top_k,permutation 3,pre_split,0.47590158409167505,0.47590158409167505
+MTBLS358,top_k,permutation 4,pre_split,0.5362318840579711,0.5362318840579711
+MTBLS358,top_k,observed,fold_contained,0.8318166498146276,0.8318166498146276
+MTBLS358,top_k,permutation 0,fold_contained,0.44101786316144254,0.44101786316144254
+MTBLS358,top_k,permutation 1,fold_contained,0.46865520728008087,0.46865520728008087
+MTBLS358,top_k,permutation 2,fold_contained,0.444051230198854,0.444051230198854
+MTBLS358,top_k,permutation 3,fold_contained,0.4031007751937984,0.4031007751937984
+MTBLS358,top_k,permutation 4,fold_contained,0.5222446916076845,0.5222446916076845
+MTBLS358,rfe,observed,pre_split,0.855072463768116,0.855072463768116
+MTBLS358,rfe,permutation 0,pre_split,0.5390967307044152,0.5390967307044152
+MTBLS358,rfe,permutation 1,pre_split,0.5200539265251096,0.5200539265251096
+MTBLS358,rfe,permutation 2,pre_split,0.5471857094708461,0.5471857094708461
+MTBLS358,rfe,permutation 3,pre_split,0.613582743511965,0.613582743511965
+MTBLS358,rfe,permutation 4,pre_split,0.6049882035726323,0.6049882035726323
+MTBLS358,rfe,observed,fold_contained,0.8254128749578699,0.8254128749578699
+MTBLS358,rfe,permutation 0,fold_contained,0.4585439838220424,0.4585439838220424
+MTBLS358,rfe,permutation 1,fold_contained,0.43225480283114254,0.43225480283114254
+MTBLS358,rfe,permutation 2,fold_contained,0.46983485001685205,0.46983485001685205
+MTBLS358,rfe,permutation 3,fold_contained,0.5026963262554769,0.5026963262554769
+MTBLS358,rfe,permutation 4,fold_contained,0.5289855072463768,0.5289855072463768
+MTBLS358,spls,observed,pre_split,0.8279406808223795,0.8279406808223795
+MTBLS358,spls,permutation 0,pre_split,0.5906639703404112,0.5906639703404112
+MTBLS358,spls,permutation 1,pre_split,0.5675766767778901,0.5675766767778901
+MTBLS358,spls,permutation 2,pre_split,0.6056622851365016,0.6056622851365016
+MTBLS358,spls,permutation 3,pre_split,0.585608358611392,0.585608358611392
+MTBLS358,spls,permutation 4,pre_split,0.5913380519042803,0.5913380519042803
+MTBLS358,spls,observed,fold_contained,0.7910347152005393,0.7910347152005393
+MTBLS358,spls,permutation 0,fold_contained,0.47724974721941354,0.47724974721941354
+MTBLS358,spls,permutation 1,fold_contained,0.49039433771486346,0.49039433771486346
+MTBLS358,spls,permutation 2,fold_contained,0.3956858779912369,0.3956858779912369
+MTBLS358,spls,permutation 3,fold_contained,0.3926525109538254,0.3926525109538254
+MTBLS358,spls,permutation 4,fold_contained,0.49460734748904617,0.49460734748904617
+MTBLS358,pls_da,observed,pre_split,0.8855746545331986,0.8855746545331986
+MTBLS358,pls_da,permutation 0,pre_split,0.6643073811931244,0.6643073811931244
+MTBLS358,pls_da,permutation 1,pre_split,0.6265588136164476,0.6265588136164476
+MTBLS358,pls_da,permutation 2,pre_split,0.6429052915402763,0.6429052915402763
+MTBLS358,pls_da,permutation 3,pre_split,0.613582743511965,0.613582743511965
+MTBLS358,pls_da,permutation 4,pre_split,0.6661611054937648,0.6661611054937648
+MTBLS358,pls_da,observed,fold_contained,0.8277721604314121,0.8277721604314121
+MTBLS358,pls_da,permutation 0,fold_contained,0.4625884732052578,0.4625884732052578
+MTBLS358,pls_da,permutation 1,fold_contained,0.48904617458712496,0.48904617458712496
+MTBLS358,pls_da,permutation 2,fold_contained,0.40866194809571954,0.40866194809571954
+MTBLS358,pls_da,permutation 3,fold_contained,0.38490057296932934,0.38490057296932934
+MTBLS358,pls_da,permutation 4,fold_contained,0.49612403100775193,0.49612403100775193
+MTBLS358,opls_da,observed,pre_split,0.8894506235254466,0.8894506235254466
+MTBLS358,opls_da,permutation 0,pre_split,0.686046511627907,0.686046511627907
+MTBLS358,opls_da,permutation 1,pre_split,0.6331311088641726,0.6331311088641726
+MTBLS358,opls_da,permutation 2,pre_split,0.6624536568924841,0.6624536568924841
+MTBLS358,opls_da,permutation 3,pre_split,0.6300977418267611,0.6300977418267611
+MTBLS358,opls_da,permutation 4,pre_split,0.6833501853724301,0.6833501853724301
+MTBLS358,opls_da,observed,fold_contained,0.8323222109875296,0.8323222109875296
+MTBLS358,opls_da,permutation 0,fold_contained,0.4627569935962251,0.4627569935962251
+MTBLS358,opls_da,permutation 1,fold_contained,0.5013481631277384,0.5013481631277384
+MTBLS358,opls_da,permutation 2,fold_contained,0.3816986855409505,0.3816986855409505
+MTBLS358,opls_da,permutation 3,fold_contained,0.4148972025615099,0.4148972025615099
+MTBLS358,opls_da,permutation 4,fold_contained,0.48112571621166156,0.48112571621166156
+MTBLS4065,top_k,observed,pre_split,0.6411581364829395,0.6411581364829395
+MTBLS4065,top_k,observed,fold_contained,0.6361548556430445,0.6361548556430445
+MTBLS4065,rfe,observed,pre_split,0.6155675853018373,0.6155675853018373
+MTBLS4065,rfe,observed,fold_contained,0.5985072178477691,0.5985072178477691
+MTBLS4065,spls,observed,pre_split,0.6405839895013123,0.6405839895013123
+MTBLS4065,spls,observed,fold_contained,0.6085958005249344,0.6085958005249344
+MTBLS4065,pls_da,observed,pre_split,0.6446030183727034,0.6446030183727034
+MTBLS4065,pls_da,observed,fold_contained,0.613517060367454,0.613517060367454
+MTBLS4065,opls_da,observed,pre_split,0.6556758530183726,0.6556758530183726
+MTBLS4065,opls_da,observed,fold_contained,0.6043307086614174,0.6043307086614174
+MTBLS4231,top_k,observed,pre_split,0.66375,0.66375
+MTBLS4231,top_k,observed,fold_contained,0.5825,0.5825
+MTBLS4231,rfe,observed,pre_split,0.879375,0.879375
+MTBLS4231,rfe,observed,fold_contained,0.58625,0.58625
+MTBLS4231,spls,observed,pre_split,0.694375,0.694375
+MTBLS4231,spls,observed,fold_contained,0.43062500000000004,0.43062500000000004
+MTBLS4231,pls_da,observed,pre_split,0.961875,0.961875
+MTBLS4231,pls_da,observed,fold_contained,0.500625,0.500625
+MTBLS4231,opls_da,observed,pre_split,0.915625,0.915625
+MTBLS4231,opls_da,observed,fold_contained,0.49625,0.49625
+MTBLS4382,top_k,observed,pre_split,0.9362439362439361,0.9362439362439361
+MTBLS4382,top_k,observed,fold_contained,0.8648648648648649,0.8648648648648649
+MTBLS4382,rfe,observed,pre_split,0.9944559944559944,0.9944559944559944
+MTBLS4382,rfe,observed,fold_contained,0.7519057519057518,0.7519057519057518
+MTBLS4382,spls,observed,pre_split,0.9667359667359667,0.9667359667359667
+MTBLS4382,spls,observed,fold_contained,0.7983367983367983,0.7983367983367983
+MTBLS4382,pls_da,observed,pre_split,0.9965349965349966,0.9965349965349966
+MTBLS4382,pls_da,observed,fold_contained,0.6347886347886347,0.6347886347886347
+MTBLS4382,opls_da,observed,pre_split,0.9993069993069994,0.9993069993069994
+MTBLS4382,opls_da,observed,fold_contained,0.6652806652806653,0.6652806652806653
+MTBLS520,top_k,observed,pre_split,0.9346133886870784,0.9346133886870784
+MTBLS520,top_k,observed,fold_contained,0.8827192527244422,0.8827192527244422
+MTBLS520,rfe,observed,pre_split,0.9974052932018681,0.9974052932018681
+MTBLS520,rfe,observed,fold_contained,0.892579138557343,0.892579138557343
+MTBLS520,spls,observed,pre_split,0.9875454073689673,0.9875454073689673
+MTBLS520,spls,observed,fold_contained,0.8988064348728594,0.8988064348728594
+MTBLS520,pls_da,observed,pre_split,1.0,1.0
+MTBLS520,pls_da,observed,fold_contained,0.9086663207057604,0.9086663207057604
+MTBLS520,opls_da,observed,pre_split,0.9979242345614946,0.9979242345614946
+MTBLS520,opls_da,observed,fold_contained,0.9071094966268812,0.9071094966268812
+MTBLS560,top_k,observed,pre_split,0.5261813537675607,0.5261813537675607
+MTBLS560,top_k,permutation 0,pre_split,0.6245210727969348,0.6245210727969348
+MTBLS560,top_k,permutation 1,pre_split,0.6270753512132823,0.6270753512132823
+MTBLS560,top_k,permutation 2,pre_split,0.578544061302682,0.578544061302682
+MTBLS560,top_k,permutation 3,pre_split,0.6424010217113666,0.6424010217113666
+MTBLS560,top_k,permutation 4,pre_split,0.5810983397190294,0.5810983397190294
+MTBLS560,top_k,observed,fold_contained,0.29757343550446996,0.29757343550446996
+MTBLS560,top_k,permutation 0,fold_contained,0.44316730523627074,0.44316730523627074
+MTBLS560,top_k,permutation 1,fold_contained,0.4201787994891444,0.4201787994891444
+MTBLS560,top_k,permutation 2,fold_contained,0.5172413793103449,0.5172413793103449
+MTBLS560,top_k,permutation 3,fold_contained,0.4814814814814815,0.4814814814814815
+MTBLS560,top_k,permutation 4,fold_contained,0.35249042145593873,0.35249042145593873
+MTBLS560,rfe,observed,pre_split,0.6309067688378034,0.6309067688378034
+MTBLS560,rfe,permutation 0,pre_split,0.7931034482758621,0.7931034482758621
+MTBLS560,rfe,permutation 1,pre_split,0.7484035759897829,0.7484035759897829
+MTBLS560,rfe,permutation 2,pre_split,0.8173690932311622,0.8173690932311622
+MTBLS560,rfe,permutation 3,pre_split,0.7573435504469987,0.7573435504469987
+MTBLS560,rfe,permutation 4,pre_split,0.5696040868454662,0.5696040868454662
+MTBLS560,rfe,observed,fold_contained,0.3805874840357599,0.3805874840357599
+MTBLS560,rfe,permutation 0,fold_contained,0.5197956577266922,0.5197956577266922
+MTBLS560,rfe,permutation 1,fold_contained,0.4125159642401022,0.4125159642401022
+MTBLS560,rfe,permutation 2,fold_contained,0.5606641123882504,0.5606641123882504
+MTBLS560,rfe,permutation 3,fold_contained,0.4291187739463601,0.4291187739463601
+MTBLS560,rfe,permutation 4,fold_contained,0.3997445721583653,0.3997445721583653
+MTBLS560,spls,observed,pre_split,0.6730523627075351,0.6730523627075351
+MTBLS560,spls,permutation 0,pre_split,0.7867177522349937,0.7867177522349937
+MTBLS560,spls,permutation 1,pre_split,0.735632183908046,0.735632183908046
+MTBLS560,spls,permutation 2,pre_split,0.748403575989783,0.748403575989783
+MTBLS560,spls,permutation 3,pre_split,0.7215836526181354,0.7215836526181354
+MTBLS560,spls,permutation 4,pre_split,0.6756066411238825,0.6756066411238825
+MTBLS560,spls,observed,fold_contained,0.29118773946360155,0.29118773946360155
+MTBLS560,spls,permutation 0,fold_contained,0.5708812260536398,0.5708812260536398
+MTBLS560,spls,permutation 1,fold_contained,0.4201787994891444,0.4201787994891444
+MTBLS560,spls,permutation 2,fold_contained,0.5683269476372925,0.5683269476372925
+MTBLS560,spls,permutation 3,fold_contained,0.4980842911877395,0.4980842911877395
+MTBLS560,spls,permutation 4,fold_contained,0.36270753512132825,0.36270753512132825
+MTBLS560,pls_da,observed,pre_split,0.7752234993614304,0.7752234993614304
+MTBLS560,pls_da,permutation 0,pre_split,0.8837803320561941,0.8837803320561941
+MTBLS560,pls_da,permutation 1,pre_split,0.8122605363984675,0.8122605363984675
+MTBLS560,pls_da,permutation 2,pre_split,0.6973180076628352,0.6973180076628352
+MTBLS560,pls_da,permutation 3,pre_split,0.7854406130268199,0.7854406130268199
+MTBLS560,pls_da,permutation 4,pre_split,0.8288633461047255,0.8288633461047255
+MTBLS560,pls_da,observed,fold_contained,0.29501915708812265,0.29501915708812265
+MTBLS560,pls_da,permutation 0,fold_contained,0.6360153256704981,0.6360153256704981
+MTBLS560,pls_da,permutation 1,fold_contained,0.3614303959131545,0.3614303959131545
+MTBLS560,pls_da,permutation 2,fold_contained,0.5159642401021711,0.5159642401021711
+MTBLS560,pls_da,permutation 3,fold_contained,0.5287356321839081,0.5287356321839081
+MTBLS560,pls_da,permutation 4,fold_contained,0.43805874840357606,0.43805874840357606
+MTBLS560,opls_da,observed,pre_split,0.7701149425287357,0.7701149425287357
+MTBLS560,opls_da,permutation 0,pre_split,0.8825031928480204,0.8825031928480204
+MTBLS560,opls_da,permutation 1,pre_split,0.8109833971902938,0.8109833971902938
+MTBLS560,opls_da,permutation 2,pre_split,0.722860791826309,0.722860791826309
+MTBLS560,opls_da,permutation 3,pre_split,0.7713920817369093,0.7713920817369093
+MTBLS560,opls_da,permutation 4,pre_split,0.9042145593869731,0.9042145593869731
+MTBLS560,opls_da,observed,fold_contained,0.30779054916985954,0.30779054916985954
+MTBLS560,opls_da,permutation 0,fold_contained,0.6462324393358876,0.6462324393358876
+MTBLS560,opls_da,permutation 1,fold_contained,0.3742017879948915,0.3742017879948915
+MTBLS560,opls_da,permutation 2,fold_contained,0.4776500638569604,0.4776500638569604
+MTBLS560,opls_da,permutation 3,fold_contained,0.545338441890166,0.545338441890166
+MTBLS560,opls_da,permutation 4,fold_contained,0.4355044699872286,0.4355044699872286
+MTBLS6052,top_k,observed,pre_split,0.9853801169590642,0.9853801169590642
+MTBLS6052,top_k,observed,fold_contained,0.9181286549707602,0.9181286549707602
+MTBLS6052,rfe,observed,pre_split,1.0,1.0
+MTBLS6052,rfe,observed,fold_contained,0.9678362573099415,0.9678362573099415
+MTBLS6052,spls,observed,pre_split,0.9941520467836257,0.9941520467836257
+MTBLS6052,spls,observed,fold_contained,0.9210526315789475,0.9210526315789475
+MTBLS6052,pls_da,observed,pre_split,1.0,1.0
+MTBLS6052,pls_da,observed,fold_contained,0.956140350877193,0.956140350877193
+MTBLS6052,opls_da,observed,pre_split,1.0,1.0
+MTBLS6052,opls_da,observed,fold_contained,0.9678362573099415,0.9678362573099415
+MTBLS6279,top_k,observed,pre_split,0.9878787878787879,0.9878787878787879
+MTBLS6279,top_k,observed,fold_contained,0.9811447811447811,0.9811447811447811
+MTBLS6279,rfe,observed,pre_split,0.9966329966329966,0.9966329966329966
+MTBLS6279,rfe,observed,fold_contained,0.9919191919191919,0.9919191919191919
+MTBLS6279,spls,observed,pre_split,0.9865319865319866,0.9865319865319866
+MTBLS6279,spls,observed,fold_contained,0.9629629629629629,0.9629629629629629
+MTBLS6279,pls_da,observed,pre_split,0.9993265993265994,0.9993265993265994
+MTBLS6279,pls_da,observed,fold_contained,0.9898989898989898,0.9898989898989898
+MTBLS6279,opls_da,observed,pre_split,1.0,1.0
+MTBLS6279,opls_da,observed,fold_contained,0.9892255892255892,0.9892255892255892
+MTBLS6733,top_k,observed,pre_split,0.8665064102564103,0.8665064102564103
+MTBLS6733,top_k,observed,fold_contained,0.4934294871794872,0.4934294871794872
+MTBLS6733,rfe,observed,pre_split,0.8737179487179487,0.8737179487179487
+MTBLS6733,rfe,observed,fold_contained,0.5145833333333334,0.5145833333333334
+MTBLS6733,spls,observed,pre_split,0.9032051282051282,0.9032051282051282
+MTBLS6733,spls,observed,fold_contained,0.5376602564102564,0.5376602564102564
+MTBLS6733,pls_da,observed,pre_split,0.9959935897435898,0.9959935897435898
+MTBLS6733,pls_da,observed,fold_contained,0.4966346153846154,0.4966346153846154
+MTBLS6733,opls_da,observed,pre_split,0.9988782051282051,0.9988782051282051
+MTBLS6733,opls_da,observed,fold_contained,0.5440705128205128,0.5440705128205128
+MTBLS6965,top_k,observed,pre_split,1.0,1.0
+MTBLS6965,top_k,observed,fold_contained,1.0,1.0
+MTBLS6965,rfe,observed,pre_split,1.0,1.0
+MTBLS6965,rfe,observed,fold_contained,1.0,1.0
+MTBLS6965,spls,observed,pre_split,0.9907407407407407,0.9907407407407407
+MTBLS6965,spls,observed,fold_contained,0.9791666666666667,0.9791666666666667
+MTBLS6965,pls_da,observed,pre_split,1.0,1.0
+MTBLS6965,pls_da,observed,fold_contained,0.9953703703703703,0.9953703703703703
+MTBLS6965,opls_da,observed,pre_split,1.0,1.0
+MTBLS6965,opls_da,observed,fold_contained,1.0,1.0
+MTBLS7776,top_k,observed,pre_split,0.7686036571380914,0.7686036571380914
+MTBLS7776,top_k,permutation 0,pre_split,0.5664185484039115,0.5664185484039115
+MTBLS7776,top_k,permutation 1,pre_split,0.5895415024707575,0.5895415024707575
+MTBLS7776,top_k,permutation 2,pre_split,0.5387085340172223,0.5387085340172223
+MTBLS7776,top_k,permutation 3,pre_split,0.5703592502241405,0.5703592502241405
+MTBLS7776,top_k,permutation 4,pre_split,0.5976314088530263,0.5976314088530263
+MTBLS7776,top_k,observed,fold_contained,0.7582410708700819,0.7582410708700819
+MTBLS7776,top_k,permutation 0,fold_contained,0.5093304976960447,0.5093304976960447
+MTBLS7776,top_k,permutation 1,fold_contained,0.5287421029586539,0.5287421029586539
+MTBLS7776,top_k,permutation 2,fold_contained,0.45080377806968164,0.45080377806968164
+MTBLS7776,top_k,permutation 3,fold_contained,0.5482579595921686,0.5482579595921686
+MTBLS7776,top_k,permutation 4,fold_contained,0.5654177352432186,0.5654177352432186
+MTBLS7776,rfe,observed,pre_split,0.8496278226058672,0.8496278226058672
+MTBLS7776,rfe,permutation 0,pre_split,0.6102458247325953,0.6102458247325953
+MTBLS7776,rfe,permutation 1,pre_split,0.6314505535747795,0.6314505535747795
+MTBLS7776,rfe,permutation 2,pre_split,0.6018223139634287,0.6018223139634287
+MTBLS7776,rfe,permutation 3,pre_split,0.6666041158441234,0.6666041158441234
+MTBLS7776,rfe,permutation 4,pre_split,0.6456287400179312,0.6456287400179312
+MTBLS7776,rfe,observed,fold_contained,0.7755884989887616,0.7755884989887616
+MTBLS7776,rfe,permutation 0,fold_contained,0.4968203331873814,0.4968203331873814
+MTBLS7776,rfe,permutation 1,fold_contained,0.5253435082671337,0.5253435082671337
+MTBLS7776,rfe,permutation 2,fold_contained,0.4430057755259481,0.4430057755259481
+MTBLS7776,rfe,permutation 3,fold_contained,0.5049310898438314,0.5049310898438314
+MTBLS7776,rfe,permutation 4,fold_contained,0.5462771835449636,0.5462771835449636
+MTBLS7776,spls,observed,pre_split,0.7969391797502138,0.7969391797502138
+MTBLS7776,spls,permutation 0,pre_split,0.6259252309167866,0.6259252309167866
+MTBLS7776,spls,permutation 1,pre_split,0.6317841579616772,0.6317841579616772
+MTBLS7776,spls,permutation 2,pre_split,0.6252163215946289,0.6252163215946289
+MTBLS7776,spls,permutation 3,pre_split,0.6369341756844104,0.6369341756844104
+MTBLS7776,spls,permutation 4,pre_split,0.6423135464231354,0.6423135464231354
+MTBLS7776,spls,observed,fold_contained,0.7619524196743187,0.7619524196743187
+MTBLS7776,spls,permutation 0,fold_contained,0.5216113091887159,0.5216113091887159
+MTBLS7776,spls,permutation 1,fold_contained,0.5568482725547841,0.5568482725547841
+MTBLS7776,spls,permutation 2,fold_contained,0.4713621484122516,0.4713621484122516
+MTBLS7776,spls,permutation 3,fold_contained,0.5643960718083443,0.5643960718083443
+MTBLS7776,spls,permutation 4,fold_contained,0.5328287566981506,0.5328287566981506
+MTBLS7776,pls_da,observed,pre_split,0.8389316319509601,0.8389316319509601
+MTBLS7776,pls_da,permutation 0,pre_split,0.6630178686849731,0.6630178686849731
+MTBLS7776,pls_da,permutation 1,pre_split,0.6581389045265945,0.6581389045265945
+MTBLS7776,pls_da,permutation 2,pre_split,0.6373303308938512,0.6373303308938512
+MTBLS7776,pls_da,permutation 3,pre_split,0.6486937303225537,0.6486937303225537
+MTBLS7776,pls_da,permutation 4,pre_split,0.6686057421655095,0.6686057421655095
+MTBLS7776,pls_da,observed,fold_contained,0.7678738975417527,0.7678738975417527
+MTBLS7776,pls_da,permutation 0,fold_contained,0.49064865202977426,0.49064865202977426
+MTBLS7776,pls_da,permutation 1,fold_contained,0.5560976626842643,0.5560976626842643
+MTBLS7776,pls_da,permutation 2,fold_contained,0.47832613998874085,0.47832613998874085
+MTBLS7776,pls_da,permutation 3,fold_contained,0.5589541502470757,0.5589541502470757
+MTBLS7776,pls_da,permutation 4,fold_contained,0.49123245970684515,0.49123245970684515
+MTBLS7776,opls_da,observed,pre_split,0.8461249765434415,0.8461249765434415
+MTBLS7776,opls_da,permutation 0,pre_split,0.6658743562477846,0.6658743562477846
+MTBLS7776,opls_da,permutation 1,pre_split,0.6490898855319949,0.6490898855319949
+MTBLS7776,opls_da,permutation 2,pre_split,0.6408123266820959,0.6408123266820959
+MTBLS7776,opls_da,permutation 3,pre_split,0.6436688142449072,0.6436688142449072
+MTBLS7776,opls_da,permutation 4,pre_split,0.6739851129042347,0.6739851129042347
+MTBLS7776,opls_da,observed,fold_contained,0.770897187298013,0.770897187298013
+MTBLS7776,opls_da,permutation 0,fold_contained,0.4907320531264986,0.4907320531264986
+MTBLS7776,opls_da,permutation 1,fold_contained,0.5616021350680762,0.5616021350680762
+MTBLS7776,opls_da,permutation 2,fold_contained,0.4780967869727487,0.4780967869727487
+MTBLS7776,opls_da,permutation 3,fold_contained,0.5477575530118222,0.5477575530118222
+MTBLS7776,opls_da,permutation 4,fold_contained,0.48929338420800234,0.48929338420800234
+MTBLS7807,top_k,observed,pre_split,0.8001176470588236,0.8001176470588236
+MTBLS7807,top_k,observed,fold_contained,0.7981176470588235,0.7981176470588235
+MTBLS7807,rfe,observed,pre_split,0.9058823529411764,0.9058823529411764
+MTBLS7807,rfe,observed,fold_contained,0.7937647058823529,0.7937647058823529
+MTBLS7807,spls,observed,pre_split,0.8769411764705882,0.8769411764705882
+MTBLS7807,spls,observed,fold_contained,0.8265882352941176,0.8265882352941176
+MTBLS7807,pls_da,observed,pre_split,0.9402352941176471,0.9402352941176471
+MTBLS7807,pls_da,observed,fold_contained,0.8231764705882353,0.8231764705882353
+MTBLS7807,opls_da,observed,pre_split,0.9405882352941176,0.9405882352941176
+MTBLS7807,opls_da,observed,fold_contained,0.8368235294117646,0.8368235294117646
+MTBLS92,top_k,observed,pre_split,0.5398437500000001,0.5398437500000001
+MTBLS92,top_k,observed,fold_contained,0.558810763888889,0.558810763888889
+MTBLS92,rfe,observed,pre_split,0.7134114583333334,0.7134114583333334
+MTBLS92,rfe,observed,fold_contained,0.561328125,0.561328125
+MTBLS92,spls,observed,pre_split,0.6270399305555555,0.6270399305555555
+MTBLS92,spls,observed,fold_contained,0.5711371527777778,0.5711371527777778
+MTBLS92,pls_da,observed,pre_split,0.7350694444444444,0.7350694444444444
+MTBLS92,pls_da,observed,fold_contained,0.5755642361111111,0.5755642361111111
+MTBLS92,opls_da,observed,pre_split,0.7331163194444444,0.7331163194444444
+MTBLS92,opls_da,observed,fold_contained,0.5904079861111111,0.5904079861111111
+MTBLS9526,top_k,observed,pre_split,0.9997783687943262,0.9997783687943262
+MTBLS9526,top_k,observed,fold_contained,0.9953457446808511,0.9953457446808511
+MTBLS9526,rfe,observed,pre_split,0.9996675531914894,0.9996675531914894
+MTBLS9526,rfe,observed,fold_contained,0.9995567375886525,0.9995567375886525
+MTBLS9526,spls,observed,pre_split,0.9718528368794327,0.9718528368794327
+MTBLS9526,spls,observed,fold_contained,0.9735150709219859,0.9735150709219859
+MTBLS9526,pls_da,observed,pre_split,0.9997783687943262,0.9997783687943262
+MTBLS9526,pls_da,observed,fold_contained,0.9986702127659575,0.9986702127659575
+MTBLS9526,opls_da,observed,pre_split,0.9998891843971631,0.9998891843971631
+MTBLS9526,opls_da,observed,fold_contained,0.9990026595744681,0.9990026595744681
+MTBLS982,top_k,observed,pre_split,0.5321969696969697,0.5321969696969697
+MTBLS982,top_k,observed,fold_contained,0.5151515151515151,0.5151515151515151
+MTBLS982,rfe,observed,pre_split,0.6382575757575759,0.6382575757575759
+MTBLS982,rfe,observed,fold_contained,0.5795454545454546,0.5795454545454546
+MTBLS982,spls,observed,pre_split,0.615530303030303,0.615530303030303
+MTBLS982,spls,observed,fold_contained,0.4962121212121212,0.4962121212121212
+MTBLS982,pls_da,observed,pre_split,0.6799242424242424,0.6799242424242424
+MTBLS982,pls_da,observed,fold_contained,0.5056818181818181,0.5056818181818181
+MTBLS982,opls_da,observed,pre_split,0.706439393939394,0.706439393939394
+MTBLS982,opls_da,observed,fold_contained,0.4621212121212121,0.4621212121212121
+ST000048,top_k,observed,pre_split,0.9866666666666667,0.9866666666666667
+ST000048,top_k,permutation 0,pre_split,0.7966666666666666,0.7966666666666666
+ST000048,top_k,permutation 1,pre_split,0.785,0.785
+ST000048,top_k,permutation 2,pre_split,0.7116666666666667,0.7116666666666667
+ST000048,top_k,permutation 3,pre_split,0.725,0.725
+ST000048,top_k,permutation 4,pre_split,0.6816666666666666,0.6816666666666666
+ST000048,top_k,observed,fold_contained,0.975,0.975
+ST000048,top_k,permutation 0,fold_contained,0.3833333333333333,0.3833333333333333
+ST000048,top_k,permutation 1,fold_contained,0.645,0.645
+ST000048,top_k,permutation 2,fold_contained,0.5366666666666666,0.5366666666666666
+ST000048,top_k,permutation 3,fold_contained,0.55,0.55
+ST000048,top_k,permutation 4,fold_contained,0.4933333333333333,0.4933333333333333
+ST000048,rfe,observed,pre_split,1.0,1.0
+ST000048,rfe,permutation 0,pre_split,0.9216666666666667,0.9216666666666667
+ST000048,rfe,permutation 1,pre_split,0.9183333333333334,0.9183333333333334
+ST000048,rfe,permutation 2,pre_split,0.9083333333333333,0.9083333333333333
+ST000048,rfe,permutation 3,pre_split,0.8233333333333333,0.8233333333333333
+ST000048,rfe,permutation 4,pre_split,0.9016666666666666,0.9016666666666666
+ST000048,rfe,observed,fold_contained,0.9933333333333334,0.9933333333333334
+ST000048,rfe,permutation 0,fold_contained,0.44666666666666666,0.44666666666666666
+ST000048,rfe,permutation 1,fold_contained,0.6599999999999999,0.6599999999999999
+ST000048,rfe,permutation 2,fold_contained,0.4766666666666667,0.4766666666666667
+ST000048,rfe,permutation 3,fold_contained,0.5183333333333333,0.5183333333333333
+ST000048,rfe,permutation 4,fold_contained,0.4766666666666666,0.4766666666666666
+ST000048,spls,observed,pre_split,1.0,1.0
+ST000048,spls,permutation 0,pre_split,0.9466666666666667,0.9466666666666667
+ST000048,spls,permutation 1,pre_split,0.9016666666666667,0.9016666666666667
+ST000048,spls,permutation 2,pre_split,0.81,0.81
+ST000048,spls,permutation 3,pre_split,0.8400000000000001,0.8400000000000001
+ST000048,spls,permutation 4,pre_split,0.8533333333333333,0.8533333333333333
+ST000048,spls,observed,fold_contained,0.9933333333333333,0.9933333333333333
+ST000048,spls,permutation 0,fold_contained,0.3433333333333334,0.3433333333333334
+ST000048,spls,permutation 1,fold_contained,0.6516666666666667,0.6516666666666667
+ST000048,spls,permutation 2,fold_contained,0.43,0.43
+ST000048,spls,permutation 3,fold_contained,0.4966666666666667,0.4966666666666667
+ST000048,spls,permutation 4,fold_contained,0.6100000000000001,0.6100000000000001
+ST000048,pls_da,observed,pre_split,0.9983333333333334,0.9983333333333334
+ST000048,pls_da,permutation 0,pre_split,0.9450000000000001,0.9450000000000001
+ST000048,pls_da,permutation 1,pre_split,0.9283333333333333,0.9283333333333333
+ST000048,pls_da,permutation 2,pre_split,0.9733333333333333,0.9733333333333333
+ST000048,pls_da,permutation 3,pre_split,0.895,0.895
+ST000048,pls_da,permutation 4,pre_split,0.89,0.89
+ST000048,pls_da,observed,fold_contained,0.9849999999999999,0.9849999999999999
+ST000048,pls_da,permutation 0,fold_contained,0.36833333333333335,0.36833333333333335
+ST000048,pls_da,permutation 1,fold_contained,0.6916666666666667,0.6916666666666667
+ST000048,pls_da,permutation 2,fold_contained,0.475,0.475
+ST000048,pls_da,permutation 3,fold_contained,0.5666666666666667,0.5666666666666667
+ST000048,pls_da,permutation 4,fold_contained,0.5700000000000001,0.5700000000000001
+ST000048,opls_da,observed,pre_split,0.9983333333333334,0.9983333333333334
+ST000048,opls_da,permutation 0,pre_split,0.9633333333333333,0.9633333333333333
+ST000048,opls_da,permutation 1,pre_split,0.925,0.925
+ST000048,opls_da,permutation 2,pre_split,0.9349999999999999,0.9349999999999999
+ST000048,opls_da,permutation 3,pre_split,0.9199999999999999,0.9199999999999999
+ST000048,opls_da,permutation 4,pre_split,0.8633333333333334,0.8633333333333334
+ST000048,opls_da,observed,fold_contained,0.9849999999999999,0.9849999999999999
+ST000048,opls_da,permutation 0,fold_contained,0.40166666666666667,0.40166666666666667
+ST000048,opls_da,permutation 1,fold_contained,0.6816666666666666,0.6816666666666666
+ST000048,opls_da,permutation 2,fold_contained,0.4566666666666667,0.4566666666666667
+ST000048,opls_da,permutation 3,fold_contained,0.5483333333333333,0.5483333333333333
+ST000048,opls_da,permutation 4,fold_contained,0.5700000000000001,0.5700000000000001
+ST000297,top_k,observed,pre_split,1.0,1.0
+ST000297,top_k,observed,fold_contained,1.0,1.0
+ST000297,rfe,observed,pre_split,1.0,1.0
+ST000297,rfe,observed,fold_contained,1.0,1.0
+ST000297,spls,observed,pre_split,1.0,1.0
+ST000297,spls,observed,fold_contained,1.0,1.0
+ST000297,pls_da,observed,pre_split,1.0,1.0
+ST000297,pls_da,observed,fold_contained,1.0,1.0
+ST000297,opls_da,observed,pre_split,1.0,1.0
+ST000297,opls_da,observed,fold_contained,1.0,1.0
+ST000336,top_k,observed,pre_split,0.9329710144927535,0.9329710144927535
+ST000336,top_k,observed,fold_contained,0.9347826086956522,0.9347826086956522
+ST000336,rfe,observed,pre_split,0.9510869565217391,0.9510869565217391
+ST000336,rfe,observed,fold_contained,0.9420289855072463,0.9420289855072463
+ST000336,spls,observed,pre_split,0.9438405797101449,0.9438405797101449
+ST000336,spls,observed,fold_contained,0.9184782608695653,0.9184782608695653
+ST000336,pls_da,observed,pre_split,0.9456521739130436,0.9456521739130436
+ST000336,pls_da,observed,fold_contained,0.927536231884058,0.927536231884058
+ST000336,opls_da,observed,pre_split,0.9547101449275363,0.9547101449275363
+ST000336,opls_da,observed,fold_contained,0.9329710144927537,0.9329710144927537
+ST000385,top_k,observed,pre_split,0.9422554347826088,0.9422554347826088
+ST000385,top_k,observed,fold_contained,0.9322010869565217,0.9322010869565217
+ST000385,rfe,observed,pre_split,0.9891304347826086,0.9891304347826086
+ST000385,rfe,observed,fold_contained,0.9625,0.9625
+ST000385,spls,observed,pre_split,0.9222826086956522,0.9222826086956522
+ST000385,spls,observed,fold_contained,0.8898097826086957,0.8898097826086957
+ST000385,pls_da,observed,pre_split,0.9979619565217391,0.9979619565217391
+ST000385,pls_da,observed,fold_contained,0.9525815217391304,0.9525815217391304
+ST000385,opls_da,observed,pre_split,0.996875,0.996875
+ST000385,opls_da,observed,fold_contained,0.9486413043478261,0.9486413043478261
+ST000491,top_k,observed,pre_split,1.0,1.0
+ST000491,top_k,observed,fold_contained,0.996875,0.996875
+ST000491,rfe,observed,pre_split,1.0,1.0
+ST000491,rfe,observed,fold_contained,0.996875,0.996875
+ST000491,spls,observed,pre_split,1.0,1.0
+ST000491,spls,observed,fold_contained,0.98125,0.98125
+ST000491,pls_da,observed,pre_split,1.0,1.0
+ST000491,pls_da,observed,fold_contained,0.99375,0.99375
+ST000491,opls_da,observed,pre_split,1.0,1.0
+ST000491,opls_da,observed,fold_contained,0.99375,0.99375
+ST000617,top_k,observed,pre_split,0.9666666666666667,0.9666666666666667
+ST000617,top_k,permutation 0,pre_split,0.6972222222222223,0.6972222222222223
+ST000617,top_k,permutation 1,pre_split,0.7416666666666667,0.7416666666666667
+ST000617,top_k,permutation 2,pre_split,0.7527777777777778,0.7527777777777778
+ST000617,top_k,permutation 3,pre_split,0.8333333333333334,0.8333333333333334
+ST000617,top_k,permutation 4,pre_split,0.8611111111111112,0.8611111111111112
+ST000617,top_k,observed,fold_contained,0.9361111111111111,0.9361111111111111
+ST000617,top_k,permutation 0,fold_contained,0.23055555555555557,0.23055555555555557
+ST000617,top_k,permutation 1,fold_contained,0.4305555555555556,0.4305555555555556
+ST000617,top_k,permutation 2,fold_contained,0.4027777777777778,0.4027777777777778
+ST000617,top_k,permutation 3,fold_contained,0.4583333333333333,0.4583333333333333
+ST000617,top_k,permutation 4,fold_contained,0.5888888888888889,0.5888888888888889
+ST000617,rfe,observed,pre_split,0.9888888888888888,0.9888888888888888
+ST000617,rfe,permutation 0,pre_split,0.9750000000000001,0.9750000000000001
+ST000617,rfe,permutation 1,pre_split,0.9833333333333333,0.9833333333333333
+ST000617,rfe,permutation 2,pre_split,0.9388888888888889,0.9388888888888889
+ST000617,rfe,permutation 3,pre_split,0.9944444444444445,0.9944444444444445
+ST000617,rfe,permutation 4,pre_split,0.9861111111111112,0.9861111111111112
+ST000617,rfe,observed,fold_contained,0.9388888888888889,0.9388888888888889
+ST000617,rfe,permutation 0,fold_contained,0.32777777777777783,0.32777777777777783
+ST000617,rfe,permutation 1,fold_contained,0.41388888888888886,0.41388888888888886
+ST000617,rfe,permutation 2,fold_contained,0.3833333333333333,0.3833333333333333
+ST000617,rfe,permutation 3,fold_contained,0.6027777777777777,0.6027777777777777
+ST000617,rfe,permutation 4,fold_contained,0.5694444444444444,0.5694444444444444
+ST000617,spls,observed,pre_split,0.9805555555555555,0.9805555555555555
+ST000617,spls,permutation 0,pre_split,0.925,0.925
+ST000617,spls,permutation 1,pre_split,0.9500000000000001,0.9500000000000001
+ST000617,spls,permutation 2,pre_split,0.9444444444444444,0.9444444444444444
+ST000617,spls,permutation 3,pre_split,0.9750000000000001,0.9750000000000001
+ST000617,spls,permutation 4,pre_split,0.9277777777777778,0.9277777777777778
+ST000617,spls,observed,fold_contained,0.9472222222222222,0.9472222222222222
+ST000617,spls,permutation 0,fold_contained,0.3527777777777778,0.3527777777777778
+ST000617,spls,permutation 1,fold_contained,0.5083333333333333,0.5083333333333333
+ST000617,spls,permutation 2,fold_contained,0.39722222222222225,0.39722222222222225
+ST000617,spls,permutation 3,fold_contained,0.5,0.5
+ST000617,spls,permutation 4,fold_contained,0.5861111111111111,0.5861111111111111
+ST000617,pls_da,observed,pre_split,0.9944444444444445,0.9944444444444445
+ST000617,pls_da,permutation 0,pre_split,0.9777777777777777,0.9777777777777777
+ST000617,pls_da,permutation 1,pre_split,0.9916666666666666,0.9916666666666666
+ST000617,pls_da,permutation 2,pre_split,0.9750000000000001,0.9750000000000001
+ST000617,pls_da,permutation 3,pre_split,1.0,1.0
+ST000617,pls_da,permutation 4,pre_split,1.0,1.0
+ST000617,pls_da,observed,fold_contained,0.8777777777777778,0.8777777777777778
+ST000617,pls_da,permutation 0,fold_contained,0.4194444444444444,0.4194444444444444
+ST000617,pls_da,permutation 1,fold_contained,0.5,0.5
+ST000617,pls_da,permutation 2,fold_contained,0.4666666666666666,0.4666666666666666
+ST000617,pls_da,permutation 3,fold_contained,0.5555555555555556,0.5555555555555556
+ST000617,pls_da,permutation 4,fold_contained,0.4722222222222222,0.4722222222222222
+ST000617,opls_da,observed,pre_split,0.9972222222222222,0.9972222222222222
+ST000617,opls_da,permutation 0,pre_split,0.9888888888888888,0.9888888888888888
+ST000617,opls_da,permutation 1,pre_split,0.9944444444444444,0.9944444444444444
+ST000617,opls_da,permutation 2,pre_split,0.9611111111111111,0.9611111111111111
+ST000617,opls_da,permutation 3,pre_split,1.0,1.0
+ST000617,opls_da,permutation 4,pre_split,1.0,1.0
+ST000617,opls_da,observed,fold_contained,0.8694444444444445,0.8694444444444445
+ST000617,opls_da,permutation 0,fold_contained,0.4083333333333333,0.4083333333333333
+ST000617,opls_da,permutation 1,fold_contained,0.4972222222222222,0.4972222222222222
+ST000617,opls_da,permutation 2,fold_contained,0.48055555555555557,0.48055555555555557
+ST000617,opls_da,permutation 3,fold_contained,0.5722222222222223,0.5722222222222223
+ST000617,opls_da,permutation 4,fold_contained,0.475,0.475
+ST000672,top_k,observed,pre_split,0.95,0.95
+ST000672,top_k,observed,fold_contained,0.9133333333333333,0.9133333333333333
+ST000672,rfe,observed,pre_split,1.0,1.0
+ST000672,rfe,observed,fold_contained,0.96,0.96
+ST000672,spls,observed,pre_split,0.9733333333333334,0.9733333333333334
+ST000672,spls,observed,fold_contained,0.8977777777777778,0.8977777777777778
+ST000672,pls_da,observed,pre_split,1.0,1.0
+ST000672,pls_da,observed,fold_contained,0.9933333333333334,0.9933333333333334
+ST000672,opls_da,observed,pre_split,1.0,1.0
+ST000672,opls_da,observed,fold_contained,0.9677777777777776,0.9677777777777776
+ST000721,top_k,observed,pre_split,0.7544459644322845,0.7544459644322845
+ST000721,top_k,observed,fold_contained,0.6889192886456909,0.6889192886456909
+ST000721,rfe,observed,pre_split,0.7950752393980849,0.7950752393980849
+ST000721,rfe,observed,fold_contained,0.7115595075239399,0.7115595075239399
+ST000721,spls,observed,pre_split,0.8153898768809849,0.8153898768809849
+ST000721,spls,observed,fold_contained,0.7023939808481532,0.7023939808481532
+ST000721,pls_da,observed,pre_split,0.8852941176470588,0.8852941176470588
+ST000721,pls_da,observed,fold_contained,0.7127906976744185,0.7127906976744185
+ST000721,opls_da,observed,pre_split,0.8832421340629275,0.8832421340629275
+ST000721,opls_da,observed,fold_contained,0.7126538987688099,0.7126538987688099
+ST000770,top_k,observed,pre_split,0.544,0.544
+ST000770,top_k,observed,fold_contained,0.4976,0.4976
+ST000770,rfe,observed,pre_split,0.614,0.614
+ST000770,rfe,observed,fold_contained,0.4728,0.4728
+ST000770,spls,observed,pre_split,0.6532,0.6532
+ST000770,spls,observed,fold_contained,0.58,0.58
+ST000770,pls_da,observed,pre_split,0.6491999999999999,0.6491999999999999
+ST000770,pls_da,observed,fold_contained,0.5760000000000001,0.5760000000000001
+ST000770,opls_da,observed,pre_split,0.6508,0.6508
+ST000770,opls_da,observed,fold_contained,0.5752,0.5752
+ST000865,top_k,observed,pre_split,0.6715909090909091,0.6715909090909091
+ST000865,top_k,observed,fold_contained,0.6017045454545454,0.6017045454545454
+ST000865,rfe,observed,pre_split,0.7397727272727272,0.7397727272727272
+ST000865,rfe,observed,fold_contained,0.6107954545454546,0.6107954545454546
+ST000865,spls,observed,pre_split,0.8244318181818181,0.8244318181818181
+ST000865,spls,observed,fold_contained,0.6130681818181818,0.6130681818181818
+ST000865,pls_da,observed,pre_split,0.8579545454545455,0.8579545454545455
+ST000865,pls_da,observed,fold_contained,0.5914772727272728,0.5914772727272728
+ST000865,opls_da,observed,pre_split,0.8676136363636364,0.8676136363636364
+ST000865,opls_da,observed,fold_contained,0.6056818181818182,0.6056818181818182
+ST000915,top_k,observed,pre_split,0.7709677419354839,0.7709677419354839
+ST000915,top_k,permutation 0,pre_split,0.5822580645161292,0.5822580645161292
+ST000915,top_k,permutation 1,pre_split,0.7048387096774194,0.7048387096774194
+ST000915,top_k,permutation 2,pre_split,0.582258064516129,0.582258064516129
+ST000915,top_k,permutation 3,pre_split,0.5645161290322581,0.5645161290322581
+ST000915,top_k,permutation 4,pre_split,0.5451612903225806,0.5451612903225806
+ST000915,top_k,observed,fold_contained,0.7790322580645161,0.7790322580645161
+ST000915,top_k,permutation 0,fold_contained,0.5032258064516129,0.5032258064516129
+ST000915,top_k,permutation 1,fold_contained,0.617741935483871,0.617741935483871
+ST000915,top_k,permutation 2,fold_contained,0.5935483870967742,0.5935483870967742
+ST000915,top_k,permutation 3,fold_contained,0.41451612903225804,0.41451612903225804
+ST000915,top_k,permutation 4,fold_contained,0.535483870967742,0.535483870967742
+ST000915,rfe,observed,pre_split,0.9161290322580645,0.9161290322580645
+ST000915,rfe,permutation 0,pre_split,0.6596774193548387,0.6596774193548387
+ST000915,rfe,permutation 1,pre_split,0.8870967741935484,0.8870967741935484
+ST000915,rfe,permutation 2,pre_split,0.7838709677419355,0.7838709677419355
+ST000915,rfe,permutation 3,pre_split,0.8080645161290323,0.8080645161290323
+ST000915,rfe,permutation 4,pre_split,0.7870967741935484,0.7870967741935484
+ST000915,rfe,observed,fold_contained,0.7564516129032257,0.7564516129032257
+ST000915,rfe,permutation 0,fold_contained,0.3967741935483871,0.3967741935483871
+ST000915,rfe,permutation 1,fold_contained,0.6403225806451612,0.6403225806451612
+ST000915,rfe,permutation 2,fold_contained,0.4258064516129032,0.4258064516129032
+ST000915,rfe,permutation 3,fold_contained,0.37580645161290327,0.37580645161290327
+ST000915,rfe,permutation 4,fold_contained,0.5306451612903226,0.5306451612903226
+ST000915,spls,observed,pre_split,0.7403225806451613,0.7403225806451613
+ST000915,spls,permutation 0,pre_split,0.6709677419354839,0.6709677419354839
+ST000915,spls,permutation 1,pre_split,0.8564516129032258,0.8564516129032258
+ST000915,spls,permutation 2,pre_split,0.7112903225806452,0.7112903225806452
+ST000915,spls,permutation 3,pre_split,0.7725806451612903,0.7725806451612903
+ST000915,spls,permutation 4,pre_split,0.785483870967742,0.785483870967742
+ST000915,spls,observed,fold_contained,0.6580645161290323,0.6580645161290323
+ST000915,spls,permutation 0,fold_contained,0.5193548387096775,0.5193548387096775
+ST000915,spls,permutation 1,fold_contained,0.6500000000000001,0.6500000000000001
+ST000915,spls,permutation 2,fold_contained,0.6645161290322581,0.6645161290322581
+ST000915,spls,permutation 3,fold_contained,0.48387096774193555,0.48387096774193555
+ST000915,spls,permutation 4,fold_contained,0.47741935483870973,0.47741935483870973
+ST000915,pls_da,observed,pre_split,0.9516129032258065,0.9516129032258065
+ST000915,pls_da,permutation 0,pre_split,0.6661290322580645,0.6661290322580645
+ST000915,pls_da,permutation 1,pre_split,0.8983870967741936,0.8983870967741936
+ST000915,pls_da,permutation 2,pre_split,0.7354838709677419,0.7354838709677419
+ST000915,pls_da,permutation 3,pre_split,0.8080645161290323,0.8080645161290323
+ST000915,pls_da,permutation 4,pre_split,0.8048387096774193,0.8048387096774193
+ST000915,pls_da,observed,fold_contained,0.6483870967741936,0.6483870967741936
+ST000915,pls_da,permutation 0,fold_contained,0.4935483870967742,0.4935483870967742
+ST000915,pls_da,permutation 1,fold_contained,0.6435483870967742,0.6435483870967742
+ST000915,pls_da,permutation 2,fold_contained,0.5532258064516129,0.5532258064516129
+ST000915,pls_da,permutation 3,fold_contained,0.4838709677419355,0.4838709677419355
+ST000915,pls_da,permutation 4,fold_contained,0.4451612903225806,0.4451612903225806
+ST000915,opls_da,observed,pre_split,0.9661290322580645,0.9661290322580645
+ST000915,opls_da,permutation 0,pre_split,0.6870967741935483,0.6870967741935483
+ST000915,opls_da,permutation 1,pre_split,0.864516129032258,0.864516129032258
+ST000915,opls_da,permutation 2,pre_split,0.7419354838709676,0.7419354838709676
+ST000915,opls_da,permutation 3,pre_split,0.846774193548387,0.846774193548387
+ST000915,opls_da,permutation 4,pre_split,0.867741935483871,0.867741935483871
+ST000915,opls_da,observed,fold_contained,0.6516129032258065,0.6516129032258065
+ST000915,opls_da,permutation 0,fold_contained,0.4903225806451613,0.4903225806451613
+ST000915,opls_da,permutation 1,fold_contained,0.6064516129032258,0.6064516129032258
+ST000915,opls_da,permutation 2,fold_contained,0.5516129032258065,0.5516129032258065
+ST000915,opls_da,permutation 3,fold_contained,0.45806451612903226,0.45806451612903226
+ST000915,opls_da,permutation 4,fold_contained,0.45322580645161287,0.45322580645161287
+ST000955,top_k,observed,pre_split,0.8541666666666667,0.8541666666666667
+ST000955,top_k,observed,fold_contained,0.8125,0.8125
+ST000955,rfe,observed,pre_split,0.9774305555555556,0.9774305555555556
+ST000955,rfe,observed,fold_contained,0.9149305555555556,0.9149305555555556
+ST000955,spls,observed,pre_split,0.8472222222222223,0.8472222222222223
+ST000955,spls,observed,fold_contained,0.6961805555555556,0.6961805555555556
+ST000955,pls_da,observed,pre_split,0.9756944444444444,0.9756944444444444
+ST000955,pls_da,observed,fold_contained,0.8194444444444445,0.8194444444444445
+ST000955,opls_da,observed,pre_split,0.9461805555555556,0.9461805555555556
+ST000955,opls_da,observed,fold_contained,0.7569444444444444,0.7569444444444444
+ST000963,top_k,observed,pre_split,0.9882352941176471,0.9882352941176471
+ST000963,top_k,observed,fold_contained,0.9725490196078431,0.9725490196078431
+ST000963,rfe,observed,pre_split,1.0,1.0
+ST000963,rfe,observed,fold_contained,0.9882352941176471,0.9882352941176471
+ST000963,spls,observed,pre_split,0.9882352941176471,0.9882352941176471
+ST000963,spls,observed,fold_contained,0.9764705882352941,0.9764705882352941
+ST000963,pls_da,observed,pre_split,1.0,1.0
+ST000963,pls_da,observed,fold_contained,0.996078431372549,0.996078431372549
+ST000963,opls_da,observed,pre_split,1.0,1.0
+ST000963,opls_da,observed,fold_contained,0.996078431372549,0.996078431372549
+ST000969,top_k,observed,pre_split,0.9969135802469136,0.9969135802469136
+ST000969,top_k,observed,fold_contained,0.9907407407407407,0.9907407407407407
+ST000969,rfe,observed,pre_split,1.0,1.0
+ST000969,rfe,observed,fold_contained,0.9814814814814814,0.9814814814814814
+ST000969,spls,observed,pre_split,1.0,1.0
+ST000969,spls,observed,fold_contained,0.9876543209876543,0.9876543209876543
+ST000969,pls_da,observed,pre_split,1.0,1.0
+ST000969,pls_da,observed,fold_contained,0.9876543209876543,0.9876543209876543
+ST000969,opls_da,observed,pre_split,1.0,1.0
+ST000969,opls_da,observed,fold_contained,0.9938271604938271,0.9938271604938271
+ST000984,top_k,observed,pre_split,0.7757575757575759,0.7757575757575759
+ST000984,top_k,observed,fold_contained,0.7919191919191919,0.7919191919191919
+ST000984,rfe,observed,pre_split,0.998989898989899,0.998989898989899
+ST000984,rfe,observed,fold_contained,0.8851010101010102,0.8851010101010102
+ST000984,spls,observed,pre_split,0.9522727272727274,0.9522727272727274
+ST000984,spls,observed,fold_contained,0.9325757575757576,0.9325757575757576
+ST000984,pls_da,observed,pre_split,0.9871212121212121,0.9871212121212121
+ST000984,pls_da,observed,fold_contained,0.9353535353535354,0.9353535353535354
+ST000984,opls_da,observed,pre_split,0.9835858585858586,0.9835858585858586
+ST000984,opls_da,observed,fold_contained,0.9305555555555556,0.9305555555555556
+ST000987,top_k,observed,pre_split,0.8904040404040403,0.8904040404040403
+ST000987,top_k,permutation 0,pre_split,0.5987373737373738,0.5987373737373738
+ST000987,top_k,permutation 1,pre_split,0.6393939393939394,0.6393939393939394
+ST000987,top_k,permutation 2,pre_split,0.6765151515151515,0.6765151515151515
+ST000987,top_k,permutation 3,pre_split,0.6583333333333333,0.6583333333333333
+ST000987,top_k,permutation 4,pre_split,0.5626262626262627,0.5626262626262627
+ST000987,top_k,observed,fold_contained,0.8732323232323232,0.8732323232323232
+ST000987,top_k,permutation 0,fold_contained,0.48409090909090907,0.48409090909090907
+ST000987,top_k,permutation 1,fold_contained,0.30328282828282827,0.30328282828282827
+ST000987,top_k,permutation 2,fold_contained,0.5537878787878788,0.5537878787878788
+ST000987,top_k,permutation 3,fold_contained,0.6202020202020203,0.6202020202020203
+ST000987,top_k,permutation 4,fold_contained,0.4858585858585859,0.4858585858585859
+ST000987,rfe,observed,pre_split,0.98989898989899,0.98989898989899
+ST000987,rfe,permutation 0,pre_split,0.8295454545454546,0.8295454545454546
+ST000987,rfe,permutation 1,pre_split,0.7593434343434343,0.7593434343434343
+ST000987,rfe,permutation 2,pre_split,0.8621212121212121,0.8621212121212121
+ST000987,rfe,permutation 3,pre_split,0.8593434343434344,0.8593434343434344
+ST000987,rfe,permutation 4,pre_split,0.8333333333333334,0.8333333333333334
+ST000987,rfe,observed,fold_contained,0.915151515151515,0.915151515151515
+ST000987,rfe,permutation 0,fold_contained,0.45631313131313134,0.45631313131313134
+ST000987,rfe,permutation 1,fold_contained,0.3909090909090909,0.3909090909090909
+ST000987,rfe,permutation 2,fold_contained,0.544949494949495,0.544949494949495
+ST000987,rfe,permutation 3,fold_contained,0.6260101010101009,0.6260101010101009
+ST000987,rfe,permutation 4,fold_contained,0.4957070707070707,0.4957070707070707
+ST000987,spls,observed,pre_split,0.9484848484848485,0.9484848484848485
+ST000987,spls,permutation 0,pre_split,0.7936868686868687,0.7936868686868687
+ST000987,spls,permutation 1,pre_split,0.7608585858585859,0.7608585858585859
+ST000987,spls,permutation 2,pre_split,0.8242424242424242,0.8242424242424242
+ST000987,spls,permutation 3,pre_split,0.6974747474747475,0.6974747474747475
+ST000987,spls,permutation 4,pre_split,0.6727272727272727,0.6727272727272727
+ST000987,spls,observed,fold_contained,0.931060606060606,0.931060606060606
+ST000987,spls,permutation 0,fold_contained,0.49797979797979797,0.49797979797979797
+ST000987,spls,permutation 1,fold_contained,0.3318181818181818,0.3318181818181818
+ST000987,spls,permutation 2,fold_contained,0.5671717171717171,0.5671717171717171
+ST000987,spls,permutation 3,fold_contained,0.6101010101010101,0.6101010101010101
+ST000987,spls,permutation 4,fold_contained,0.471969696969697,0.471969696969697
+ST000987,pls_da,observed,pre_split,0.996969696969697,0.996969696969697
+ST000987,pls_da,permutation 0,pre_split,0.9646464646464646,0.9646464646464646
+ST000987,pls_da,permutation 1,pre_split,0.9227272727272726,0.9227272727272726
+ST000987,pls_da,permutation 2,pre_split,0.908080808080808,0.908080808080808
+ST000987,pls_da,permutation 3,pre_split,0.7578282828282827,0.7578282828282827
+ST000987,pls_da,permutation 4,pre_split,0.7916666666666666,0.7916666666666666
+ST000987,pls_da,observed,fold_contained,0.9179292929292928,0.9179292929292928
+ST000987,pls_da,permutation 0,fold_contained,0.48914141414141415,0.48914141414141415
+ST000987,pls_da,permutation 1,fold_contained,0.3472222222222222,0.3472222222222222
+ST000987,pls_da,permutation 2,fold_contained,0.5762626262626263,0.5762626262626263
+ST000987,pls_da,permutation 3,fold_contained,0.5997474747474747,0.5997474747474747
+ST000987,pls_da,permutation 4,fold_contained,0.4987373737373737,0.4987373737373737
+ST000987,opls_da,observed,pre_split,0.9967171717171717,0.9967171717171717
+ST000987,opls_da,permutation 0,pre_split,0.955050505050505,0.955050505050505
+ST000987,opls_da,permutation 1,pre_split,0.8527777777777777,0.8527777777777777
+ST000987,opls_da,permutation 2,pre_split,0.9106060606060606,0.9106060606060606
+ST000987,opls_da,permutation 3,pre_split,0.7252525252525253,0.7252525252525253
+ST000987,opls_da,permutation 4,pre_split,0.6078282828282828,0.6078282828282828
+ST000987,opls_da,observed,fold_contained,0.9101010101010101,0.9101010101010101
+ST000987,opls_da,permutation 0,fold_contained,0.49343434343434345,0.49343434343434345
+ST000987,opls_da,permutation 1,fold_contained,0.3383838383838384,0.3383838383838384
+ST000987,opls_da,permutation 2,fold_contained,0.5785353535353536,0.5785353535353536
+ST000987,opls_da,permutation 3,fold_contained,0.5967171717171718,0.5967171717171718
+ST000987,opls_da,permutation 4,fold_contained,0.5257575757575758,0.5257575757575758
+ST000992,top_k,observed,pre_split,0.816888045540797,0.816888045540797
+ST000992,top_k,observed,fold_contained,0.6537001897533207,0.6537001897533207
+ST000992,rfe,observed,pre_split,0.9715370018975332,0.9715370018975332
+ST000992,rfe,observed,fold_contained,0.5825426944971537,0.5825426944971537
+ST000992,spls,observed,pre_split,0.8870967741935484,0.8870967741935484
+ST000992,spls,observed,fold_contained,0.6185958254269449,0.6185958254269449
+ST000992,pls_da,observed,pre_split,0.9383301707779886,0.9383301707779886
+ST000992,pls_da,observed,fold_contained,0.5977229601518026,0.5977229601518026
+ST000992,opls_da,observed,pre_split,0.9516129032258064,0.9516129032258064
+ST000992,opls_da,observed,fold_contained,0.5901328273244782,0.5901328273244782
+ST001166,top_k,observed,pre_split,0.8452380952380952,0.8452380952380952
+ST001166,top_k,observed,fold_contained,0.7238095238095239,0.7238095238095239
+ST001166,rfe,observed,pre_split,0.9333333333333333,0.9333333333333333
+ST001166,rfe,observed,fold_contained,0.7773809523809524,0.7773809523809524
+ST001166,spls,observed,pre_split,0.9202380952380952,0.9202380952380952
+ST001166,spls,observed,fold_contained,0.7059523809523809,0.7059523809523809
+ST001166,pls_da,observed,pre_split,0.980952380952381,0.980952380952381
+ST001166,pls_da,observed,fold_contained,0.7154761904761905,0.7154761904761905
+ST001166,opls_da,observed,pre_split,0.9714285714285714,0.9714285714285714
+ST001166,opls_da,observed,fold_contained,0.7238095238095238,0.7238095238095238
+ST001251,top_k,observed,pre_split,0.9953781512605042,0.9953781512605042
+ST001251,top_k,observed,fold_contained,0.9903361344537814,0.9903361344537814
+ST001251,rfe,observed,pre_split,1.0,1.0
+ST001251,rfe,observed,fold_contained,0.9978991596638656,0.9978991596638656
+ST001251,spls,observed,pre_split,0.9798319327731092,0.9798319327731092
+ST001251,spls,observed,fold_contained,0.9678571428571429,0.9678571428571429
+ST001251,pls_da,observed,pre_split,1.0,1.0
+ST001251,pls_da,observed,fold_contained,0.9964285714285714,0.9964285714285714
+ST001251,opls_da,observed,pre_split,1.0,1.0
+ST001251,opls_da,observed,fold_contained,0.9960084033613446,0.9960084033613446
+ST001252,top_k,observed,pre_split,0.90234375,0.90234375
+ST001252,top_k,observed,fold_contained,0.9140625,0.9140625
+ST001252,rfe,observed,pre_split,0.9296875,0.9296875
+ST001252,rfe,observed,fold_contained,0.90625,0.90625
+ST001252,spls,observed,pre_split,0.83203125,0.83203125
+ST001252,spls,observed,fold_contained,0.79296875,0.79296875
+ST001252,pls_da,observed,pre_split,0.9765625,0.9765625
+ST001252,pls_da,observed,fold_contained,0.9375,0.9375
+ST001252,opls_da,observed,pre_split,0.984375,0.984375
+ST001252,opls_da,observed,fold_contained,0.9453125,0.9453125
+ST001319,top_k,observed,pre_split,0.5712613403570383,0.5712613403570383
+ST001319,top_k,permutation 0,pre_split,0.5576529119110332,0.5576529119110332
+ST001319,top_k,permutation 1,pre_split,0.5858940591161838,0.5858940591161838
+ST001319,top_k,permutation 2,pre_split,0.5433860111208663,0.5433860111208663
+ST001319,top_k,permutation 3,pre_split,0.5367281240854551,0.5367281240854551
+ST001319,top_k,permutation 4,pre_split,0.4060579455662862,0.4060579455662862
+ST001319,top_k,observed,fold_contained,0.5472636815920399,0.5472636815920399
+ST001319,top_k,permutation 0,fold_contained,0.5591893473807433,0.5591893473807433
+ST001319,top_k,permutation 1,fold_contained,0.5288996195493122,0.5288996195493122
+ST001319,top_k,permutation 2,fold_contained,0.4479806848112379,0.4479806848112379
+ST001319,top_k,permutation 3,fold_contained,0.5221685689201053,0.5221685689201053
+ST001319,top_k,permutation 4,fold_contained,0.32777290020485805,0.32777290020485805
+ST001319,rfe,observed,pre_split,0.6173544044483465,0.6173544044483465
+ST001319,rfe,permutation 0,pre_split,0.6115013169446883,0.6115013169446883
+ST001319,rfe,permutation 1,pre_split,0.6079894644424934,0.6079894644424934
+ST001319,rfe,permutation 2,pre_split,0.5222417325139012,0.5222417325139012
+ST001319,rfe,permutation 3,pre_split,0.6018437225636524,0.6018437225636524
+ST001319,rfe,permutation 4,pre_split,0.48500146327187593,0.48500146327187593
+ST001319,rfe,observed,fold_contained,0.5408252853380158,0.5408252853380158
+ST001319,rfe,permutation 0,fold_contained,0.5444103014340065,0.5444103014340065
+ST001319,rfe,permutation 1,fold_contained,0.5682616330114135,0.5682616330114135
+ST001319,rfe,permutation 2,fold_contained,0.48441615452151016,0.48441615452151016
+ST001319,rfe,permutation 3,fold_contained,0.5267778753292361,0.5267778753292361
+ST001319,rfe,permutation 4,fold_contained,0.38527948492829966,0.38527948492829966
+ST001319,spls,observed,pre_split,0.6504243488440151,0.6504243488440151
+ST001319,spls,permutation 0,pre_split,0.5991366695932104,0.5991366695932104
+ST001319,spls,permutation 1,pre_split,0.601404741000878,0.601404741000878
+ST001319,spls,permutation 2,pre_split,0.5760901375475563,0.5760901375475563
+ST001319,spls,permutation 3,pre_split,0.594454199590284,0.594454199590284
+ST001319,spls,permutation 4,pre_split,0.545361428153351,0.545361428153351
+ST001319,spls,observed,fold_contained,0.5585308750365818,0.5585308750365818
+ST001319,spls,permutation 0,fold_contained,0.5430201931518875,0.5430201931518875
+ST001319,spls,permutation 1,fold_contained,0.5425812115891132,0.5425812115891132
+ST001319,spls,permutation 2,fold_contained,0.4643693298214808,0.4643693298214808
+ST001319,spls,permutation 3,fold_contained,0.5211442786069652,0.5211442786069652
+ST001319,spls,permutation 4,fold_contained,0.344673690371671,0.344673690371671
+ST001319,pls_da,observed,pre_split,0.7188323090430202,0.7188323090430202
+ST001319,pls_da,permutation 0,pre_split,0.6664471758852795,0.6664471758852795
+ST001319,pls_da,permutation 1,pre_split,0.6905911618378694,0.6905911618378694
+ST001319,pls_da,permutation 2,pre_split,0.5733830845771145,0.5733830845771145
+ST001319,pls_da,permutation 3,pre_split,0.6620573602575358,0.6620573602575358
+ST001319,pls_da,permutation 4,pre_split,0.5258267486098918,0.5258267486098918
+ST001319,pls_da,observed,fold_contained,0.5785776997366111,0.5785776997366111
+ST001319,pls_da,permutation 0,fold_contained,0.4888791337430495,0.4888791337430495
+ST001319,pls_da,permutation 1,fold_contained,0.5536289142522681,0.5536289142522681
+ST001319,pls_da,permutation 2,fold_contained,0.43890839918056773,0.43890839918056773
+ST001319,pls_da,permutation 3,fold_contained,0.5210711150131694,0.5210711150131694
+ST001319,pls_da,permutation 4,fold_contained,0.32023705004389813,0.32023705004389813
+ST001319,opls_da,observed,pre_split,0.7270266315481416,0.7270266315481416
+ST001319,opls_da,permutation 0,pre_split,0.7005414105940885,0.7005414105940885
+ST001319,opls_da,permutation 1,pre_split,0.7022973368451858,0.7022973368451858
+ST001319,opls_da,permutation 2,pre_split,0.5808457711442787,0.5808457711442787
+ST001319,opls_da,permutation 3,pre_split,0.6718612818261633,0.6718612818261633
+ST001319,opls_da,permutation 4,pre_split,0.5325577992390986,0.5325577992390986
+ST001319,opls_da,observed,fold_contained,0.5722124670763828,0.5722124670763828
+ST001319,opls_da,permutation 0,fold_contained,0.5129499561018437,0.5129499561018437
+ST001319,opls_da,permutation 1,fold_contained,0.5385572139303482,0.5385572139303482
+ST001319,opls_da,permutation 2,fold_contained,0.43715247292947035,0.43715247292947035
+ST001319,opls_da,permutation 3,fold_contained,0.5220954053263097,0.5220954053263097
+ST001319,opls_da,permutation 4,fold_contained,0.33874743927421713,0.33874743927421713
+ST001720,top_k,observed,pre_split,0.6784869976359338,0.6784869976359338
+ST001720,top_k,observed,fold_contained,0.4523246650906225,0.4523246650906225
+ST001720,rfe,observed,pre_split,0.9369582348305753,0.9369582348305753
+ST001720,rfe,observed,fold_contained,0.43341213553979513,0.43341213553979513
+ST001720,spls,observed,pre_split,0.8613081166272656,0.8613081166272656
+ST001720,spls,observed,fold_contained,0.5665878644602049,0.5665878644602049
+ST001720,pls_da,observed,pre_split,0.9377462568951931,0.9377462568951931
+ST001720,pls_da,observed,fold_contained,0.5216706067769897,0.5216706067769897
+ST001720,opls_da,observed,pre_split,0.9211977935382191,0.9211977935382191
+ST001720,opls_da,observed,fold_contained,0.5256107171000788,0.5256107171000788
+ST002943,top_k,observed,pre_split,0.7474725274725276,0.7474725274725276
+ST002943,top_k,observed,fold_contained,0.7426373626373627,0.7426373626373627
+ST002943,rfe,observed,pre_split,0.7498901098901098,0.7498901098901098
+ST002943,rfe,observed,fold_contained,0.7402197802197802,0.7402197802197802
+ST002943,spls,observed,pre_split,0.7243956043956044,0.7243956043956044
+ST002943,spls,observed,fold_contained,0.6938461538461539,0.6938461538461539
+ST002943,pls_da,observed,pre_split,0.8127472527472527,0.8127472527472527
+ST002943,pls_da,observed,fold_contained,0.7184615384615385,0.7184615384615385
+ST002943,opls_da,observed,pre_split,0.8323076923076923,0.8323076923076923
+ST002943,opls_da,observed,fold_contained,0.729010989010989,0.729010989010989
+ST003260,top_k,observed,pre_split,0.6222222222222222,0.6222222222222222
+ST003260,top_k,observed,fold_contained,0.5733333333333334,0.5733333333333334
+ST003260,rfe,observed,pre_split,0.7111111111111111,0.7111111111111111
+ST003260,rfe,observed,fold_contained,0.6355555555555557,0.6355555555555557
+ST003260,spls,observed,pre_split,0.6799999999999999,0.6799999999999999
+ST003260,spls,observed,fold_contained,0.5688888888888889,0.5688888888888889
+ST003260,pls_da,observed,pre_split,0.8044444444444445,0.8044444444444445
+ST003260,pls_da,observed,fold_contained,0.5555555555555556,0.5555555555555556
+ST003260,opls_da,observed,pre_split,0.8844444444444444,0.8844444444444444
+ST003260,opls_da,observed,fold_contained,0.56,0.56
+ST003617,top_k,observed,pre_split,0.6346153846153847,0.6346153846153847
+ST003617,top_k,observed,fold_contained,0.6021634615384616,0.6021634615384616
+ST003617,rfe,observed,pre_split,0.7067307692307693,0.7067307692307693
+ST003617,rfe,observed,fold_contained,0.5817307692307692,0.5817307692307692
+ST003617,spls,observed,pre_split,0.7043269230769231,0.7043269230769231
+ST003617,spls,observed,fold_contained,0.5766225961538463,0.5766225961538463
+ST003617,pls_da,observed,pre_split,0.7235576923076923,0.7235576923076923
+ST003617,pls_da,observed,fold_contained,0.5922475961538461,0.5922475961538461
+ST003617,opls_da,observed,pre_split,0.712139423076923,0.712139423076923
+ST003617,opls_da,observed,fold_contained,0.5970552884615384,0.5970552884615384
+ST003887,top_k,observed,pre_split,0.9779835390946502,0.9779835390946502
+ST003887,top_k,permutation 0,pre_split,0.7211934156378601,0.7211934156378601
+ST003887,top_k,permutation 1,pre_split,0.780246913580247,0.780246913580247
+ST003887,top_k,permutation 2,pre_split,0.7339506172839506,0.7339506172839506
+ST003887,top_k,permutation 3,pre_split,0.7026748971193415,0.7026748971193415
+ST003887,top_k,permutation 4,pre_split,0.7559670781893004,0.7559670781893004
+ST003887,top_k,observed,fold_contained,0.9769547325102881,0.9769547325102881
+ST003887,top_k,permutation 0,fold_contained,0.501440329218107,0.501440329218107
+ST003887,top_k,permutation 1,fold_contained,0.6312757201646091,0.6312757201646091
+ST003887,top_k,permutation 2,fold_contained,0.45925925925925926,0.45925925925925926
+ST003887,top_k,permutation 3,fold_contained,0.44855967078189296,0.44855967078189296
+ST003887,top_k,permutation 4,fold_contained,0.5119341563786008,0.5119341563786008
+ST003887,rfe,observed,pre_split,0.9995884773662552,0.9995884773662552
+ST003887,rfe,permutation 0,pre_split,0.8002057613168724,0.8002057613168724
+ST003887,rfe,permutation 1,pre_split,0.9275720164609054,0.9275720164609054
+ST003887,rfe,permutation 2,pre_split,0.7685185185185186,0.7685185185185186
+ST003887,rfe,permutation 3,pre_split,0.7633744855967078,0.7633744855967078
+ST003887,rfe,permutation 4,pre_split,0.7594650205761317,0.7594650205761317
+ST003887,rfe,observed,fold_contained,0.9794238683127572,0.9794238683127572
+ST003887,rfe,permutation 0,fold_contained,0.5308641975308642,0.5308641975308642
+ST003887,rfe,permutation 1,fold_contained,0.6586419753086421,0.6586419753086421
+ST003887,rfe,permutation 2,fold_contained,0.497119341563786,0.497119341563786
+ST003887,rfe,permutation 3,fold_contained,0.4794238683127572,0.4794238683127572
+ST003887,rfe,permutation 4,fold_contained,0.45843621399176954,0.45843621399176954
+ST003887,spls,observed,pre_split,0.9969135802469136,0.9969135802469136
+ST003887,spls,permutation 0,pre_split,0.8882716049382716,0.8882716049382716
+ST003887,spls,permutation 1,pre_split,0.9193415637860082,0.9193415637860082
+ST003887,spls,permutation 2,pre_split,0.8366255144032921,0.8366255144032921
+ST003887,spls,permutation 3,pre_split,0.8734567901234568,0.8734567901234568
+ST003887,spls,permutation 4,pre_split,0.9135802469135802,0.9135802469135802
+ST003887,spls,observed,fold_contained,0.9720164609053498,0.9720164609053498
+ST003887,spls,permutation 0,fold_contained,0.5181069958847737,0.5181069958847737
+ST003887,spls,permutation 1,fold_contained,0.6469135802469136,0.6469135802469136
+ST003887,spls,permutation 2,fold_contained,0.4753086419753086,0.4753086419753086
+ST003887,spls,permutation 3,fold_contained,0.48333333333333334,0.48333333333333334
+ST003887,spls,permutation 4,fold_contained,0.5109053497942386,0.5109053497942386
+ST003887,pls_da,observed,pre_split,0.9997942386831276,0.9997942386831276
+ST003887,pls_da,permutation 0,pre_split,0.975925925925926,0.975925925925926
+ST003887,pls_da,permutation 1,pre_split,0.9839506172839506,0.9839506172839506
+ST003887,pls_da,permutation 2,pre_split,0.9751028806584363,0.9751028806584363
+ST003887,pls_da,permutation 3,pre_split,0.9685185185185186,0.9685185185185186
+ST003887,pls_da,permutation 4,pre_split,0.9613168724279835,0.9613168724279835
+ST003887,pls_da,observed,fold_contained,0.9713991769547325,0.9713991769547325
+ST003887,pls_da,permutation 0,fold_contained,0.5170781893004115,0.5170781893004115
+ST003887,pls_da,permutation 1,fold_contained,0.6679012345679013,0.6679012345679013
+ST003887,pls_da,permutation 2,fold_contained,0.48024691358024696,0.48024691358024696
+ST003887,pls_da,permutation 3,fold_contained,0.5024691358024691,0.5024691358024691
+ST003887,pls_da,permutation 4,fold_contained,0.4893004115226338,0.4893004115226338
+ST003887,opls_da,observed,pre_split,0.9995884773662552,0.9995884773662552
+ST003887,opls_da,permutation 0,pre_split,0.9695473251028807,0.9695473251028807
+ST003887,opls_da,permutation 1,pre_split,0.9794238683127573,0.9794238683127573
+ST003887,opls_da,permutation 2,pre_split,0.9421810699588478,0.9421810699588478
+ST003887,opls_da,permutation 3,pre_split,0.9588477366255145,0.9588477366255145
+ST003887,opls_da,permutation 4,pre_split,0.9524691358024693,0.9524691358024693
+ST003887,opls_da,observed,fold_contained,0.9646090534979423,0.9646090534979423
+ST003887,opls_da,permutation 0,fold_contained,0.5156378600823046,0.5156378600823046
+ST003887,opls_da,permutation 1,fold_contained,0.6565843621399176,0.6565843621399176
+ST003887,opls_da,permutation 2,fold_contained,0.49506172839506163,0.49506172839506163
+ST003887,opls_da,permutation 3,fold_contained,0.4893004115226337,0.4893004115226337
+ST003887,opls_da,permutation 4,fold_contained,0.4967078189300412,0.4967078189300412
+ST003945,top_k,observed,pre_split,0.7864583333333333,0.7864583333333333
+ST003945,top_k,observed,fold_contained,0.7135416666666667,0.7135416666666667
+ST003945,rfe,observed,pre_split,0.9430338541666666,0.9430338541666666
+ST003945,rfe,observed,fold_contained,0.8095703125,0.8095703125
+ST003945,spls,observed,pre_split,0.9111328125,0.9111328125
+ST003945,spls,observed,fold_contained,0.7620442708333334,0.7620442708333334
+ST003945,pls_da,observed,pre_split,0.9850260416666666,0.9850260416666666
+ST003945,pls_da,observed,fold_contained,0.8027343749999999,0.8027343749999999
+ST003945,opls_da,observed,pre_split,0.9814453125,0.9814453125
+ST003945,opls_da,observed,fold_contained,0.8245442708333334,0.8245442708333334
+ST003999,top_k,observed,pre_split,1.0,1.0
+ST003999,top_k,observed,fold_contained,0.984375,0.984375
+ST003999,rfe,observed,pre_split,1.0,1.0
+ST003999,rfe,observed,fold_contained,0.9661458333333333,0.9661458333333333
+ST003999,spls,observed,pre_split,1.0,1.0
+ST003999,spls,observed,fold_contained,1.0,1.0
+ST003999,pls_da,observed,pre_split,1.0,1.0
+ST003999,pls_da,observed,fold_contained,1.0,1.0
+ST003999,opls_da,observed,pre_split,1.0,1.0
+ST003999,opls_da,observed,fold_contained,1.0,1.0
+cdi_schubert,top_k,observed,pre_split,0.979611786063399,0.979611786063399
+cdi_schubert,top_k,observed,fold_contained,0.9792626728110598,0.9792626728110598
+cdi_schubert,rfe,observed,pre_split,0.9990224828934506,0.9990224828934506
+cdi_schubert,rfe,observed,fold_contained,0.99106270074012,0.99106270074012
+cdi_schubert,spls,observed,pre_split,0.9998603546990644,0.9998603546990644
+cdi_schubert,spls,observed,fold_contained,0.9914816366429269,0.9914816366429269
+cdi_schubert,pls_da,observed,pre_split,1.0,1.0
+cdi_schubert,pls_da,observed,fold_contained,0.9910627007401202,0.9910627007401202
+cdi_schubert,opls_da,observed,pre_split,1.0,1.0
+cdi_schubert,opls_da,observed,fold_contained,0.99106270074012,0.99106270074012
+nash_ob_baker,top_k,observed,pre_split,0.9175,0.9175
+nash_ob_baker,top_k,observed,fold_contained,0.775,0.775
+nash_ob_baker,rfe,observed,pre_split,0.9675,0.9675
+nash_ob_baker,rfe,observed,fold_contained,0.7725,0.7725
+nash_ob_baker,spls,observed,pre_split,0.945,0.945
+nash_ob_baker,spls,observed,fold_contained,0.79,0.79
+nash_ob_baker,pls_da,observed,pre_split,0.9975,0.9975
+nash_ob_baker,pls_da,observed,fold_contained,0.8099999999999999,0.8099999999999999
+nash_ob_baker,opls_da,observed,pre_split,1.0,1.0
+nash_ob_baker,opls_da,observed,fold_contained,0.81,0.81

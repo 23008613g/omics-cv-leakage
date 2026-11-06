@@ -1,0 +1,153 @@
+{
+ "n": 258,
+ "note": "agreement between two reviews of the same metadata",
+ "criteria": {
+  "decision": {
+   "n_compared": 258,
+   "agreement": 0.9534883720930233,
+   "kappa": 0.8557046979865772,
+   "crosstab": {
+    "exclude": {
+     "exclude": 46,
+     "include": 2
+    },
+    "include": {
+     "exclude": 10,
+     "include": 200
+    }
+   }
+  },
+  "human": {
+   "n_compared": 258,
+   "agreement": 0.9767441860465116,
+   "kappa": 0.774705283073788,
+   "crosstab": {
+    "no": {
+     "no": 10,
+     "uncertain": 2,
+     "yes": 0
+    },
+    "uncertain": {
+     "no": 0,
+     "uncertain": 0,
+     "yes": 1
+    },
+    "yes": {
+     "no": 3,
+     "uncertain": 0,
+     "yes": 242
+    }
+   }
+  },
+  "disease": {
+   "n_compared": 258,
+   "agreement": 0.9302325581395349,
+   "kappa": 0.7693224716868666,
+   "crosstab": {
+    "no": {
+     "no": 37,
+     "uncertain": 2,
+     "yes": 1
+    },
+    "yes": {
+     "no": 12,
+     "uncertain": 3,
+     "yes": 203
+    }
+   }
+  },
+  "intervention": {
+   "n_compared": 258,
+   "agreement": 0.9612403100775194,
+   "kappa": 0.794504181600956,
+   "crosstab": {
+    "no": {
+     "no": 226,
+     "uncertain": 3,
+     "yes": 2
+    },
+    "yes": {
+     "no": 5,
+     "uncertain": 0,
+     "yes": 22
+    }
+   }
+  }
+ },
+ "rereview_include": 202,
+ "original_include": 210,
+ "disagreements": [
+  {
+   "id": "E-GEOD-101794",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Contrast is Paris A1b vs A1a (age-at-diagnosis category) among Crohn's patients; age, not disease"
+  },
+  {
+   "id": "E-GEOD-17156",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Viral challenge study (RSV vs rhinovirus inoculation of volunteers)"
+  },
+  {
+   "id": "E-GEOD-21293",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Invasive vs non-invasive oesophageal SCC cells engineered with hTERT/EGFR over-expression (cell culture)"
+  },
+  {
+   "id": "E-GEOD-22229",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Operationally tolerant vs standard-immunotherapy transplant recipients: tolerance/treatment status, not disease"
+  },
+  {
+   "id": "E-GEOD-27489",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Within lung-cancer patients, nodule site vs contralateral site lining fluid: sampling site"
+  },
+  {
+   "id": "E-GEOD-44077",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Levels 'normal airway epithelia' vs 'normal' in a field-cancerization study: a sampling-site contrast, not disease vs control (second pass: exclude)"
+  },
+  {
+   "id": "E-GEOD-55092",
+   "rer": "include",
+   "ori": "exclude",
+   "note": "HBV-associated HCC, malignant vs non-malignant liver tissue/hepatocytes ('not applicable' read as non-malignant)"
+  },
+  {
+   "id": "E-MEXP-433",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Second pass: CML patients split by cytogenetic response to imatinib are treatment-response groups, not a disease state (rule fixed while reviewing ST000919 and MTBLS92)"
+  },
+  {
+   "id": "E-MTAB-1356",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "AML 'Type A' vs 'Non-Type A' groups not identifiable as a clinical disease state from the metadata (second pass: exclude)"
+  },
+  {
+   "id": "MTBLS12692",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Contrast labelled 'treatment' vs 'control group' in a Parkinson's olfactory study; description suggests patients vs controls but the label implies treatment (second pass: exclude)"
+  },
+  {
+   "id": "ST000726",
+   "rer": "include",
+   "ori": "exclude",
+   "note": "PCOS vs control; clamp/OGTT sampling applied to both groups, contrast is disease"
+  },
+  {
+   "id": "ob_goodrich",
+   "rer": "exclude",
+   "ori": "include",
+   "note": "Overweight vs healthy weight: a BMI category, not a disease (unlike obesity)"
+  }
+ ]
+}

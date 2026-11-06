@@ -1,0 +1,83 @@
+{
+ "seed": 20261018,
+ "n_exchangeable": 1030,
+ "n_datasets": 100,
+ "n_failed": 0,
+ "failed": [],
+ "n_null_datasets": 20,
+ "null_indices": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "median_seconds_per_dataset": 9.350000000000001,
+ "methods": {
+  "top_k": {
+   "median_seconds_per_dataset": 1.7000000000000002,
+   "observed_values_compared": 200,
+   "observed_max_abs_diff": 0.0,
+   "observed_identical": 200,
+   "null_values_compared": 200,
+   "null_max_abs_diff": 0.0,
+   "null_identical": 200,
+   "own_folds_spearman_gap": 0.8477180156256418,
+   "median_gap_formal": 0.011692708333333357,
+   "median_gap_own_folds": 0.0092653831079757,
+   "median_abs_gap_difference": 0.004989331436699829
+  },
+  "rfe": {
+   "median_seconds_per_dataset": 2.8,
+   "observed_values_compared": 200,
+   "observed_max_abs_diff": 0.0,
+   "observed_identical": 200,
+   "null_values_compared": 200,
+   "null_max_abs_diff": 0.0,
+   "null_identical": 200,
+   "own_folds_spearman_gap": 0.9376825380716196,
+   "median_gap_formal": 0.030529448621553823,
+   "median_gap_own_folds": 0.02518196510158438,
+   "median_abs_gap_difference": 0.007378472222222265
+  },
+  "spls": {
+   "median_seconds_per_dataset": 1.65,
+   "observed_values_compared": 200,
+   "observed_max_abs_diff": 0.0,
+   "observed_identical": 200,
+   "null_values_compared": 200,
+   "null_max_abs_diff": 0.0,
+   "null_identical": 200,
+   "own_folds_spearman_gap": 0.9542031197521791,
+   "median_gap_formal": 0.0341600467046142,
+   "median_gap_own_folds": 0.03533163265306116,
+   "median_abs_gap_difference": 0.010164835164835129
+  },
+  "pls_da": {
+   "median_seconds_per_dataset": 1.75,
+   "observed_values_compared": 200,
+   "observed_max_abs_diff": 0.0,
+   "observed_identical": 200,
+   "null_values_compared": 200,
+   "null_max_abs_diff": 0.0,
+   "null_identical": 200,
+   "own_folds_spearman_gap": 0.972430849587965,
+   "median_gap_formal": 0.05770636796127737,
+   "median_gap_own_folds": 0.05023640040444893,
+   "median_abs_gap_difference": 0.008044529673613354
+  },
+  "opls_da": {
+   "median_seconds_per_dataset": 1.55,
+   "observed_values_compared": 200,
+   "observed_max_abs_diff": 0.0,
+   "observed_identical": 200,
+   "null_values_compared": 200,
+   "null_max_abs_diff": 0.0,
+   "null_identical": 200,
+   "own_folds_spearman_gap": 0.9741461331860576,
+   "median_gap_formal": 0.055079357784109995,
+   "median_gap_own_folds": 0.051916826513214,
+   "median_abs_gap_difference": 0.010715832791856228
+  }
+ }
+}

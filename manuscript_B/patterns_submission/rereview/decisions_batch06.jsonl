@@ -1,0 +1,30 @@
+{"id":"MTBLS12692","human":"yes","disease":"uncertain","intervention":"uncertain","decision":"exclude","note":"Contrast labelled 'treatment' vs 'control group' in a Parkinson's olfactory study; description suggests patients vs controls but the label implies treatment (second pass: exclude)"}
+{"id":"MTBLS12820","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Gout vs healthy; serum"}
+{"id":"MTBLS1295","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Infantile cholestasis vs impaired hepatic function; faeces: two disease states"}
+{"id":"MTBLS13112","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Severe vs mild influenza A; plasma"}
+{"id":"MTBLS13136","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Persistent vs paroxysmal atrial fibrillation; blood"}
+{"id":"MTBLS162","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Monogenic insulin resistance (lipodystrophy) vs controls; plasma"}
+{"id":"MTBLS1866","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"COVID-19 vs healthy; plasma"}
+{"id":"MTBLS1991","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Ageing cohort; contrast is current smoking: exposure"}
+{"id":"MTBLS2014","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"SARS-CoV-2-positive patients vs healthy; plasma"}
+{"id":"MTBLS2040","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Endometriosis study, but the contrast is smoking yes vs no"}
+{"id":"MTBLS205","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Allogeneic HSCT recipients, acute GVHD vs no GVHD"}
+{"id":"MTBLS2224","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"COVID-19 acute (positive) vs after discharge (negative): two disease states"}
+{"id":"MTBLS2262","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Traumatic osteonecrosis of the femoral head vs controls; plasma"}
+{"id":"MTBLS2266","human":"no","disease":"no","intervention":"no","decision":"exclude","note":"Chosen contrast is Parkinson's disease vs pooled quality-control samples, which are not participants"}
+{"id":"MTBLS2419","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Human milk, baby female vs male: sex"}
+{"id":"MTBLS2542","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"COVID-19 mild vs asymptomatic; serum"}
+{"id":"MTBLS3305","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Convalescent COVID-19 vs healthy controls; plasma"}
+{"id":"MTBLS424","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"ER-positive early breast cancer, relapse vs no relapse; serum (outcome groups)"}
+{"id":"MTBLS444","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Keratoconus vs normal (cadaver) cornea and aqueous humour"}
+{"id":"MTBLS4569","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Caries-susceptible vs caries-free; saliva"}
+{"id":"MTBLS4684","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Periodontitis vs healthy gingival biopsies"}
+{"id":"MTBLS4816","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Paediatric influenza A pneumonia vs healthy; oropharyngeal swabs"}
+{"id":"MTBLS4895","human":"uncertain","disease":"uncertain","intervention":"no","decision":"exclude","note":"Contrast 'not applicable' vs healthy controls; the 'not applicable' group appears to be pooled/blank samples rather than patients"}
+{"id":"MTBLS5297","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Rheumatoid arthritis stage IV vs healthy; plasma"}
+{"id":"MTBLS5665","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Liver cirrhosis vs healthy; plasma"}
+{"id":"MTBLS6739","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Acute COVID-19 vs SARS-CoV-2-negative; plasma"}
+{"id":"MTBLS7128","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Pyogenic liver abscess with vs without diabetes; pus: two disease states"}
+{"id":"MTBLS7337","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"COVID-19 acute vs convalescent phase; plasma: two disease states"}
+{"id":"MTBLS740","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Age-related nuclear cataract vs normal lens/aqueous humour"}
+{"id":"MTBLS7753","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Extracranial arteriovenous malformation vs healthy; plasma"}

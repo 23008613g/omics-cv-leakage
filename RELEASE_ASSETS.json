@@ -1,0 +1,79 @@
+[
+  {
+    "file": "Formal_Public_Deposit_v3.zip",
+    "sha256": "bc13a1c46453d90a3c958d7a0e283e3c67adcc571f655554131716d5198524bf",
+    "bytes": 376599776,
+    "original_archive_sha256": "a707aa6d4c24f2e8f52bafaf700b3a6ca70e0c05c7ed71b5389d83f117fa973b",
+    "schema_contract_source_sha256": "f6723993069967646a067614d6d911af0704f8ef375f99d973eb8873fb722474",
+    "uncompressed_bytes": 2278615402,
+    "members": 1122,
+    "canonical_csv_tables": 12,
+    "sanitized_checkpoints": 1102,
+    "member_hashes_checked": 1120,
+    "all_members_crc_checked": true,
+    "private_path_and_secret_scan": "PASS: source archive including all gzip contents scanned on 2026-11-06; unchanged data payloads verified and refreshed metadata reviewed",
+    "data_payload_members_byte_identical": 1116,
+    "metadata_changes": [
+      {
+        "path": "README.md",
+        "before_sha256": "af4a06d66face07b9cdb53b6a84b7459bd9b3e6cbdb24e27d88ee1788d3c1e72",
+        "after_sha256": "44719c29ec353254c6d4aeff8622e320966ffb12cfa06cd653367a4fe8e3950a"
+      },
+      {
+        "path": "LICENSE",
+        "before_sha256": "0ff2685c523be899780ed4ff9bacd56c1cc8df10770293ca0bd17124fe9629a4",
+        "after_sha256": "95a5c640c6d85a8faa79a8087562de971f8cac8864cea8741ac5aac3f5605b27"
+      },
+      {
+        "path": "DATA_LICENSE",
+        "before_sha256": "268525a182587f2ee738c32912efe30710e91fe9d547c23f6704eaab4ecbc29a",
+        "after_sha256": "5b95c10898daa2e1dbe9816ed7842b4967c32465e9af3ab2874e100e8e64a0f6"
+      },
+      {
+        "path": "release_manifest.json",
+        "before_sha256": "c3ccc7cf61e9e4dee7a57bd912c30c40dc1402fe2f4b08bffe57ee3a8e5e9195",
+        "after_sha256": "98f1226a9a036db5b0b531555788b13620b060665d19ed572a9e62dca8d6bfc9"
+      },
+      {
+        "path": "checksums.sha256",
+        "before_sha256": "0ee13da74b772c8df82df88c08f62079d1833038e7dfed444a0ae8cfe94a0eb3",
+        "after_sha256": "e65133292ee37ef9c7a1653370efde3aef5bde60afbe18492260ced1836db581"
+      },
+      {
+        "path": "VALIDATION_REPORT.md",
+        "before_sha256": "ee9cb0b53804242d26ff964fa42520e4932ce48a3f4c8d445d67104d96a7b9e0",
+        "after_sha256": "da1784cc001e493eb00cb0f1e1feeca45cd8156e9583e4c6f58d403e10060ca2"
+      }
+    ],
+    "licensing": "Current sole-author CC BY 4.0 data notice is included inside the ZIP; third-party terms are retained.",
+    "source_zip_sha256": "088d0bd4b375f0b7faeda26ceacd507754e402d9c60ed735ab6919f6d2b4a92c",
+    "release_tag": "v0.2.0",
+    "release_url": "https://github.com/23008613g/presplit-audit/releases/tag/v0.2.0",
+    "repository_url": "https://github.com/23008613g/presplit-audit",
+    "metadata_refresh_date": "2026-11-06",
+    "publication_metadata_refresh": {
+      "date": "2026-11-06",
+      "source_zip_sha256": "088d0bd4b375f0b7faeda26ceacd507754e402d9c60ed735ab6919f6d2b4a92c",
+      "changed_members": [
+        {
+          "path": "README.md",
+          "before_sha256": "447c787cb5d5f498d31a40acd4cdb88c591c57c6926c1e6e9f1257a64813262b",
+          "after_sha256": "44719c29ec353254c6d4aeff8622e320966ffb12cfa06cd653367a4fe8e3950a"
+        },
+        {
+          "path": "VALIDATION_REPORT.md",
+          "before_sha256": "c6802804baf269560744ba3586bd84761911794dd1fc40eb3d4f44b82f37bef1",
+          "after_sha256": "da1784cc001e493eb00cb0f1e1feeca45cd8156e9583e4c6f58d403e10060ca2"
+        },
+        {
+          "path": "checksums.sha256",
+          "before_sha256": "18e40d69eb77887f5873dde30da92e68e331777a40eb4adf093bf469820d1009",
+          "after_sha256": "e65133292ee37ef9c7a1653370efde3aef5bde60afbe18492260ced1836db581"
+        }
+      ],
+      "licenses_unchanged": true,
+      "data_payload_members_byte_identical": 1116
+    },
+    "download_url": "https://github.com/23008613g/presplit-audit/releases/download/v0.2.0/Formal_Public_Deposit_v3.zip"
+  }
+]

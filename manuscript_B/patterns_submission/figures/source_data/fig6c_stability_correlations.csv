@@ -1,0 +1,16 @@
+method,variable,spearman_rho
+top_k,Gap,-0.5437482483702444
+rfe,Gap,-0.5902949363329348
+spls,Gap,-0.7463284200067573
+pls_da,Gap,-0.740548817835281
+opls_da,Gap,-0.6738616341648762
+top_k,Fold-contained AUC,0.7275506244388448
+rfe,Fold-contained AUC,0.6593103899079352
+spls,Fold-contained AUC,0.755766814890564
+pls_da,Fold-contained AUC,0.7489560564450595
+opls_da,Fold-contained AUC,0.6818200564597446
+top_k,Sample size,0.02572328257379442
+rfe,Sample size,-0.011758560474577196
+spls,Sample size,0.0188254176059024
+pls_da,Sample size,0.038618982628985575
+opls_da,Sample size,0.0532391434834664

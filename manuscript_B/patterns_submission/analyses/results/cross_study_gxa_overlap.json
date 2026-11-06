@@ -1,0 +1,146 @@
+{
+ "JIA|E-GEOD-11083|E-GEOD-13501": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.017857142857142856,
+  "a_median_cross_max": 0.24492664130630937,
+  "b_share_closer_elsewhere": 0.0,
+  "b_median_cross_max": 0.17262433276906045,
+  "overlapping": false
+ },
+ "JIA|E-GEOD-11083|E-GEOD-13849": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.017857142857142856,
+  "a_median_cross_max": 0.2544261971868854,
+  "b_share_closer_elsewhere": 0.0,
+  "b_median_cross_max": 0.1767060572183756,
+  "overlapping": false
+ },
+ "JIA|E-GEOD-11083|E-GEOD-41831": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.75,
+  "a_median_cross_max": 0.9327558322378304,
+  "b_share_closer_elsewhere": 0.5641025641025641,
+  "b_median_cross_max": 0.868229912036777,
+  "overlapping": true
+ },
+ "JIA|E-GEOD-13501|E-GEOD-13849": {
+  "shared_ids": 104,
+  "a_share_closer_elsewhere": 1.0,
+  "a_median_cross_max": 0.9900008870315402,
+  "b_share_closer_elsewhere": 1.0,
+  "b_median_cross_max": 0.9899491726192695,
+  "overlapping": true
+ },
+ "JIA|E-GEOD-13501|E-GEOD-41831": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.0,
+  "a_median_cross_max": 0.17066698553013368,
+  "b_share_closer_elsewhere": 0.01282051282051282,
+  "b_median_cross_max": 0.24243213298464966,
+  "overlapping": false
+ },
+ "JIA|E-GEOD-13849|E-GEOD-41831": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.0,
+  "a_median_cross_max": 0.17585799422169057,
+  "b_share_closer_elsewhere": 0.01282051282051282,
+  "b_median_cross_max": 0.25207250443585827,
+  "overlapping": false
+ },
+ "AD|E-GEOD-48350|E-GEOD-5281": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.003952569169960474,
+  "a_median_cross_max": 0.41665612827417325,
+  "b_share_closer_elsewhere": 0.024844720496894408,
+  "b_median_cross_max": 0.442107902786909,
+  "overlapping": false
+ },
+ "Psoriasis|E-GEOD-32407|E-GEOD-52471": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.11666666666666667,
+  "a_median_cross_max": 0.3940271176383087,
+  "b_share_closer_elsewhere": 0.16666666666666666,
+  "b_median_cross_max": 0.44985248540338546,
+  "overlapping": false
+ },
+ "Psoriasis lesion|E-GEOD-14905|E-GEOD-30999": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.012195121951219513,
+  "a_median_cross_max": 0.4321707674297195,
+  "b_share_closer_elsewhere": 0.01775147928994083,
+  "b_median_cross_max": 0.43347891854095044,
+  "overlapping": false
+ },
+ "Psoriasis lesion|E-GEOD-14905|E-GEOD-41662": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.0,
+  "a_median_cross_max": 0.38510361294997475,
+  "b_share_closer_elsewhere": 0.06382978723404255,
+  "b_median_cross_max": 0.40883594807802537,
+  "overlapping": false
+ },
+ "Psoriasis lesion|E-GEOD-30999|E-GEOD-41662": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.09467455621301775,
+  "a_median_cross_max": 0.5025412807152432,
+  "b_share_closer_elsewhere": 0.2978723404255319,
+  "b_median_cross_max": 0.5667016283434644,
+  "overlapping": false
+ },
+ "Eczema lesion|E-GEOD-32924|E-GEOD-36842": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.09090909090909091,
+  "a_median_cross_max": 0.36511315656317067,
+  "b_share_closer_elsewhere": 0.0,
+  "b_median_cross_max": 0.3151338644164486,
+  "overlapping": false
+ },
+ "Eczema lesion|E-GEOD-32924|E-GEOD-58558": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.15151515151515152,
+  "a_median_cross_max": 0.4417922986510635,
+  "b_share_closer_elsewhere": 0.027522935779816515,
+  "b_median_cross_max": 0.3732906663657295,
+  "overlapping": false
+ },
+ "Eczema lesion|E-GEOD-36842|E-GEOD-58558": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.0,
+  "a_median_cross_max": 0.30643640016323886,
+  "b_share_closer_elsewhere": 0.0,
+  "b_median_cross_max": 0.2758066613355189,
+  "overlapping": false
+ },
+ "AD proteome|E-PROT-51|E-PROT-54": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.07407407407407407,
+  "a_median_cross_max": 0.10741681873645866,
+  "b_share_closer_elsewhere": 0.6363636363636364,
+  "b_median_cross_max": 0.08966907135830937,
+  "overlapping": false
+ },
+ "Breast cancer (Affymetrix)|E-GEOD-10780|E-GEOD-54002": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.005405405405405406,
+  "a_median_cross_max": 0.3009912467811854,
+  "b_share_closer_elsewhere": 0.011547344110854504,
+  "b_median_cross_max": 0.2589783492283366,
+  "overlapping": false
+ },
+ "Breast cancer (Agilent)|E-MTAB-779|E-GEOD-38959": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.023809523809523808,
+  "a_median_cross_max": 0.1359918753363094,
+  "b_share_closer_elsewhere": 0.046511627906976744,
+  "b_median_cross_max": 0.14621932988592531,
+  "overlapping": false
+ },
+ "Asthma|E-GEOD-8052|E-MTAB-1425": {
+  "shared_ids": 0,
+  "a_share_closer_elsewhere": 0.9325,
+  "a_median_cross_max": 0.835158598611698,
+  "b_share_closer_elsewhere": 0.9566326530612245,
+  "b_median_cross_max": 0.8353011621025497,
+  "overlapping": true
+ }
+}

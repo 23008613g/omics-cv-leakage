@@ -1,0 +1,51 @@
+analysis,platform,datasets
+"Formal benchmark, observed labels",Metabolomics,566
+"Permutation nulls, exchangeable",Metabolomics,563
+"Permutation nulls, within participant",Metabolomics,3
+Decomposition arms,Metabolomics,566
+Signal gradient,Metabolomics,563
+"Exploratory pipelines, observed",Metabolomics,566
+"Null subset (arms, pipelines)",Metabolomics,43
+Untouched 25% hold-out,Metabolomics,144
+Human disease subset,Metabolomics,89
+presplit-audit validation,Metabolomics,55
+"Formal benchmark, observed labels",Microarray,309
+"Permutation nulls, exchangeable",Microarray,270
+"Permutation nulls, within participant",Microarray,39
+Decomposition arms,Microarray,309
+Signal gradient,Microarray,270
+"Exploratory pipelines, observed",Microarray,309
+"Null subset (arms, pipelines)",Microarray,38
+Untouched 25% hold-out,Microarray,65
+Human disease subset,Microarray,114
+presplit-audit validation,Microarray,28
+"Formal benchmark, observed labels",RNA-seq,176
+"Permutation nulls, exchangeable",RNA-seq,163
+"Permutation nulls, within participant",RNA-seq,13
+Decomposition arms,RNA-seq,176
+Signal gradient,RNA-seq,163
+"Exploratory pipelines, observed",RNA-seq,176
+"Null subset (arms, pipelines)",RNA-seq,14
+Untouched 25% hold-out,RNA-seq,34
+Human disease subset,RNA-seq,33
+presplit-audit validation,RNA-seq,14
+"Formal benchmark, observed labels",Microbiome (16S),28
+"Permutation nulls, exchangeable",Microbiome (16S),28
+"Permutation nulls, within participant",Microbiome (16S),0
+Decomposition arms,Microbiome (16S),28
+Signal gradient,Microbiome (16S),28
+"Exploratory pipelines, observed",Microbiome (16S),28
+"Null subset (arms, pipelines)",Microbiome (16S),3
+Untouched 25% hold-out,Microbiome (16S),12
+Human disease subset,Microbiome (16S),27
+presplit-audit validation,Microbiome (16S),2
+"Formal benchmark, observed labels",Proteomics,7
+"Permutation nulls, exchangeable",Proteomics,6
+"Permutation nulls, within participant",Proteomics,1
+Decomposition arms,Proteomics,6
+Signal gradient,Proteomics,6
+"Exploratory pipelines, observed",Proteomics,7
+"Null subset (arms, pipelines)",Proteomics,2
+Untouched 25% hold-out,Proteomics,2
+Human disease subset,Proteomics,7
+presplit-audit validation,Proteomics,1

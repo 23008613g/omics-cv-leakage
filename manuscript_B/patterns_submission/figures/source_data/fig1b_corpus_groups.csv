@@ -1,0 +1,6 @@
+group,n_datasets,median_n,median_p,repositories
+Metabolomics,566,59.0,155.0,"Metabolomics Workbench 309, MetaboLights 257"
+Microarray,309,50.0,20361.0,Expression Atlas 309
+RNA-seq,176,48.5,55573.0,Expression Atlas 176
+Microbiome (16S),28,100.0,16739.0,MicrobiomeHD 28
+Proteomics,7,48.0,3803.0,Expression Atlas 7

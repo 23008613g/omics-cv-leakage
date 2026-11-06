@@ -1,0 +1,30 @@
+{"id":"E-GEOD-19314","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Sarcoidosis with low lung function vs normal; PBMC"}
+{"id":"E-GEOD-19804","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"NSCLC primary tumour vs normal lung, female non-smokers"}
+{"id":"E-GEOD-20168","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Parkinson's disease vs normal; post-mortem prefrontal cortex"}
+{"id":"E-GEOD-20950","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Obese patients, insulin resistant vs insulin sensitive adipose tissue; insulin resistance taken as a disease state (borderline)"}
+{"id":"E-GEOD-21138","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Schizophrenia vs matched controls; post-mortem BA46"}
+{"id":"E-GEOD-21293","human":"no","disease":"no","intervention":"yes","decision":"exclude","note":"Invasive vs non-invasive oesophageal SCC cells engineered with hTERT/EGFR over-expression (cell culture)"}
+{"id":"E-GEOD-21374","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Renal allograft biopsies, rejection vs none"}
+{"id":"E-GEOD-22229","human":"yes","disease":"no","intervention":"uncertain","decision":"exclude","note":"Operationally tolerant vs standard-immunotherapy transplant recipients: tolerance/treatment status, not disease"}
+{"id":"E-GEOD-22260","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Prostate carcinoma vs matched normal tissue"}
+{"id":"E-GEOD-2240","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Permanent atrial fibrillation vs sinus rhythm myocardium"}
+{"id":"E-GEOD-22459","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Kidney transplant biopsies, interstitial fibrosis/tubular atrophy vs normal histology"}
+{"id":"E-GEOD-22529","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"CLL vs normal B cells"}
+{"id":"E-GEOD-23739","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Gastric carcinoma vs adjacent normal tissue"}
+{"id":"E-GEOD-26457","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Parous vs nulliparous breast tissue: pregnancy history, not disease"}
+{"id":"E-GEOD-26866","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Psoriasis lesional vs non-lesional skin (laser capture)"}
+{"id":"E-GEOD-27034","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Peripheral arterial disease vs normal; PBMC"}
+{"id":"E-GEOD-27383","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Schizophrenia vs normal; PBMC"}
+{"id":"E-GEOD-27489","human":"yes","disease":"no","intervention":"no","decision":"exclude","note":"Within lung-cancer patients, nodule site vs contralateral site lining fluid: sampling site"}
+{"id":"E-GEOD-29272","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Gastric cancer tumour vs normal tissue"}
+{"id":"E-GEOD-30718","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Acute kidney injury vs normal in kidney transplants"}
+{"id":"E-GEOD-30784","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Oral squamous cell carcinoma vs normal oral tissue"}
+{"id":"E-GEOD-30999","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Psoriasis lesional vs non-lesional skin"}
+{"id":"E-GEOD-31625","human":"uncertain","disease":"no","intervention":"no","decision":"exclude","note":"Erlotinib sensitivity of lung cancer cell lines and tumours: drug-response phenotype; cell lines included"}
+{"id":"E-GEOD-32924","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Atopic dermatitis lesional skin vs healthy skin"}
+{"id":"E-GEOD-3307","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Juvenile dermatomyositis vs normal skeletal muscle"}
+{"id":"E-GEOD-34205","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Infants with acute RSV vs influenza infection; PBMC: two disease states"}
+{"id":"E-GEOD-34437","human":"yes","disease":"uncertain","intervention":"no","decision":"exclude","note":"Contrast labelled kidney transplant vs none; disease state not identifiable from the contrast (second pass: exclude)"}
+{"id":"E-GEOD-34748","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Positive-crossmatch allografts, transplant glomerulopathy vs normal"}
+{"id":"E-GEOD-35493","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Atypical teratoid/rhabdoid tumour vs medulloblastoma: two disease states"}
+{"id":"E-GEOD-36842","human":"yes","disease":"yes","intervention":"no","decision":"include","note":"Atopic dermatitis lesion vs normal skin"}

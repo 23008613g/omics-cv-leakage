@@ -1,0 +1,43 @@
+{"id": "ST000984", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets"}
+{"id": "ST000985", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets"}
+{"id": "ST000986", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets"}
+{"id": "ST000987", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets"}
+{"id": "ST000988", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets"}
+{"id": "ST000989", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets"}
+{"id": "ST000990", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets"}
+{"id": "ST000991", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Healthy subjects, GLA test meal vs control meal (crossover diet intervention); one of nine platform datasets"}
+{"id": "ST001000", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Crohn's disease vs ulcerative colitis; stool: two disease states"}
+{"id": "ST001035", "human": "no", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Cultured astrocytes (treatment summary describes murine-derived cortical astrocytes) treated with glutamine/glutamate"}
+{"id": "ST001364", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Ischaemic cardiomyopathy explants vs unused donor hearts; left ventricle"}
+{"id": "ST003255", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Membranous nephropathy vs IgA nephropathy; plasma: two disease states"}
+{"id": "ST003274", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Non-ischaemic cardiomyopathy without diabetes vs donor myocardium"}
+{"id": "ST003275", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Non-ischaemic cardiomyopathy without diabetes vs donor myocardium (lipidomics)"}
+{"id": "ST003655", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Human serum from CRC patients vs human control serum (n = 63 human samples; mouse samples outside the contrast); 'HS CTRL' read as control participants"}
+{"id": "ST003751", "human": "no", "disease": "no", "intervention": "no", "decision": "exclude", "note": "Chosen contrast is X-linked Alport syndrome vs pooled quality-control samples, which are not participants"}
+{"id": "ST003769", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Alzheimer's disease vs controls; post-mortem frontal cortex extracellular vesicles"}
+{"id": "ST003869", "human": "no", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "IMR90 fibroblasts with siRNA knockdown (cell culture)"}
+{"id": "ST003924", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Paediatric CKD stage 1-2 vs primary mitochondrial disorder; urine: two disease states"}
+{"id": "ST003999", "human": "no", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "Foreskin fibroblasts infected in vitro with HCMV"}
+{"id": "asd_son", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Autism spectrum disorder vs healthy; stool (MicrobiomeHD case-control)"}
+{"id": "cdi_schubert", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "C. difficile infection vs healthy; stool"}
+{"id": "cdi_youngster", "human": "yes", "disease": "no", "intervention": "yes", "decision": "exclude", "note": "CDI patients after faecal microbiota transplant vs healthy donors: groups differ by the transplant"}
+{"id": "crc_baxter", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Non-cancer colonic lesions (adenoma) vs healthy; stool"}
+{"id": "crc_zackular", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Colonic adenoma (nonCRC lesions) vs healthy; stool"}
+{"id": "crc_zeller", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Colorectal cancer vs healthy; stool"}
+{"id": "edd_singh", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Enteric diarrhoeal disease vs healthy; stool"}
+{"id": "hiv_dinh", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "HIV vs healthy; stool"}
+{"id": "hiv_lozupone", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "HIV vs healthy; stool (blanks outside the contrast)"}
+{"id": "hiv_noguerajulian", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "HIV vs healthy; stool"}
+{"id": "ibd_alm", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Paediatric ulcerative colitis vs non-IBD; stool"}
+{"id": "ibd_engstrand_maxee", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Crohn's disease vs healthy; stool and tissue"}
+{"id": "ibd_gevers_2014", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Paediatric Crohn's disease vs not IBD"}
+{"id": "ibd_huttenhower", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Crohn's disease vs healthy; stool and biopsy"}
+{"id": "mhe_zhang", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Minimal hepatic encephalopathy vs healthy; stool"}
+{"id": "nash_ob_baker", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Obese children without NASH vs healthy; obesity taken as a disease state (borderline)"}
+{"id": "ob_goodrich", "human": "yes", "disease": "no", "intervention": "no", "decision": "exclude", "note": "Overweight vs healthy weight: a BMI category, not a disease (unlike obesity)"}
+{"id": "ob_gordon_2008_v2", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Obese vs lean twins and mothers; stool (obesity as disease state)"}
+{"id": "ob_ross", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Obese vs healthy; stool (obesity as disease state)"}
+{"id": "ob_zupancic", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Obese vs healthy; stool (obesity as disease state)"}
+{"id": "par_scheperjans", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Parkinson's disease vs healthy; stool"}
+{"id": "ra_littman", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Rheumatoid arthritis vs healthy; stool"}
+{"id": "t1d_alkanani", "human": "yes", "disease": "yes", "intervention": "no", "decision": "include", "note": "Type 1 diabetes vs healthy; stool"}

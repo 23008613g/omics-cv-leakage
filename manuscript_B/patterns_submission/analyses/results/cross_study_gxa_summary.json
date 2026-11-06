@@ -1,0 +1,1204 @@
+{
+ "pairs": 24,
+ "contrasts": 7,
+ "study_contrasts": 18,
+ "genera_shared": [
+  3290,
+  21056
+ ],
+ "methods": {
+  "top_k": {
+   "pre_split": {
+    "n": 24,
+    "median": 0.9827177724236547,
+    "mean": 0.9514931548771438,
+    "q25": 0.9324909420289855,
+    "q75": 0.99860853432282,
+    "ci": [
+     0.9305374396135265,
+     0.9981447124304267
+    ]
+   },
+   "fold_contained": {
+    "n": 24,
+    "median": 0.9408216783216783,
+    "mean": 0.9071598054970265,
+    "q25": 0.8777335164835165,
+    "q75": 0.9892975371966968,
+    "ci": [
+     0.8792857142857142,
+     0.9920404525446542
+    ]
+   },
+   "external": {
+    "n": 24,
+    "median": 0.8554054054054054,
+    "mean": 0.7892896330964824,
+    "q25": 0.6905032467532468,
+    "q75": 0.9879874677143584,
+    "ci": [
+     0.6900974025974026,
+     0.9909609298264761
+    ]
+   },
+   "error_pre_split": {
+    "n": 24,
+    "median": 0.057012655820459224,
+    "mean": 0.16220352178066144,
+    "q25": 0.0011053193700709674,
+    "q75": 0.30949675324675324,
+    "ci": [
+     0.007533922659973102,
+     0.3099025974025974
+    ]
+   },
+   "error_fold_contained": {
+    "n": 24,
+    "median": 0.023810013515895956,
+    "mean": 0.11787017240054405,
+    "q25": -0.0030707243433431564,
+    "q75": 0.25294889951749566,
+    "ci": [
+     0.0012368583797155441,
+     0.2403483309143687
+    ]
+   },
+   "over_010": {
+    "pre_split": {
+     "share": 0.4583333333333333,
+     "count": 11,
+     "n": 24,
+     "ci": [
+      0.20833333333333334,
+      0.7777777777777778
+     ]
+    },
+    "fold_contained": {
+     "share": 0.4583333333333333,
+     "count": 11,
+     "n": 24,
+     "ci": [
+      0.20833333333333334,
+      0.7777777777777778
+     ]
+    }
+   },
+   "over_020": {
+    "pre_split": {
+     "share": 0.4583333333333333,
+     "count": 11,
+     "n": 24,
+     "ci": [
+      0.20833333333333334,
+      0.7777777777777778
+     ]
+    },
+    "fold_contained": {
+     "share": 0.3333333333333333,
+     "count": 8,
+     "n": 24,
+     "ci": [
+      0.13636363636363635,
+      0.5714285714285714
+     ]
+    }
+   },
+   "fold_contained_closer": {
+    "share": 0.6666666666666666,
+    "count": 16,
+    "n": 24,
+    "ci": [
+     0.46153846153846156,
+     0.8571428571428571
+    ]
+   },
+   "rho_external": {
+    "pre_split": 0.3226443758747561,
+    "fold_contained": 0.4966123184403636
+   },
+   "high_cv_low_external": {
+    "pre_split": 6,
+    "fold_contained": 6
+   },
+   "null": {
+    "pre_split": {
+     "n": 24,
+     "median": 0.7906657608695652,
+     "mean": 0.7850550191312918,
+     "q25": 0.6949385107816711,
+     "q75": 0.8388647345698103,
+     "ci": [
+      0.7286333666918465,
+      0.8303515112818746
+     ]
+    },
+    "fold_contained": {
+     "n": 24,
+     "median": 0.4908230519480519,
+     "mean": 0.4892642779879483,
+     "q25": 0.4818473383500557,
+     "q75": 0.49837269268262,
+     "ci": [
+      0.4846514221073045,
+      0.49970598408855066
+     ]
+    },
+    "external": {
+     "n": 24,
+     "median": 0.4989938725490196,
+     "mean": 0.4987004229392773,
+     "q25": 0.4894678629926547,
+     "q75": 0.5114129885444744,
+     "ci": [
+      0.48926779101471096,
+      0.5100219002695418
+     ]
+    }
+   },
+   "by_contrast": {
+    "AD": {
+     "pairs": 2,
+     "external": 0.7866192782377754,
+     "error_pre_split": 0.12617531698531298,
+     "error_fold_contained": 0.10019640429746057
+    },
+    "AD proteome": {
+     "pairs": 2,
+     "external": 0.7100274725274724,
+     "error_pre_split": 0.28550824175824174,
+     "error_fold_contained": 0.1720467032967034
+    },
+    "Breast cancer": {
+     "pairs": 4,
+     "external": 0.9477855477855477,
+     "error_pre_split": 0.04994172494172494,
+     "error_fold_contained": 0.023805361305361317
+    },
+    "Eczema lesion": {
+     "pairs": 6,
+     "external": 0.7013140161725067,
+     "error_pre_split": 0.24469350891110542,
+     "error_fold_contained": 0.21628631827565387
+    },
+    "JIA": {
+     "pairs": 2,
+     "external": 0.5000760982359046,
+     "error_pre_split": 0.42308630231753713,
+     "error_fold_contained": 0.36208491871324794
+    },
+    "Psoriasis": {
+     "pairs": 2,
+     "external": 0.8316666666666667,
+     "error_pre_split": 0.13555555555555554,
+     "error_fold_contained": -0.07666666666666666
+    },
+    "Psoriasis lesion": {
+     "pairs": 6,
+     "external": 0.9978354978354979,
+     "error_pre_split": -0.00030921459492888603,
+     "error_fold_contained": -0.0006184291898577721
+    }
+   }
+  },
+  "rfe": {
+   "pre_split": {
+    "n": 24,
+    "median": 1.0,
+    "mean": 0.9856441086074897,
+    "q25": 0.9990896358543417,
+    "q75": 1.0,
+    "ci": [
+     0.9994245041912384,
+     1.0
+    ]
+   },
+   "fold_contained": {
+    "n": 24,
+    "median": 0.9576923076923076,
+    "mean": 0.9012608622570998,
+    "q25": 0.8796217704813347,
+    "q75": 0.9895630979664594,
+    "ci": [
+     0.8759849200436368,
+     0.9920113499945433
+    ]
+   },
+   "external": {
+    "n": 24,
+    "median": 0.8088086990718045,
+    "mean": 0.8066302885320003,
+    "q25": 0.6975909703504044,
+    "q75": 0.9611574699809994,
+    "ci": [
+     0.7000000000000001,
+     0.9574229691876751
+    ]
+   },
+   "error_pre_split": {
+    "n": 24,
+    "median": 0.17912381735911154,
+    "mean": 0.1790138200754894,
+    "q25": 0.03884253001900059,
+    "q75": 0.27220130669166764,
+    "ci": [
+     0.04257703081232489,
+     0.26854395604395603
+    ]
+   },
+   "error_fold_contained": {
+    "n": 24,
+    "median": 0.04607661246316713,
+    "mean": 0.09463057372509964,
+    "q25": 0.004139086844832163,
+    "q75": 0.19081683253853063,
+    "ci": [
+     0.01582633053221294,
+     0.20743487951752926
+    ]
+   },
+   "over_010": {
+    "pre_split": {
+     "share": 0.6666666666666666,
+     "count": 16,
+     "n": 24,
+     "ci": [
+      0.3076923076923077,
+      1.0
+     ]
+    },
+    "fold_contained": {
+     "share": 0.4166666666666667,
+     "count": 10,
+     "n": 24,
+     "ci": [
+      0.20588235294117646,
+      0.75
+     ]
+    }
+   },
+   "over_020": {
+    "pre_split": {
+     "share": 0.375,
+     "count": 9,
+     "n": 24,
+     "ci": [
+      0.15384615384615385,
+      0.6875
+     ]
+    },
+    "fold_contained": {
+     "share": 0.25,
+     "count": 6,
+     "n": 24,
+     "ci": [
+      0.1,
+      0.5
+     ]
+    }
+   },
+   "fold_contained_closer": {
+    "share": 0.7083333333333334,
+    "count": 17,
+    "n": 24,
+    "ci": [
+     0.46153846153846156,
+     0.9230769230769231
+    ]
+   },
+   "rho_external": {
+    "pre_split": 0.3222322170697084,
+    "fold_contained": 0.6030109240166174
+   },
+   "high_cv_low_external": {
+    "pre_split": 6,
+    "fold_contained": 5
+   },
+   "null": {
+    "pre_split": {
+     "n": 24,
+     "median": 0.9429824344340083,
+     "mean": 0.9331441683824933,
+     "q25": 0.8709071765498652,
+     "q75": 0.9817527173913043,
+     "ci": [
+      0.9318403988868275,
+      0.981820652173913
+     ]
+    },
+    "fold_contained": {
+     "n": 24,
+     "median": 0.4928474062702004,
+     "mean": 0.4936255820032929,
+     "q25": 0.48721139828391025,
+     "q75": 0.4983492168450114,
+     "ci": [
+      0.49111369990680337,
+      0.49789000345901074
+     ]
+    },
+    "external": {
+     "n": 24,
+     "median": 0.5014968909693714,
+     "mean": 0.5017428041933057,
+     "q25": 0.49318332166199813,
+     "q75": 0.5109453242835597,
+     "ci": [
+      0.4938458246935138,
+      0.506900269541779
+     ]
+    }
+   },
+   "by_contrast": {
+    "AD": {
+     "pairs": 2,
+     "external": 0.8088086990718045,
+     "error_pre_split": 0.1533914645161406,
+     "error_fold_contained": 0.034138950092208964
+    },
+    "AD proteome": {
+     "pairs": 2,
+     "external": 0.731456043956044,
+     "error_pre_split": 0.26854395604395603,
+     "error_fold_contained": 0.20885989010989003
+    },
+    "Breast cancer": {
+     "pairs": 4,
+     "external": 0.8998168498168497,
+     "error_pre_split": 0.10018315018315022,
+     "error_fold_contained": 0.080952380952381
+    },
+    "Eczema lesion": {
+     "pairs": 6,
+     "external": 0.7105665560854241,
+     "error_pre_split": 0.22793492909879293,
+     "error_fold_contained": 0.04125651317509399
+    },
+    "JIA": {
+     "pairs": 2,
+     "external": 0.4764233829124871,
+     "error_pre_split": 0.5147492217225873,
+     "error_fold_contained": 0.4347621930127983
+    },
+    "Psoriasis": {
+     "pairs": 2,
+     "external": 0.7939064856711915,
+     "error_pre_split": 0.2060935143288085,
+     "error_fold_contained": -0.007795374560080337
+    },
+    "Psoriasis lesion": {
+     "pairs": 6,
+     "external": 0.9866520521251978,
+     "error_pre_split": 0.013347947874802146,
+     "error_fold_contained": 0.011801874900157772
+    }
+   }
+  },
+  "spls": {
+   "pre_split": {
+    "n": 24,
+    "median": 0.9872198879551821,
+    "mean": 0.9671007786489065,
+    "q25": 0.959604933110368,
+    "q75": 1.0,
+    "ci": [
+     0.9576714046822743,
+     0.9991071428571429
+    ]
+   },
+   "fold_contained": {
+    "n": 24,
+    "median": 0.9469093406593406,
+    "mean": 0.9107539437631514,
+    "q25": 0.8965683229813665,
+    "q75": 0.9859361926588817,
+    "ci": [
+     0.8800931677018633,
+     0.9897995561861108
+    ]
+   },
+   "external": {
+    "n": 24,
+    "median": 0.8596153846153847,
+    "mean": 0.8415156355759977,
+    "q25": 0.7158861185983828,
+    "q75": 0.9884512896067518,
+    "ci": [
+     0.7114218328840971,
+     0.9918885736112626
+    ]
+   },
+   "error_pre_split": {
+    "n": 24,
+    "median": 0.051261148272017776,
+    "mean": 0.12558514307290888,
+    "q25": 0.00046382189239332905,
+    "q75": 0.23985175765579783,
+    "ci": [
+     0.008111426388737353,
+     0.24624957179817725
+    ]
+   },
+   "error_fold_contained": {
+    "n": 24,
+    "median": 0.023560263266145687,
+    "mean": 0.06923830818715372,
+    "q25": -0.01300124945082931,
+    "q75": 0.20194985475282462,
+    "ci": [
+     0.0012368583797155441,
+     0.20400136837001492
+    ]
+   },
+   "over_010": {
+    "pre_split": {
+     "share": 0.4583333333333333,
+     "count": 11,
+     "n": 24,
+     "ci": [
+      0.21428571428571427,
+      0.8333333333333334
+     ]
+    },
+    "fold_contained": {
+     "share": 0.375,
+     "count": 9,
+     "n": 24,
+     "ci": [
+      0.18741776315789474,
+      0.7142857142857143
+     ]
+    }
+   },
+   "over_020": {
+    "pre_split": {
+     "share": 0.3333333333333333,
+     "count": 8,
+     "n": 24,
+     "ci": [
+      0.16666666666666666,
+      0.6111111111111112
+     ]
+    },
+    "fold_contained": {
+     "share": 0.25,
+     "count": 6,
+     "n": 24,
+     "ci": [
+      0.1,
+      0.5
+     ]
+    }
+   },
+   "fold_contained_closer": {
+    "share": 0.5416666666666666,
+    "count": 13,
+    "n": 24,
+    "ci": [
+     0.3181818181818182,
+     0.8181818181818182
+    ]
+   },
+   "rho_external": {
+    "pre_split": 0.19016177068732887,
+    "fold_contained": 0.37778763899362017
+   },
+   "high_cv_low_external": {
+    "pre_split": 5,
+    "fold_contained": 4
+   },
+   "null": {
+    "pre_split": {
+     "n": 24,
+     "median": 0.899888789985412,
+     "mean": 0.8859019109397739,
+     "q25": 0.8087280997304582,
+     "q75": 0.9395512906211435,
+     "ci": [
+      0.8435446042053185,
+      0.9336995043737734
+     ]
+    },
+    "fold_contained": {
+     "n": 24,
+     "median": 0.49088280242759663,
+     "mean": 0.48858195713433,
+     "q25": 0.47903128483835006,
+     "q75": 0.49799628942486085,
+     "ci": [
+      0.48229131652661067,
+      0.4971468083707836
+     ]
+    },
+    "external": {
+     "n": 24,
+     "median": 0.4977994276612875,
+     "mean": 0.4980777242593643,
+     "q25": 0.47910737198968084,
+     "q75": 0.5116660060250515,
+     "ci": [
+      0.48274858506409196,
+      0.5058619915357447
+     ]
+    }
+   },
+   "by_contrast": {
+    "AD": {
+     "pairs": 2,
+     "external": 0.7556736936757367,
+     "error_pre_split": 0.18691153905549956,
+     "error_fold_contained": 0.1391815462562423
+    },
+    "AD proteome": {
+     "pairs": 2,
+     "external": 0.7709478021978022,
+     "error_pre_split": 0.22815934065934063,
+     "error_fold_contained": 0.1759615384615384
+    },
+    "Breast cancer": {
+     "pairs": 4,
+     "external": 0.9557276057276057,
+     "error_pre_split": 0.044272394272394267,
+     "error_fold_contained": 0.010181485181485206
+    },
+    "Eczema lesion": {
+     "pairs": 6,
+     "external": 0.7563290483101804,
+     "error_pre_split": 0.11971018624525592,
+     "error_fold_contained": 0.01998339027666346
+    },
+    "JIA": {
+     "pairs": 2,
+     "external": 0.5932514700795573,
+     "error_pre_split": 0.36282341750259417,
+     "error_fold_contained": 0.24678484953303348
+    },
+    "Psoriasis": {
+     "pairs": 2,
+     "external": 0.8322222222222222,
+     "error_pre_split": 0.1588888888888889,
+     "error_fold_contained": -0.026666666666666616
+    },
+    "Psoriasis lesion": {
+     "pairs": 6,
+     "external": 0.9987631416202845,
+     "error_pre_split": -0.00030921459492888603,
+     "error_fold_contained": -0.0006184291898577721
+    }
+   }
+  },
+  "pls_da": {
+   "pre_split": {
+    "n": 24,
+    "median": 0.9984757737086929,
+    "mean": 0.9801915240489825,
+    "q25": 0.9673913043478262,
+    "q75": 1.0,
+    "ci": [
+     0.9673913043478262,
+     1.0
+    ]
+   },
+   "fold_contained": {
+    "n": 24,
+    "median": 0.9661688311688312,
+    "mean": 0.9207451136155104,
+    "q25": 0.904891304347826,
+    "q75": 0.985538008306771,
+    "ci": [
+     0.904891304347826,
+     0.9826330532212885
+    ]
+   },
+   "external": {
+    "n": 24,
+    "median": 0.9201923076923076,
+    "mean": 0.859291206909786,
+    "q25": 0.7099898921832883,
+    "q75": 0.9873459873459873,
+    "ci": [
+     0.6946428571428571,
+     0.9867074102368221
+    ]
+   },
+   "error_pre_split": {
+    "n": 24,
+    "median": 0.05196488294314394,
+    "mean": 0.12090031713919636,
+    "q25": 0.011588275854580249,
+    "q75": 0.23506803923387543,
+    "ci": [
+     0.011768363471870935,
+     0.2587708128622814
+    ]
+   },
+   "error_fold_contained": {
+    "n": 24,
+    "median": 0.01180069930069938,
+    "mean": 0.06145390670572439,
+    "q25": -0.017366946778711534,
+    "q75": 0.19958774184239075,
+    "ci": [
+     -0.00690749467923385,
+     0.21213619747766593
+    ]
+   },
+   "over_010": {
+    "pre_split": {
+     "share": 0.375,
+     "count": 9,
+     "n": 24,
+     "ci": [
+      0.14705882352941177,
+      0.7222222222222222
+     ]
+    },
+    "fold_contained": {
+     "share": 0.3333333333333333,
+     "count": 8,
+     "n": 24,
+     "ci": [
+      0.13312500000000002,
+      0.6666666666666666
+     ]
+    }
+   },
+   "over_020": {
+    "pre_split": {
+     "share": 0.3333333333333333,
+     "count": 8,
+     "n": 24,
+     "ci": [
+      0.13312500000000002,
+      0.6666666666666666
+     ]
+    },
+    "fold_contained": {
+     "share": 0.25,
+     "count": 6,
+     "n": 24,
+     "ci": [
+      0.07142857142857142,
+      0.5
+     ]
+    }
+   },
+   "fold_contained_closer": {
+    "share": 0.7083333333333334,
+    "count": 17,
+    "n": 24,
+    "ci": [
+     0.6071428571428571,
+     0.875
+    ]
+   },
+   "rho_external": {
+    "pre_split": -0.03158319768674568,
+    "fold_contained": 0.4151399716691704
+   },
+   "high_cv_low_external": {
+    "pre_split": 6,
+    "fold_contained": 6
+   },
+   "null": {
+    "pre_split": {
+     "n": 24,
+     "median": 0.9043297101449276,
+     "mean": 0.8992002762819532,
+     "q25": 0.8537657563025209,
+     "q75": 0.9241035839160838,
+     "ci": [
+      0.8815444805194805,
+      0.9185227272727272
+     ]
+    },
+    "fold_contained": {
+     "n": 24,
+     "median": 0.4871855203619909,
+     "mean": 0.48558059781525004,
+     "q25": 0.4825213585434173,
+     "q75": 0.49320512844854897,
+     "ci": [
+      0.485650165052339,
+      0.4918855769230769
+     ]
+    },
+    "external": {
+     "n": 24,
+     "median": 0.49775658144613777,
+     "mean": 0.48821620487632594,
+     "q25": 0.4731828686019863,
+     "q75": 0.5049441933766944,
+     "ci": [
+      0.4734180672268908,
+      0.5049376684636119
+     ]
+    }
+   },
+   "by_contrast": {
+    "AD": {
+     "pairs": 2,
+     "external": 0.7456239326829321,
+     "error_pre_split": 0.2168038129818078,
+     "error_fold_contained": 0.16132909369405285
+    },
+    "AD proteome": {
+     "pairs": 2,
+     "external": 0.8050137362637362,
+     "error_pre_split": 0.19498626373626377,
+     "error_fold_contained": 0.14402472527472537
+    },
+    "Breast cancer": {
+     "pairs": 4,
+     "external": 0.9776223776223776,
+     "error_pre_split": 0.022377622377622364,
+     "error_fold_contained": 0.005332167832167833
+    },
+    "Eczema lesion": {
+     "pairs": 6,
+     "external": 0.8004807692307692,
+     "error_pre_split": 0.10079955421936554,
+     "error_fold_contained": -0.014046822742474874
+    },
+    "JIA": {
+     "pairs": 2,
+     "external": 0.6242571774472501,
+     "error_pre_split": 0.37556987201660325,
+     "error_fold_contained": 0.29704081632653057
+    },
+    "Psoriasis": {
+     "pairs": 2,
+     "external": 0.7827777777777778,
+     "error_pre_split": 0.21444444444444444,
+     "error_fold_contained": 0.04595022624434386
+    },
+    "Psoriasis lesion": {
+     "pairs": 6,
+     "external": 0.9947651985695465,
+     "error_pre_split": 0.0037105751391465214,
+     "error_fold_contained": 0.0015897663413190766
+    }
+   }
+  },
+  "opls_da": {
+   "pre_split": {
+    "n": 24,
+    "median": 0.996376811594203,
+    "mean": 0.9779238186869388,
+    "q25": 0.9774935209717819,
+    "q75": 0.9989266722532443,
+    "ci": [
+     0.9782608695652174,
+     0.9991768739182533
+    ]
+   },
+   "fold_contained": {
+    "n": 24,
+    "median": 0.9586038961038961,
+    "mean": 0.9196089076883771,
+    "q25": 0.88948883717083,
+    "q75": 0.9875790670415416,
+    "ci": [
+     0.8882824131863505,
+     0.9871148459383753
+    ]
+   },
+   "external": {
+    "n": 24,
+    "median": 0.9301573426573426,
+    "mean": 0.8632407619572549,
+    "q25": 0.7295918367346939,
+    "q75": 0.9873459873459873,
+    "ci": [
+     0.7346938775510203,
+     0.9867074102368221
+    ]
+   },
+   "error_pre_split": {
+    "n": 24,
+    "median": 0.04825727492359977,
+    "mean": 0.11468305672968405,
+    "q25": 0.011748215552563446,
+    "q75": 0.24148743340802836,
+    "ci": [
+     0.010859877547857166,
+     0.2507966981485234
+    ]
+   },
+   "error_fold_contained": {
+    "n": 24,
+    "median": 0.009013902763902737,
+    "mean": 0.056368145731122345,
+    "q25": -0.01632778985720168,
+    "q75": 0.19185007978076074,
+    "ci": [
+     -0.012892156862745164,
+     0.21887755102040818
+    ]
+   },
+   "over_010": {
+    "pre_split": {
+     "share": 0.3333333333333333,
+     "count": 8,
+     "n": 24,
+     "ci": [
+      0.13312500000000002,
+      0.6666666666666666
+     ]
+    },
+    "fold_contained": {
+     "share": 0.3333333333333333,
+     "count": 8,
+     "n": 24,
+     "ci": [
+      0.13312500000000002,
+      0.6666666666666666
+     ]
+    }
+   },
+   "over_020": {
+    "pre_split": {
+     "share": 0.3333333333333333,
+     "count": 8,
+     "n": 24,
+     "ci": [
+      0.13312500000000002,
+      0.6666666666666666
+     ]
+    },
+    "fold_contained": {
+     "share": 0.25,
+     "count": 6,
+     "n": 24,
+     "ci": [
+      0.09375,
+      0.5625
+     ]
+    }
+   },
+   "fold_contained_closer": {
+    "share": 0.6666666666666666,
+    "count": 16,
+    "n": 24,
+    "ci": [
+     0.55,
+     0.8571428571428571
+    ]
+   },
+   "rho_external": {
+    "pre_split": 0.038032809598865874,
+    "fold_contained": 0.39773256892644243
+   },
+   "high_cv_low_external": {
+    "pre_split": 5,
+    "fold_contained": 5
+   },
+   "null": {
+    "pre_split": {
+     "n": 24,
+     "median": 0.900697463768116,
+     "mean": 0.8897697480449721,
+     "q25": 0.8298147759103641,
+     "q75": 0.9268631993006993,
+     "ci": [
+      0.8658337507730365,
+      0.9220227272727273
+     ]
+    },
+    "fold_contained": {
+     "n": 24,
+     "median": 0.4858066418875242,
+     "mean": 0.4848053000963472,
+     "q25": 0.4803781512605042,
+     "q75": 0.49298130053908357,
+     "ci": [
+      0.48347826086956525,
+      0.491724577309483
+     ]
+    },
+    "external": {
+     "n": 24,
+     "median": 0.49129516806722695,
+     "mean": 0.48258129185983994,
+     "q25": 0.4627773976955011,
+     "q75": 0.5018753359231567,
+     "ci": [
+      0.4536818181818182,
+      0.5040769230769231
+     ]
+    }
+   },
+   "by_contrast": {
+    "AD": {
+     "pairs": 2,
+     "external": 0.7297440167394822,
+     "error_pre_split": 0.2280269942555671,
+     "error_fold_contained": 0.1811435825400844
+    },
+    "AD proteome": {
+     "pairs": 2,
+     "external": 0.7995192307692307,
+     "error_pre_split": 0.2004807692307693,
+     "error_fold_contained": 0.1486263736263737
+    },
+    "Breast cancer": {
+     "pairs": 4,
+     "external": 0.9776223776223776,
+     "error_pre_split": 0.02124125874125876,
+     "error_fold_contained": 0.0003787878787877563
+    },
+    "Eczema lesion": {
+     "pairs": 6,
+     "external": 0.8004807692307692,
+     "error_pre_split": 0.061210605432303555,
+     "error_fold_contained": -0.03894230769230761
+    },
+    "JIA": {
+     "pairs": 2,
+     "external": 0.6830612244897959,
+     "error_pre_split": 0.3145062262193013,
+     "error_fold_contained": 0.23907212037357317
+    },
+    "Psoriasis": {
+     "pairs": 2,
+     "external": 0.7827777777777778,
+     "error_pre_split": 0.21499999999999997,
+     "error_fold_contained": 0.048728004022121685
+    },
+    "Psoriasis lesion": {
+     "pairs": 6,
+     "external": 0.9947651985695465,
+     "error_pre_split": 0.0028047780376972975,
+     "error_fold_contained": 0.0006839692398697972
+    }
+   }
+  }
+ },
+ "contrast_studies": {
+  "AD": [
+   "E-GEOD-48350",
+   "E-GEOD-5281"
+  ],
+  "AD proteome": [
+   "E-PROT-51",
+   "E-PROT-54"
+  ],
+  "Breast cancer": [
+   "E-GEOD-10780",
+   "E-GEOD-38959",
+   "E-GEOD-54002",
+   "E-MTAB-779"
+  ],
+  "Eczema lesion": [
+   "E-GEOD-32924",
+   "E-GEOD-36842",
+   "E-GEOD-58558"
+  ],
+  "JIA": [
+   "E-GEOD-13849",
+   "E-GEOD-41831"
+  ],
+  "Psoriasis": [
+   "E-GEOD-32407",
+   "E-GEOD-52471"
+  ],
+  "Psoriasis lesion": [
+   "E-GEOD-14905",
+   "E-GEOD-30999",
+   "E-GEOD-41662"
+  ]
+ },
+ "contrast_genera": {
+  "AD": [
+   21035,
+   21035
+  ],
+  "AD proteome": [
+   3290,
+   3290
+  ],
+  "Breast cancer": [
+   19922,
+   21046
+  ],
+  "Eczema lesion": [
+   21042,
+   21053
+  ],
+  "JIA": [
+   21042,
+   21042
+  ],
+  "Psoriasis": [
+   12057,
+   12057
+  ],
+  "Psoriasis lesion": [
+   21041,
+   21056
+  ]
+ },
+ "n_train": [
+  30,
+  433
+ ],
+ "n_test": [
+  30,
+  433
+ ],
+ "platform_contrasts": [
+  "AD",
+  "AD proteome",
+  "Breast cancer (Affymetrix)",
+  "Breast cancer (Agilent)",
+  "Eczema lesion",
+  "JIA",
+  "Psoriasis",
+  "Psoriasis lesion"
+ ],
+ "overlap": {
+  "JIA|E-GEOD-11083|E-GEOD-13501": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.017857142857142856,
+   "a_median_cross_max": 0.24492664130630937,
+   "b_share_closer_elsewhere": 0.0,
+   "b_median_cross_max": 0.17262433276906045,
+   "overlapping": false
+  },
+  "JIA|E-GEOD-11083|E-GEOD-13849": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.017857142857142856,
+   "a_median_cross_max": 0.2544261971868854,
+   "b_share_closer_elsewhere": 0.0,
+   "b_median_cross_max": 0.1767060572183756,
+   "overlapping": false
+  },
+  "JIA|E-GEOD-11083|E-GEOD-41831": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.75,
+   "a_median_cross_max": 0.9327558322378304,
+   "b_share_closer_elsewhere": 0.5641025641025641,
+   "b_median_cross_max": 0.868229912036777,
+   "overlapping": true
+  },
+  "JIA|E-GEOD-13501|E-GEOD-13849": {
+   "shared_ids": 104,
+   "a_share_closer_elsewhere": 1.0,
+   "a_median_cross_max": 0.9900008870315402,
+   "b_share_closer_elsewhere": 1.0,
+   "b_median_cross_max": 0.9899491726192695,
+   "overlapping": true
+  },
+  "JIA|E-GEOD-13501|E-GEOD-41831": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.0,
+   "a_median_cross_max": 0.17066698553013368,
+   "b_share_closer_elsewhere": 0.01282051282051282,
+   "b_median_cross_max": 0.24243213298464966,
+   "overlapping": false
+  },
+  "JIA|E-GEOD-13849|E-GEOD-41831": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.0,
+   "a_median_cross_max": 0.17585799422169057,
+   "b_share_closer_elsewhere": 0.01282051282051282,
+   "b_median_cross_max": 0.25207250443585827,
+   "overlapping": false
+  },
+  "AD|E-GEOD-48350|E-GEOD-5281": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.003952569169960474,
+   "a_median_cross_max": 0.41665612827417325,
+   "b_share_closer_elsewhere": 0.024844720496894408,
+   "b_median_cross_max": 0.442107902786909,
+   "overlapping": false
+  },
+  "Psoriasis|E-GEOD-32407|E-GEOD-52471": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.11666666666666667,
+   "a_median_cross_max": 0.3940271176383087,
+   "b_share_closer_elsewhere": 0.16666666666666666,
+   "b_median_cross_max": 0.44985248540338546,
+   "overlapping": false
+  },
+  "Psoriasis lesion|E-GEOD-14905|E-GEOD-30999": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.012195121951219513,
+   "a_median_cross_max": 0.4321707674297195,
+   "b_share_closer_elsewhere": 0.01775147928994083,
+   "b_median_cross_max": 0.43347891854095044,
+   "overlapping": false
+  },
+  "Psoriasis lesion|E-GEOD-14905|E-GEOD-41662": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.0,
+   "a_median_cross_max": 0.38510361294997475,
+   "b_share_closer_elsewhere": 0.06382978723404255,
+   "b_median_cross_max": 0.40883594807802537,
+   "overlapping": false
+  },
+  "Psoriasis lesion|E-GEOD-30999|E-GEOD-41662": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.09467455621301775,
+   "a_median_cross_max": 0.5025412807152432,
+   "b_share_closer_elsewhere": 0.2978723404255319,
+   "b_median_cross_max": 0.5667016283434644,
+   "overlapping": false
+  },
+  "Eczema lesion|E-GEOD-32924|E-GEOD-36842": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.09090909090909091,
+   "a_median_cross_max": 0.36511315656317067,
+   "b_share_closer_elsewhere": 0.0,
+   "b_median_cross_max": 0.3151338644164486,
+   "overlapping": false
+  },
+  "Eczema lesion|E-GEOD-32924|E-GEOD-58558": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.15151515151515152,
+   "a_median_cross_max": 0.4417922986510635,
+   "b_share_closer_elsewhere": 0.027522935779816515,
+   "b_median_cross_max": 0.3732906663657295,
+   "overlapping": false
+  },
+  "Eczema lesion|E-GEOD-36842|E-GEOD-58558": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.0,
+   "a_median_cross_max": 0.30643640016323886,
+   "b_share_closer_elsewhere": 0.0,
+   "b_median_cross_max": 0.2758066613355189,
+   "overlapping": false
+  },
+  "AD proteome|E-PROT-51|E-PROT-54": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.07407407407407407,
+   "a_median_cross_max": 0.10741681873645866,
+   "b_share_closer_elsewhere": 0.6363636363636364,
+   "b_median_cross_max": 0.08966907135830937,
+   "overlapping": false
+  },
+  "Breast cancer (Affymetrix)|E-GEOD-10780|E-GEOD-54002": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.005405405405405406,
+   "a_median_cross_max": 0.3009912467811854,
+   "b_share_closer_elsewhere": 0.011547344110854504,
+   "b_median_cross_max": 0.2589783492283366,
+   "overlapping": false
+  },
+  "Breast cancer (Agilent)|E-MTAB-779|E-GEOD-38959": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.023809523809523808,
+   "a_median_cross_max": 0.1359918753363094,
+   "b_share_closer_elsewhere": 0.046511627906976744,
+   "b_median_cross_max": 0.14621932988592531,
+   "overlapping": false
+  },
+  "Asthma|E-GEOD-8052|E-MTAB-1425": {
+   "shared_ids": 0,
+   "a_share_closer_elsewhere": 0.9325,
+   "a_median_cross_max": 0.835158598611698,
+   "b_share_closer_elsewhere": 0.9566326530612245,
+   "b_median_cross_max": 0.8353011621025497,
+   "overlapping": true
+  }
+ }
+}
